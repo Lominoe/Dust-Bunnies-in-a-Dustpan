@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{096D0650-03C3-4F63-AADF-D58D8406FAEB}",
     "Language": "SFX",
-    "Hash": "{B50120A9-2240-2D5D-DA1C-8BE212B56504}",
+    "Hash": "{596326B3-B41B-7E0C-6144-B645480AFBDE}",
     "ObjectPath": "Play_amb_room_interior_01",
     "ShortName": "Play_amb_room_interior_01",
     "Path": "Event/Play_amb_room_interior_01.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "amb_room_interior_01.wav",
       "Path": "Media/254140761.wem",
-      "CachePath": "89/{891D9514-97E6-BA8F-E30B-296A047236E4}.wem"
+      "CachePath": "87/{87D90952-AB11-8AFA-90FB-37BCF225F474}.wem"
      }
     ],
     "Plugins": {
@@ -44,9 +44,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_amb_room_interior_01",
       "GUID": "{096D0650-03C3-4F63-AADF-D58D8406FAEB}",
       "Color": "7",
-      "DurationType": "OneShot",
-      "DurationMin": "100.71448",
-      "DurationMax": "100.71448",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "254140761"
@@ -63,6 +61,6 @@
     ]
    }
   ],
-  "FileHash": "{1061291A-25F6-A2A3-19DE-EE1A110F616F}"
+  "FileHash": "{B2859770-CCAA-9270-A746-FDFC19CF45CF}"
  }
 }

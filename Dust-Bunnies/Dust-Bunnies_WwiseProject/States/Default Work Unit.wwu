@@ -6,10 +6,19 @@
 				<StateGroup Name="Scene" ID="{1A0AE10D-819B-4A64-B3EF-1520E4882B35}">
 					<ChildrenList>
 						<State Name="None" ID="{02F067A0-7CB0-4A49-B405-334823B1C81D}"/>
-						<State Name="Mirror" ID="{ABEBC7D1-1837-4AB9-A416-C9E9978EABAE}"/>
-						<State Name="Key1" ID="{46832612-5A3D-444B-B82C-5BFBA296169F}"/>
-						<State Name="Key2" ID="{612E8A23-6F89-410B-AC5E-A361DA2F94F1}"/>
-						<State Name="Key3" ID="{18EC95FA-CA7E-4786-8045-181894FD06F3}"/>
+						<State Name="Snapshot0" ID="{ABEBC7D1-1837-4AB9-A416-C9E9978EABAE}"/>
+						<State Name="Snapshot1" ID="{46832612-5A3D-444B-B82C-5BFBA296169F}"/>
+						<State Name="Snapshot2" ID="{612E8A23-6F89-410B-AC5E-A361DA2F94F1}"/>
+						<State Name="Snapshot3" ID="{18EC95FA-CA7E-4786-8045-181894FD06F3}"/>
+						<State Name="Snapshot4" ID="{77AED6EA-A8E3-4084-9A07-13F06370386E}"/>
+						<State Name="Snapshot5" ID="{E73CCE6A-635C-45B4-83AA-AD8CD848F038}"/>
+						<State Name="Snapshot6" ID="{E7480DB2-593E-4F8E-B805-A5E01A027566}"/>
+						<State Name="Snapshot7" ID="{0916282F-59D8-409B-AE91-6ACDBD9F8264}"/>
+						<State Name="Snapshot8" ID="{F3CF013D-FBFE-4E68-9C6B-F96B3C4004CD}"/>
+						<State Name="Snapshot9" ID="{F0F4BEB1-442F-4263-A365-E8B0F6ECCB4D}"/>
+						<State Name="Snapshot10" ID="{045F5ED5-A242-4CD2-8917-B3F2688CFF61}"/>
+						<State Name="Snapshot11" ID="{7AB3AD99-9CA9-46C9-9328-1BD8DD5A49D3}"/>
+						<State Name="Snapshot12" ID="{C676EE26-02A7-4A77-94B3-913C85DFE9C9}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

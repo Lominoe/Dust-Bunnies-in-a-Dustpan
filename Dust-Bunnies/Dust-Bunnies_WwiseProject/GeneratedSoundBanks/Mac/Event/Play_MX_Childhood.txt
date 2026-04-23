@@ -6,8 +6,17 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	748895195	None	Scene			
-	2039020852	Mirror	Scene			
-	2215982740	Key2	Scene			
-	2215982741	Key3	Scene			
-	2215982743	Key1	Scene			
+	3509580304	Snapshot12	Scene			
+	3509580306	Snapshot10	Scene			
+	3509580307	Snapshot11	Scene			
+	4212171408	Snapshot7	Scene			
+	4212171409	Snapshot6	Scene			
+	4212171410	Snapshot5	Scene			
+	4212171411	Snapshot4	Scene			
+	4212171412	Snapshot3	Scene			
+	4212171413	Snapshot2	Scene			
+	4212171414	Snapshot1	Scene			
+	4212171415	Snapshot0	Scene			
+	4212171422	Snapshot9	Scene			
+	4212171423	Snapshot8	Scene			
 

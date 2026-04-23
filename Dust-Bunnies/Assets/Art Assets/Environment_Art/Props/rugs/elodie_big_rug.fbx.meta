@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: big_rug
+    second: {fileID: 2100000, guid: 236d2650f9c5bd24eb86f30ec9806959, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: outline_shader
     second: {fileID: 2100000, guid: 5ad9ea5c94c803149b43fc7017e5b93d, type: 2}
   materials:

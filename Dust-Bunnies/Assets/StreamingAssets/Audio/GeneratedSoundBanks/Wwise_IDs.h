@@ -18,6 +18,7 @@ namespace AK
         static const AkUniqueID PLAY_CICI_THEME = 2223146148U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_MX_CHILDHOOD = 2272849752U;
+        static const AkUniqueID PLAY_PAGE_FLIP = 1924198023U;
         static const AkUniqueID PLAY_SPARKLER_LOOP = 3667990691U;
     } // namespace EVENTS
 

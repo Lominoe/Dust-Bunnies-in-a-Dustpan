@@ -78,6 +78,9 @@
 					</ObjectLists>
 				</MusicSegment>
 				<MusicSwitchContainer Name="Music" ID="{5C4B9A20-4C83-4BC7-AD1A-E67355284D6E}" ShortID="561196224">
+					<PropertyList>
+						<Property Name="Mode" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>

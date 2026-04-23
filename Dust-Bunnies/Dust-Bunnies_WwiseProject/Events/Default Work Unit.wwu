@@ -96,6 +96,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_page_flip" ID="{29FB4D59-5344-4D03-B3F1-F4661406C999}">
+					<ChildrenList>
+						<Action Name="" ID="{9C701F86-C23A-4AB7-8EDE-F3CB96A7927D}" ShortID="1017993119">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PageFlip" ID="{7AFA5750-A745-4CFA-9FE7-7955B65B2D3B}" WorkUnitID="{42626F72-6A80-43AE-9607-52F32EA10280}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

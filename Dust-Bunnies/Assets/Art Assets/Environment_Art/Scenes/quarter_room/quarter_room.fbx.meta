@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e0923ea89893c80429193475345a5379
+guid: 9cb25f1cd58b1694b8b5c43ef55baa10
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,18 +7,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: 5a7e2adab997875448216354f957a81c, type: 2}
+      name: Walls Tex
+    second: {fileID: 2100000, guid: 57d392d9357a1374495158107d8fbaf5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: dark_metal
-    second: {fileID: 2100000, guid: e63ee8b2bc26a43489e895af2e566825, type: 2}
+      name: Wood_Tex
+    second: {fileID: 2100000, guid: 44291894d07b2474384c61dfe8652625, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: felt
-    second: {fileID: 2100000, guid: 5b67fbac40a6a574a8db7233cf8e78f9, type: 2}
+      name: void
+    second: {fileID: 2100000, guid: 2865e586182e17140bcca48901dee589, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall_lip
+    second: {fileID: 2100000, guid: 962d1a67e4caf5c41af55d315aae6d04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_frames
+    second: {fileID: 2100000, guid: 38d256dea85b5b744b4d5eea8bce4dd6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -61,7 +71,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

@@ -34,6 +34,11 @@ public class InputReader : MonoBehaviour
         _inputs = new InputActionMaps();
     }
 
+    void Start() {
+        // cleanup for snapshot switching
+        GameManager.OnLoadNextSnapshot += OnDisable;
+    }
+
     void OnEnable() {
         _inputs.Default.Sprint.performed += SprintPerformed;
         _inputs.Default.Interact.performed += InteractPerformed;
@@ -64,6 +69,7 @@ public class InputReader : MonoBehaviour
         //_inputs.DEBUG.NextScene.performed -= NextScenePerformed;
 
         _inputs.Dispose();
+        GameManager.OnLoadNextSnapshot -= OnDisable;
     }
     //for pause menu to disable/enable locked inputs
     public void SetEnabled(bool enabled)

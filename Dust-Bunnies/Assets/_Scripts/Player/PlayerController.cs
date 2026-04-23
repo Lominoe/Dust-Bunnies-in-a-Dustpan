@@ -14,13 +14,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Collider myCollider;
     [SerializeField] private GameObject crosshair;
 
-    [SerializeField] private PlayerDEBUG debug;
+    //[SerializeField] private PlayerDEBUG debug;
 
     // ACCESSORS ---
     public PlayerMovement Motor => motor;
     public PlayerCamera Camera => cam;
     public PlayerInteract Interact => interact;
-    public PlayerDEBUG Debug => debug;
+    //public PlayerDEBUG Debug => debug;
     public Collider MyCollider => myCollider;
 
     private PlayerState _currentState;

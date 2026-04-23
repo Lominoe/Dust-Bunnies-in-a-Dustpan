@@ -1,9 +1,19 @@
 fileFormatVersion: 2
-guid: a6bc8c3a414ab4249ad9d96a25e6eb57
+guid: 4ac5dfa61f2fccd4780211dc98d86625
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 8438ea961c241f24484db055cdc56905, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: water_color_shader.001
+    second: {fileID: 2100000, guid: 102d50fcaa7e395429193d40026ba5d2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

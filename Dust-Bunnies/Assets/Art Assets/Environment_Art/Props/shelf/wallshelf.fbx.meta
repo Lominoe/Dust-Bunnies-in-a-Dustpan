@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: a6bc8c3a414ab4249ad9d96a25e6eb57
+guid: b091f6a729d25eb47adef461eb8d0519
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: water_color_shader
+    second: {fileID: 2100000, guid: 80f175235db47d64abcb253150e38ada, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -46,7 +51,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

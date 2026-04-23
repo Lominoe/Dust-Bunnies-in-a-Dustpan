@@ -11631,6 +11631,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3209397138489094211, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
+      propertyPath: far clip plane
+      value: 3000
+      objectReference: {fileID: 0}
     - target: {fileID: 4526735801422010663, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: sceneFader
       value: 

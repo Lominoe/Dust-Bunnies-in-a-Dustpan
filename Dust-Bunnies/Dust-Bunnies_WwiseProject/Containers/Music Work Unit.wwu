@@ -466,6 +466,11 @@
 								<MusicSegment Name="dust3(1)" ID="{0B8C6B39-DE1C-4B01-A6D5-4C7D32357F53}" ShortID="845788262">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="143623.293897315"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1029,7 +1034,7 @@
 										<PluginInnerObject Name="" ID="{BBBBFDF3-DC8F-4142-B0A6-D146E1F48ECC}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
 											<ReferenceList>
 												<Reference Name="EntryPathObject">
-													<ObjectRef Name="Key1" ID="{46832612-5A3D-444B-B82C-5BFBA296169F}" WorkUnitID="{5EF5FDE8-1446-44A9-A5A7-7F80E90F8BF0}"/>
+													<ObjectRef Name="Snapshot1" ID="{46832612-5A3D-444B-B82C-5BFBA296169F}" WorkUnitID="{5EF5FDE8-1446-44A9-A5A7-7F80E90F8BF0}"/>
 												</Reference>
 											</ReferenceList>
 										</PluginInnerObject>
@@ -1047,7 +1052,7 @@
 										<PluginInnerObject Name="" ID="{E22FF6E5-4C54-4F19-8CBD-E244BF3B0261}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
 											<ReferenceList>
 												<Reference Name="EntryPathObject">
-													<ObjectRef Name="Key2" ID="{612E8A23-6F89-410B-AC5E-A361DA2F94F1}" WorkUnitID="{5EF5FDE8-1446-44A9-A5A7-7F80E90F8BF0}"/>
+													<ObjectRef Name="Snapshot2" ID="{612E8A23-6F89-410B-AC5E-A361DA2F94F1}" WorkUnitID="{5EF5FDE8-1446-44A9-A5A7-7F80E90F8BF0}"/>
 												</Reference>
 											</ReferenceList>
 										</PluginInnerObject>
@@ -1065,7 +1070,7 @@
 										<PluginInnerObject Name="" ID="{9B26264F-7746-41CD-A229-025882A89756}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
 											<ReferenceList>
 												<Reference Name="EntryPathObject">
-													<ObjectRef Name="Key3" ID="{18EC95FA-CA7E-4786-8045-181894FD06F3}" WorkUnitID="{5EF5FDE8-1446-44A9-A5A7-7F80E90F8BF0}"/>
+													<ObjectRef Name="Snapshot3" ID="{18EC95FA-CA7E-4786-8045-181894FD06F3}" WorkUnitID="{5EF5FDE8-1446-44A9-A5A7-7F80E90F8BF0}"/>
 												</Reference>
 											</ReferenceList>
 										</PluginInnerObject>
@@ -1083,7 +1088,7 @@
 										<PluginInnerObject Name="" ID="{E410852E-1FF8-4145-AE8D-934E7A549464}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">
 											<ReferenceList>
 												<Reference Name="EntryPathObject">
-													<ObjectRef Name="Mirror" ID="{ABEBC7D1-1837-4AB9-A416-C9E9978EABAE}" WorkUnitID="{5EF5FDE8-1446-44A9-A5A7-7F80E90F8BF0}"/>
+													<ObjectRef Name="Snapshot0" ID="{ABEBC7D1-1837-4AB9-A416-C9E9978EABAE}" WorkUnitID="{5EF5FDE8-1446-44A9-A5A7-7F80E90F8BF0}"/>
 												</Reference>
 											</ReferenceList>
 										</PluginInnerObject>

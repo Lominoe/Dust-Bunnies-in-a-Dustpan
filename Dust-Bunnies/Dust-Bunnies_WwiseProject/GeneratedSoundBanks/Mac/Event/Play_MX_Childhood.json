@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{202C98C0-29C9-4172-BBD4-4878CFA0A5DB}",
     "Language": "SFX",
-    "Hash": "{1031AF07-64D7-1AA9-A83C-CD4C8942BF71}",
+    "Hash": "{16D952F4-FBE8-3CDB-DE8D-D747666EEF46}",
     "ObjectPath": "Play_MX_Childhood",
     "ShortName": "Play_MX_Childhood",
     "Path": "Event/Play_MX_Childhood.bnk",
@@ -23,15 +23,6 @@
       "ShortName": "idea2.wav",
       "Path": "Media/25738766.wem",
       "CachePath": "7E/{7EEBB8A1-EF77-729F-7D2B-2E8828E593B0}.wem"
-     },
-     {
-      "Id": "347079048",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "dust3(1).wav",
-      "Path": "Media/347079048.wem",
-      "CachePath": "CB/{CBD9F35D-0622-8D4D-D492-88601606F1D0}.wem"
      },
      {
       "Id": "369819652",
@@ -65,7 +56,7 @@
         "SwitchValue": {
          "GroupType": "State",
          "GroupId": "1926883983",
-         "Id": "2215982743",
+         "Id": "4212171414",
          "GUID": "{46832612-5A3D-444B-B82C-5BFBA296169F}"
         },
         "MediaRefs": [
@@ -78,7 +69,7 @@
         "SwitchValue": {
          "GroupType": "State",
          "GroupId": "1926883983",
-         "Id": "2215982740",
+         "Id": "4212171413",
          "GUID": "{612E8A23-6F89-410B-AC5E-A361DA2F94F1}"
         },
         "MediaRefs": [
@@ -91,25 +82,12 @@
         "SwitchValue": {
          "GroupType": "State",
          "GroupId": "1926883983",
-         "Id": "2215982741",
+         "Id": "4212171412",
          "GUID": "{18EC95FA-CA7E-4786-8045-181894FD06F3}"
         },
         "MediaRefs": [
          {
           "Id": "25738766"
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "State",
-         "GroupId": "1926883983",
-         "Id": "2039020852",
-         "GUID": "{ABEBC7D1-1837-4AB9-A416-C9E9978EABAE}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "347079048"
          }
         ]
        }
@@ -130,34 +108,88 @@
         "GUID": "{02F067A0-7CB0-4A49-B405-334823B1C81D}"
        },
        {
-        "Id": "2039020852",
-        "Name": "Mirror",
-        "ObjectPath": "\\States\\Default Work Unit\\Scene\\Mirror",
-        "GUID": "{ABEBC7D1-1837-4AB9-A416-C9E9978EABAE}"
+        "Id": "3509580304",
+        "Name": "Snapshot12",
+        "ObjectPath": "\\States\\Default Work Unit\\Scene\\Snapshot12",
+        "GUID": "{C676EE26-02A7-4A77-94B3-913C85DFE9C9}"
        },
        {
-        "Id": "2215982740",
-        "Name": "Key2",
-        "ObjectPath": "\\States\\Default Work Unit\\Scene\\Key2",
-        "GUID": "{612E8A23-6F89-410B-AC5E-A361DA2F94F1}"
+        "Id": "3509580306",
+        "Name": "Snapshot10",
+        "ObjectPath": "\\States\\Default Work Unit\\Scene\\Snapshot10",
+        "GUID": "{045F5ED5-A242-4CD2-8917-B3F2688CFF61}"
        },
        {
-        "Id": "2215982741",
-        "Name": "Key3",
-        "ObjectPath": "\\States\\Default Work Unit\\Scene\\Key3",
+        "Id": "3509580307",
+        "Name": "Snapshot11",
+        "ObjectPath": "\\States\\Default Work Unit\\Scene\\Snapshot11",
+        "GUID": "{7AB3AD99-9CA9-46C9-9328-1BD8DD5A49D3}"
+       },
+       {
+        "Id": "4212171408",
+        "Name": "Snapshot7",
+        "ObjectPath": "\\States\\Default Work Unit\\Scene\\Snapshot7",
+        "GUID": "{0916282F-59D8-409B-AE91-6ACDBD9F8264}"
+       },
+       {
+        "Id": "4212171409",
+        "Name": "Snapshot6",
+        "ObjectPath": "\\States\\Default Work Unit\\Scene\\Snapshot6",
+        "GUID": "{E7480DB2-593E-4F8E-B805-A5E01A027566}"
+       },
+       {
+        "Id": "4212171410",
+        "Name": "Snapshot5",
+        "ObjectPath": "\\States\\Default Work Unit\\Scene\\Snapshot5",
+        "GUID": "{E73CCE6A-635C-45B4-83AA-AD8CD848F038}"
+       },
+       {
+        "Id": "4212171411",
+        "Name": "Snapshot4",
+        "ObjectPath": "\\States\\Default Work Unit\\Scene\\Snapshot4",
+        "GUID": "{77AED6EA-A8E3-4084-9A07-13F06370386E}"
+       },
+       {
+        "Id": "4212171412",
+        "Name": "Snapshot3",
+        "ObjectPath": "\\States\\Default Work Unit\\Scene\\Snapshot3",
         "GUID": "{18EC95FA-CA7E-4786-8045-181894FD06F3}"
        },
        {
-        "Id": "2215982743",
-        "Name": "Key1",
-        "ObjectPath": "\\States\\Default Work Unit\\Scene\\Key1",
+        "Id": "4212171413",
+        "Name": "Snapshot2",
+        "ObjectPath": "\\States\\Default Work Unit\\Scene\\Snapshot2",
+        "GUID": "{612E8A23-6F89-410B-AC5E-A361DA2F94F1}"
+       },
+       {
+        "Id": "4212171414",
+        "Name": "Snapshot1",
+        "ObjectPath": "\\States\\Default Work Unit\\Scene\\Snapshot1",
         "GUID": "{46832612-5A3D-444B-B82C-5BFBA296169F}"
+       },
+       {
+        "Id": "4212171415",
+        "Name": "Snapshot0",
+        "ObjectPath": "\\States\\Default Work Unit\\Scene\\Snapshot0",
+        "GUID": "{ABEBC7D1-1837-4AB9-A416-C9E9978EABAE}"
+       },
+       {
+        "Id": "4212171422",
+        "Name": "Snapshot9",
+        "ObjectPath": "\\States\\Default Work Unit\\Scene\\Snapshot9",
+        "GUID": "{F0F4BEB1-442F-4263-A365-E8B0F6ECCB4D}"
+       },
+       {
+        "Id": "4212171423",
+        "Name": "Snapshot8",
+        "ObjectPath": "\\States\\Default Work Unit\\Scene\\Snapshot8",
+        "GUID": "{F3CF013D-FBFE-4E68-9C6B-F96B3C4004CD}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{B4D438EA-3BE9-253E-7326-9CEB3209240E}"
+  "FileHash": "{7B8AB82D-1A9E-CB72-84BF-278CF46AB405}"
  }
 }

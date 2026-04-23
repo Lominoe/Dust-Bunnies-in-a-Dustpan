@@ -16,10 +16,11 @@
 						<Sound Name="amb_room_interior_01" ID="{F785935B-7CC8-4CB8-B491-AE7531FB893F}" ShortID="401083408">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="7"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -142,11 +143,6 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="59"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -269,6 +265,76 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Scene" ID="{1A0AE10D-819B-4A64-B3EF-1520E4882B35}"/>
+										<StateGroupInfo Name="" ID="{D65C2DB9-EE7E-4186-B6BE-E78D5C6CB807}" ShortID="902346660"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Snapshot4" ID="{77AED6EA-A8E3-4084-9A07-13F06370386E}"/>
+										<CustomState Name="" ID="{64B446CC-6BD5-4C13-AA25-C15CFD3B7387}" ShortID="776309353"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Snapshot7" ID="{0916282F-59D8-409B-AE91-6ACDBD9F8264}"/>
+										<CustomState Name="" ID="{609C8D56-367D-4FD1-9D96-AD219A4FCEF1}" ShortID="132023254"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Snapshot2" ID="{612E8A23-6F89-410B-AC5E-A361DA2F94F1}"/>
+										<CustomState Name="" ID="{5DBC2199-4FD9-4190-9520-ADEFC49986CB}" ShortID="939396879"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Snapshot9" ID="{F0F4BEB1-442F-4263-A365-E8B0F6ECCB4D}"/>
+										<CustomState Name="" ID="{2C993DD1-F5C5-4F84-AE0D-02F07EB33569}" ShortID="634494925"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Snapshot1" ID="{46832612-5A3D-444B-B82C-5BFBA296169F}"/>
+										<CustomState Name="" ID="{991D7073-D9E0-455B-BD2A-83A5E448F99F}" ShortID="301867323">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Snapshot5" ID="{E73CCE6A-635C-45B4-83AA-AD8CD848F038}"/>
+										<CustomState Name="" ID="{3851EC77-598E-4FA5-B687-B5DF0C420ED1}" ShortID="359067323"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Snapshot11" ID="{7AB3AD99-9CA9-46C9-9328-1BD8DD5A49D3}"/>
+										<CustomState Name="" ID="{B579C8F2-DE4B-49D6-8D7C-1F64C7C57C23}" ShortID="453113015"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Snapshot3" ID="{18EC95FA-CA7E-4786-8045-181894FD06F3}"/>
+										<CustomState Name="" ID="{063D7117-980A-4EEA-9154-BBA570DCADEA}" ShortID="659521193"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{02F067A0-7CB0-4A49-B405-334823B1C81D}"/>
+										<CustomState Name="" ID="{987171E5-A729-4ABB-AC8E-0F1286373A8D}" ShortID="372765254"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Snapshot12" ID="{C676EE26-02A7-4A77-94B3-913C85DFE9C9}"/>
+										<CustomState Name="" ID="{B7221E8D-BE9A-40AA-8BF2-442F07B7B5FD}" ShortID="292603955"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Snapshot0" ID="{ABEBC7D1-1837-4AB9-A416-C9E9978EABAE}"/>
+										<CustomState Name="" ID="{A13FA871-3E2D-4887-BD24-E62CEBBC72CB}" ShortID="1056770495"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Snapshot10" ID="{045F5ED5-A242-4CD2-8917-B3F2688CFF61}"/>
+										<CustomState Name="" ID="{84759FA8-B90E-4B3B-9C28-2B2B7F7B6839}" ShortID="485223394"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Snapshot8" ID="{F3CF013D-FBFE-4E68-9C6B-F96B3C4004CD}"/>
+										<CustomState Name="" ID="{BCB92D59-00E8-433B-AC69-7C127B68F99B}" ShortID="550842209"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Snapshot6" ID="{E7480DB2-593E-4F8E-B805-A5E01A027566}"/>
+										<CustomState Name="" ID="{E8CB678B-1EDF-4439-8DFB-FBF45B09A52E}" ShortID="889256990"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<EffectSlot Name="" ID="{8D9524B4-E96E-4E37-BC49-1106CEC9F4E3}" ShortID="542245616">
@@ -277,6 +343,66 @@
 												<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 											</Reference>
 										</ReferenceList>
+										<StateInfo>
+											<CustomStateList>
+												<CustomState>
+													<StateRef Name="Snapshot4" ID="{77AED6EA-A8E3-4084-9A07-13F06370386E}"/>
+													<CustomState Name="" ID="{1A72D547-5DE4-4F9E-95D4-558FAEEDAC6C}" ShortID="887864031"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Snapshot7" ID="{0916282F-59D8-409B-AE91-6ACDBD9F8264}"/>
+													<CustomState Name="" ID="{47252454-3841-49F4-90E2-967FA8B7CECC}" ShortID="133893974"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Snapshot2" ID="{612E8A23-6F89-410B-AC5E-A361DA2F94F1}"/>
+													<CustomState Name="" ID="{BE944FD7-4FF2-4673-9EA1-41FA5C31E111}" ShortID="938971439"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Snapshot9" ID="{F0F4BEB1-442F-4263-A365-E8B0F6ECCB4D}"/>
+													<CustomState Name="" ID="{ECBEB328-C69A-40B1-BA5D-E3EE61878623}" ShortID="835220082"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Snapshot1" ID="{46832612-5A3D-444B-B82C-5BFBA296169F}"/>
+													<CustomState Name="" ID="{19DC4B7C-B009-40CD-8EFE-CFFB88047A81}" ShortID="930270047"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Snapshot5" ID="{E73CCE6A-635C-45B4-83AA-AD8CD848F038}"/>
+													<CustomState Name="" ID="{94A7C885-A087-4755-8235-AC634ACFC74B}" ShortID="862011227"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Snapshot11" ID="{7AB3AD99-9CA9-46C9-9328-1BD8DD5A49D3}"/>
+													<CustomState Name="" ID="{C6978F46-0440-4760-B800-A15B35E32F01}" ShortID="979914327"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Snapshot3" ID="{18EC95FA-CA7E-4786-8045-181894FD06F3}"/>
+													<CustomState Name="" ID="{0B4CBCBB-4811-4440-B198-AF555CC6A7C1}" ShortID="337578545"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="None" ID="{02F067A0-7CB0-4A49-B405-334823B1C81D}"/>
+													<CustomState Name="" ID="{19DEA3A5-9A96-4848-B6D7-5F026CAA9869}" ShortID="197868106"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Snapshot12" ID="{C676EE26-02A7-4A77-94B3-913C85DFE9C9}"/>
+													<CustomState Name="" ID="{D1BB035E-13F7-4255-BC9F-14C5D3729FFB}" ShortID="969807812"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Snapshot0" ID="{ABEBC7D1-1837-4AB9-A416-C9E9978EABAE}"/>
+													<CustomState Name="" ID="{8F056BCD-B52C-45FF-BE66-42D44FEBA146}" ShortID="901863666"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Snapshot10" ID="{045F5ED5-A242-4CD2-8917-B3F2688CFF61}"/>
+													<CustomState Name="" ID="{2459DAC1-F749-476F-8D63-38BBA59CD8F8}" ShortID="726829459"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Snapshot8" ID="{F3CF013D-FBFE-4E68-9C6B-F96B3C4004CD}"/>
+													<CustomState Name="" ID="{03924CFF-F515-4CD2-9D42-CF0D1617D11D}" ShortID="978255943"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Snapshot6" ID="{E7480DB2-593E-4F8E-B805-A5E01A027566}"/>
+													<CustomState Name="" ID="{B9EF6E09-E485-439D-AADC-F8413D348DAF}" ShortID="129921755"/>
+												</CustomState>
+											</CustomStateList>
+										</StateInfo>
 									</EffectSlot>
 								</ObjectList>
 							</ObjectLists>

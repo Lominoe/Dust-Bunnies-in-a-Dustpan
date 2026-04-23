@@ -29,11 +29,20 @@ namespace AK
 
             namespace STATE
             {
-                static const AkUniqueID KEY1 = 2215982743U;
-                static const AkUniqueID KEY2 = 2215982740U;
-                static const AkUniqueID KEY3 = 2215982741U;
-                static const AkUniqueID MIRROR = 2039020852U;
                 static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID SNAPSHOT0 = 4212171415U;
+                static const AkUniqueID SNAPSHOT1 = 4212171414U;
+                static const AkUniqueID SNAPSHOT2 = 4212171413U;
+                static const AkUniqueID SNAPSHOT3 = 4212171412U;
+                static const AkUniqueID SNAPSHOT4 = 4212171411U;
+                static const AkUniqueID SNAPSHOT5 = 4212171410U;
+                static const AkUniqueID SNAPSHOT6 = 4212171409U;
+                static const AkUniqueID SNAPSHOT7 = 4212171408U;
+                static const AkUniqueID SNAPSHOT8 = 4212171423U;
+                static const AkUniqueID SNAPSHOT9 = 4212171422U;
+                static const AkUniqueID SNAPSHOT10 = 3509580306U;
+                static const AkUniqueID SNAPSHOT11 = 3509580307U;
+                static const AkUniqueID SNAPSHOT12 = 3509580304U;
             } // namespace STATE
         } // namespace SCENE
 

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{52A49917-B1F3-4356-A11D-D476553584CC}",
     "Language": "SFX",
-    "Hash": "{664D5AB0-24D7-08A9-0EA8-01D853EFB117}",
+    "Hash": "{D80AD0AD-6562-3400-E90C-909E6BA23A44}",
     "ObjectPath": "Play_cici_theme",
     "ShortName": "Play_cici_theme",
     "Path": "Event/Play_cici_theme.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{CBD40E1E-7845-627C-3437-BCD5A574CA2B}"
+  "FileHash": "{E6F91DB8-5A27-433A-E337-F1EAA98304DC}"
  }
 }

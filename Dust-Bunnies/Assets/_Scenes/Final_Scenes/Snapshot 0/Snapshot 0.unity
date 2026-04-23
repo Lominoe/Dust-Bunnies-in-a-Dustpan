@@ -7281,6 +7281,10 @@ PrefabInstance:
       propertyPath: sceneFader
       value: 
       objectReference: {fileID: 1307138889}
+    - target: {fileID: 4870036055341320778, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5661372990698979659, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: speed
       value: 2

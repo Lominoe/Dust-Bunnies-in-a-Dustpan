@@ -19,6 +19,10 @@ public class Interactable : MonoBehaviour
 
         try {
             DialogueManager.Instance.RunDialogue(Dialogue);
+
+            if (Dialogue != null && audioClip != null) {
+                // TODO: for Fox --> play sound here
+            }
         }
         catch {
             Debug.LogWarning("Dialogue manager instance does not exist");

@@ -36,11 +36,11 @@ public class FireworkSpawner : MonoBehaviour {
         if (_spawnRoutine != null)
             StopCoroutine(_spawnRoutine);
     }
-    private void Update() {
-        if (Input.GetKeyDown(KeyCode.Space) && debug) {
-            PlayFinale();
-        }
-    }
+    //private void Update() {
+    //    if (Input.GetKeyDown(KeyCode.Space) && debug) {
+    //        PlayFinale();
+    //    }
+    //}
 
     public void PlayFinale() {
         _inFinale = true;

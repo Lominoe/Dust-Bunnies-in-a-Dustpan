@@ -6,11 +6,11 @@ public class PauseMenu : MonoBehaviour
     private PauseMenu instance;
 
     //temporary, doesn't go thru input control
+    // TODO: will def fix this but it works for the final demo tbh lmao
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Debug.Log("Pausing");
             Pause();
         }
     }
@@ -42,8 +42,9 @@ public class PauseMenu : MonoBehaviour
     public void Restart()
     {
         //reset game manager and journal (probably need custom function in Journal for hard reset
-        Debug.LogWarning("Instantiation not complete: must hard-reset journal and game manager (when it exists)");
-        QuitHome();
+        //Debug.LogWarning("Instantiation not complete: must hard-reset journal and game manager (when it exists)");
+        GameManager.RestartGame();
+        Time.timeScale = 1f;
     }
     public void QuitHome()
     {

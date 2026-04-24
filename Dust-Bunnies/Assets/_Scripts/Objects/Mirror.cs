@@ -16,7 +16,7 @@ public class Mirror : Interactable
     }
 
     public override void Interact(Transform playerCam, float moveTime) {
-        base.Interact(playerCam, moveTime);
+        //base.Interact(playerCam, moveTime);
         StartCoroutine(CiciAppears());
     }
 
@@ -42,7 +42,9 @@ public class Mirror : Interactable
         StartCoroutine(sceneFader.FadeIn());
 
         yield return new WaitForSeconds(1f);
-        dialogueManager.RunDialogue("Alright, let's get to work.");
+        if (Dialogue != null) {
+            dialogueManager.RunDialogue(Dialogue);
+        }
         yield return new WaitForSeconds(4f);
 
         GameManager.ChangeSnapshot(1);

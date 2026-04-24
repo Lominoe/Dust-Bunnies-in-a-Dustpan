@@ -59,5 +59,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Final_Scenes/Snapshot 12/Snapshot 12.unity
     guid: 5fd8816545efb6a44890710b04ccd9e3
+  - enabled: 1
+    path: Assets/_Scenes/Final_Scenes/End Credits/End Credits.unity
+    guid: a8361de2f5f5b5b4c8f28cb1f7da3ee3
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

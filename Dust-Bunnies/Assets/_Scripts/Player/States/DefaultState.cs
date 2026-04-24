@@ -39,6 +39,10 @@ public class DefaultState : PlayerState
         player.Motor.Move(input.Move);
         player.Camera.CameraMovement(input.Look);
         player.Camera.CamFree(input.Look);
+
+        // TODO: test here
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void OnInteract() {

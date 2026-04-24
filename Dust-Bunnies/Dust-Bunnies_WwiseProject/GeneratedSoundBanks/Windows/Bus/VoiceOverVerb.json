@@ -1,0 +1,63 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "573417252",
+    "Type": "Bus",
+    "GUID": "{FA315553-A35E-43B4-9205-D6A4A125F4C9}",
+    "Language": "SFX",
+    "Hash": "{7CAF20C4-5075-54A6-07DB-9CBE4FF409C2}",
+    "ObjectPath": "VoiceOverVerb",
+    "ShortName": "VoiceOverVerb",
+    "Path": "Bus/VoiceOverVerb.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "42698580",
+       "Name": "Echoes_Linear (Custom)",
+       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\VoiceOverVerb\\[Effect Slot [1]: (Delay)]\\Echoes_Linear (Custom)",
+       "GUID": "{BB374B5D-D813-4E08-911A-9A7BF1007DDB}",
+       "LibName": "Wwise Delay",
+       "LibId": "6946819"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "573417252",
+      "Name": "VoiceOverVerb",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\VoiceOverVerb",
+      "GUID": "{FA315553-A35E-43B4-9205-D6A4A125F4C9}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "42698580"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "2995775460"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D37C6F25-B570-D3FC-1125-90F55D9D9B17}"
+ }
+}

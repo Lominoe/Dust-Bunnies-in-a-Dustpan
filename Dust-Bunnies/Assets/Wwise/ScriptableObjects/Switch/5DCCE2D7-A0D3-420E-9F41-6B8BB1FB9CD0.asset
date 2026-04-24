@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: Line30
   id: 160794362
   guid: 5DCCE2D7-A0D3-420E-9F41-6B8BB1FB9CD0
-  WwiseSwitchGroupReference: {fileID: 0}
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: 955f5af5fc11fce4985a789f87a03dd3, type: 2}

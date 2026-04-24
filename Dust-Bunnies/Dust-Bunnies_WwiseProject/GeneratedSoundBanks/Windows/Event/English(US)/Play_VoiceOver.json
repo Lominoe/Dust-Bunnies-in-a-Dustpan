@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C1BBAD37-C5B0-47F1-9484-E71664184B52}",
     "Language": "English(US)",
-    "Hash": "{F8DDAE4A-8CDF-9F37-6D0B-C434E3F7AF6D}",
+    "Hash": "{246FA2DE-82DD-E5AD-2972-EECA673EE754}",
     "ObjectPath": "Play_VoiceOver",
     "ShortName": "Play_VoiceOver",
     "Path": "Event/English(US)/Play_VoiceOver.bnk",
@@ -1229,6 +1229,6 @@
     ]
    }
   ],
-  "FileHash": "{D282156F-32D8-FBA2-6877-1ADCC6EBC458}"
+  "FileHash": "{805D2966-433A-EA1D-8036-F5E6E21DDD54}"
  }
 }

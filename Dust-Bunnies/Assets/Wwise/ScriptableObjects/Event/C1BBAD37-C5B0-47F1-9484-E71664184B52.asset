@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: Play_VoiceOver
   id: 1769700134
   guid: C1BBAD37-C5B0-47F1-9484-E71664184B52
-  IsInUserDefinedSoundBank: 1
+  IsInUserDefinedSoundBank: 0

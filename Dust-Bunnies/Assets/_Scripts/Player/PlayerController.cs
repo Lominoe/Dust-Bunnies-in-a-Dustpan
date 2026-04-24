@@ -43,7 +43,23 @@ public class PlayerController : MonoBehaviour
 
         GameManager.Player = this;
         if (GameManager.hasStoredData == true) {
-            _t.position = GameManager.playerCoords;
+
+            Vector3 toPlacePlayer = GameManager.playerCoords;
+            Collider roomBounds = room.GetComponent<Collider>();
+            if (roomBounds != null) {
+                Debug.Log("room bounds not null");
+                // first check if the player coords (x) are within the bounds of the room
+                Vector3 closestPoint = roomBounds.ClosestPoint(toPlacePlayer);
+                if (closestPoint != toPlacePlayer) {
+                    Debug.Log("Does not contain");
+                    // if not, then place player on the closest point of bounds
+                    toPlacePlayer = closestPoint;
+                }
+            } else {
+                Debug.LogWarning("Room Bounds are null");
+            }
+
+            _t.position = toPlacePlayer;
             _t.rotation = GameManager.playerRotation;
         }
     }

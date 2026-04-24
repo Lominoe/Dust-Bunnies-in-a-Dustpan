@@ -1379,6 +1379,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Art
       objectReference: {fileID: 0}
+    - target: {fileID: 3891894414401187971, guid: 0d6d14514eba75345aafd79e483260e5, type: 3}
+      propertyPath: m_Size.y
+      value: 6.552698
+      objectReference: {fileID: 0}
+    - target: {fileID: 3891894414401187971, guid: 0d6d14514eba75345aafd79e483260e5, type: 3}
+      propertyPath: m_Center.y
+      value: 3.2731724
+      objectReference: {fileID: 0}
     - target: {fileID: 4385776518834327110, guid: 0d6d14514eba75345aafd79e483260e5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.6286564

@@ -31,13 +31,21 @@ public class PauseMenu : MonoBehaviour
     {
         gameObject.GetComponentInChildren<Canvas>().enabled = true;
         Time.timeScale = 0f;
-        Object.FindFirstObjectByType<InputReader>().SetEnabled(false);
+
+        InputReader reader = Object.FindFirstObjectByType<InputReader>();
+        if (reader != null) {
+            reader.SetEnabled(false);
+        }
     }
     public void Resume()
     {
         gameObject.GetComponentInChildren<Canvas>().enabled = false;
         Time.timeScale = 1f;
-        Object.FindFirstObjectByType<InputReader>().SetEnabled(true);
+
+        InputReader reader = Object.FindFirstObjectByType<InputReader>();
+        if (reader != null){
+            reader.SetEnabled(true);
+        }
     }
     public void Restart()
     {

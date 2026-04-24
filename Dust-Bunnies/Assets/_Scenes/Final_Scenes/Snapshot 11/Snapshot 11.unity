@@ -822,7 +822,7 @@ PrefabInstance:
     - target: {fileID: 6899204380572781638, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: room
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 6801323381444566940}
     - target: {fileID: 6899204380572781638, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: sceneLoader
       value: 
@@ -889,6 +889,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bf443c6a6bf66a448803e016aac1830, type: 3}
+--- !u!4 &6801323381444566940 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4892586120585940428, guid: 9bf443c6a6bf66a448803e016aac1830, type: 3}
+  m_PrefabInstance: {fileID: 6801323381444566939}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

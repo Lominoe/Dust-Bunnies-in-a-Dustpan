@@ -1,0 +1,7 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	573417252	VoiceOverVerb			\Default Work Unit\Main Audio Bus\VoiceOverVerb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	42698580	Echoes_Linear (Custom)	Wwise Delay			
+	2995775460	Room_Small	Wwise RoomVerb			
+

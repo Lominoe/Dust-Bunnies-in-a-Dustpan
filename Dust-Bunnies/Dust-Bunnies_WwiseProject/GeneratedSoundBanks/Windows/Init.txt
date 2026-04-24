@@ -3,10 +3,19 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	748895195	None	Scene			
-	2039020852	Mirror	Scene			
-	2215982740	Key2	Scene			
-	2215982741	Key3	Scene			
-	2215982743	Key1	Scene			
+	3509580304	Snapshot12	Scene			
+	3509580306	Snapshot10	Scene			
+	3509580307	Snapshot11	Scene			
+	4212171408	Snapshot7	Scene			
+	4212171409	Snapshot6	Scene			
+	4212171410	Snapshot5	Scene			
+	4212171411	Snapshot4	Scene			
+	4212171412	Snapshot3	Scene			
+	4212171413	Snapshot2	Scene			
+	4212171414	Snapshot1	Scene			
+	4212171415	Snapshot0	Scene			
+	4212171422	Snapshot9	Scene			
+	4212171423	Snapshot8	Scene			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	85412153	Ambience			\Default Work Unit\Main Audio Bus\Ambience	
@@ -14,14 +23,18 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1469239341	FootstepEthereal			\Default Work Unit\Main Audio Bus\SFX\Footstep\FootstepEthereal	
 	1866025847	Footstep			\Default Work Unit\Main Audio Bus\SFX\Footstep	
 	2246998526	Main Audio Bus			\Default Work Unit\Main Audio Bus	
+	3930136735	Dialogue			\Default Work Unit\Main Audio Bus\Dialogue	
 	3991942870	Music			\Default Work Unit\Main Audio Bus\Music	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	348963605	Reverb			\Default Work Unit\Main Audio Bus\Reverb	
+	573417252	VoiceOverVerb			\Default Work Unit\Main Audio Bus\VoiceOverVerb	
 
 Effect plug-ins	ID	Name	Type				Notes
+	42698580	Echoes_Linear (Custom)	Wwise Delay			
 	914620648	Parametric EQ (Custom)	Wwise Parametric EQ			
 	2901166873	Footstep_Compressor	Wwise Compressor			
+	2995775460	Room_Small	Wwise RoomVerb			
 	3216246379	Space_Dreaming	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes

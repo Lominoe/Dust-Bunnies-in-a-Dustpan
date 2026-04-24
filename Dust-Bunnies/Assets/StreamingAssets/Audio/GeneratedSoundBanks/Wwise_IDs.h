@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID PLAY_AMB_ROOM_INTERIOR_01 = 3152322375U;
         static const AkUniqueID PLAY_AMB_ROOM_STREET_01 = 2134236060U;
         static const AkUniqueID PLAY_FIREWORK = 3876215541U;
+        static const AkUniqueID PLAY_FIREWORK_01 = 2992710289U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_MUSIC_BOX = 3405337073U;
         static const AkUniqueID PLAY_MX_CHILDHOOD = 2272849752U;

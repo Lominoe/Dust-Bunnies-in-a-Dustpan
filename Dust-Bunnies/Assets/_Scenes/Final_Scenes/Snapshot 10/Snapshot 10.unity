@@ -684,7 +684,7 @@ PrefabInstance:
     - target: {fileID: 80639070953746294, guid: 8aeabc88fb67bc1469c3c2282c798914, type: 3}
       propertyPath: finaleFireworkEvent.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: c4fc51e080dc8214fad25c110ec7eb05, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 2906998993017993698, guid: 8aeabc88fb67bc1469c3c2282c798914, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5170684

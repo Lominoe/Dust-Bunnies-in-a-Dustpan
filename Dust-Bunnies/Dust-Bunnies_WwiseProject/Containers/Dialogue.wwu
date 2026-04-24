@@ -1018,6 +1018,380 @@
 										<ActiveSource Name="dlg_cici_20_v02" ID="{C38E8E5F-7F79-4A91-9506-FDE58901C376}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="dlg_cici_20_v03" ID="{F0C45A42-BB0A-4B3D-9C83-268CB3EB82B6}" ShortID="788553886">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dlg_cici_20_v03" ID="{87AC3C9B-0522-48EF-84E2-1B346014729D}">
+											<Language>SFX</Language>
+											<AudioFile>dlg_cici_20_v03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="924186025"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dlg_cici_20_v03" ID="{87AC3C9B-0522-48EF-84E2-1B346014729D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dlg_cici_20_v04" ID="{83203889-3856-4968-A618-810BE4126293}" ShortID="181165452">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dlg_cici_20_v04" ID="{0996172B-E975-4E5C-A626-8AEDB48CBAF8}">
+											<Language>SFX</Language>
+											<AudioFile>dlg_cici_20_v04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="883957678"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dlg_cici_20_v04" ID="{0996172B-E975-4E5C-A626-8AEDB48CBAF8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dlg_cici_20_v05" ID="{78B1C962-32D7-4B1F-A62E-9602818C6F6D}" ShortID="53203649">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dlg_cici_20_v05" ID="{00EA6430-5525-4ED3-A51E-D6D247AD2C0F}">
+											<Language>SFX</Language>
+											<AudioFile>dlg_cici_20_v05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="547090593"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dlg_cici_20_v05" ID="{00EA6430-5525-4ED3-A51E-D6D247AD2C0F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dlg_cici_20_v06" ID="{19B9EFB4-49E2-4FE1-B15C-DECD9B45A98A}" ShortID="395851512">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dlg_cici_20_v06" ID="{4711155A-0B86-41AB-BB1C-514891346A96}">
+											<Language>SFX</Language>
+											<AudioFile>dlg_cici_20_v06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="22661235"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dlg_cici_20_v06" ID="{4711155A-0B86-41AB-BB1C-514891346A96}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dlg_cici_20_v07" ID="{41C53EA8-8BDF-49CF-B347-9054969D1ED9}" ShortID="482121348">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dlg_cici_20_v07" ID="{C14011EC-3EDA-44F6-AC96-FC16523C3AE4}">
+											<Language>SFX</Language>
+											<AudioFile>dlg_cici_20_v07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="805067783"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dlg_cici_20_v07" ID="{C14011EC-3EDA-44F6-AC96-FC16523C3AE4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dlg_cici_20_v08" ID="{ED6C73EC-DF12-47FA-94B4-52A2D2BAD6F4}" ShortID="683390734">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dlg_cici_20_v08" ID="{E8163B5F-C175-4786-A973-3212F29CC9BC}">
+											<Language>SFX</Language>
+											<AudioFile>dlg_cici_20_v08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="296026667"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dlg_cici_20_v08" ID="{E8163B5F-C175-4786-A973-3212F29CC9BC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dlg_cici_20_v09" ID="{1EF9B5B7-B8DA-454F-A399-8731B49F937B}" ShortID="538028042">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dlg_cici_20_v09" ID="{5D064365-7753-4ADF-B073-D6C4F6397EDA}">
+											<Language>SFX</Language>
+											<AudioFile>dlg_cici_20_v09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="210569642"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dlg_cici_20_v09" ID="{5D064365-7753-4ADF-B073-D6C4F6397EDA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dlg_cici_20_v10" ID="{E3A9F1BF-7CF5-4086-9D57-8AF690B0FFAE}" ShortID="255407618">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dlg_cici_20_v10" ID="{0E08649A-C223-44C9-BE54-A49D0E2E3CE4}">
+											<Language>SFX</Language>
+											<AudioFile>dlg_cici_20_v10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="267889786"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dlg_cici_20_v10" ID="{0E08649A-C223-44C9-BE54-A49D0E2E3CE4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dlg_cici_20_v11" ID="{9E1CDD73-D810-4834-9F4E-87748B494301}" ShortID="527090979">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dlg_cici_20_v11" ID="{275BB1B7-8332-4D4B-99EE-AACF943EBDED}">
+											<Language>SFX</Language>
+											<AudioFile>dlg_cici_20_v11.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="743757242"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dlg_cici_20_v11" ID="{275BB1B7-8332-4D4B-99EE-AACF943EBDED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dlg_cici_20_v12" ID="{3080590C-EB7A-4504-9AE9-1CDD8954D38A}" ShortID="658640264">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dlg_cici_20_v12" ID="{7574B319-8D99-4D5C-9574-8C2F4C0197D1}">
+											<Language>SFX</Language>
+											<AudioFile>dlg_cici_20_v12.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="298372658"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dlg_cici_20_v12" ID="{7574B319-8D99-4D5C-9574-8C2F4C0197D1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dlg_cici_20_v13" ID="{E7D41BCA-3879-4AA7-8A22-9C32F94DDAE0}" ShortID="205621085">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dlg_cici_20_v13" ID="{79A72266-A645-4866-9757-D6458A92AA4C}">
+											<Language>SFX</Language>
+											<AudioFile>dlg_cici_20_v13.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="332804542"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dlg_cici_20_v13" ID="{79A72266-A645-4866-9757-D6458A92AA4C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dlg_cici_20_v14" ID="{04F9D42C-0873-4BC2-88E0-9B1E28D7A76A}" ShortID="500803981">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dlg_cici_20_v14" ID="{CB80038E-3865-4293-B68A-FEE3EF837B9A}">
+											<Language>SFX</Language>
+											<AudioFile>dlg_cici_20_v14.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="640364612"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dlg_cici_20_v14" ID="{CB80038E-3865-4293-B68A-FEE3EF837B9A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dlg_cici_20_v15" ID="{05691E8F-CC75-457A-AE52-C1F4FAC3CBFE}" ShortID="847574757">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dlg_cici_20_v15" ID="{B100DDBC-A35E-4342-A51A-7106CB8D65AC}">
+											<Language>SFX</Language>
+											<AudioFile>dlg_cici_20_v15.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="144773714"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dlg_cici_20_v15" ID="{B100DDBC-A35E-4342-A51A-7106CB8D65AC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dlg_cici_20_v16" ID="{A0AB059B-C9C1-408D-9C9C-CB8FB687130F}" ShortID="84521117">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dlg_cici_20_v16" ID="{0768AC6A-42D7-4C94-A691-F5302EFE77A0}">
+											<Language>SFX</Language>
+											<AudioFile>dlg_cici_20_v16.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="333338760"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dlg_cici_20_v16" ID="{0768AC6A-42D7-4C94-A691-F5302EFE77A0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dlg_cici_20_v17" ID="{D8EB4CF7-B052-432B-A2DE-7D0CC6540C81}" ShortID="582305458">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dlg_cici_20_v17" ID="{704F10D5-A0C1-430C-9DD8-70401216211E}">
+											<Language>SFX</Language>
+											<AudioFile>dlg_cici_20_v17.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="268253264"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dlg_cici_20_v17" ID="{704F10D5-A0C1-430C-9DD8-70401216211E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dlg_cici_20_v18" ID="{192A8B75-E8F6-4B1F-952E-41151582F636}" ShortID="795302878">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dlg_cici_20_v18" ID="{741D00FF-F1ED-481D-99D4-72C87FA1F257}">
+											<Language>SFX</Language>
+											<AudioFile>dlg_cici_20_v18.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="12799731"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dlg_cici_20_v18" ID="{741D00FF-F1ED-481D-99D4-72C87FA1F257}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="dlg_cici_20_v19" ID="{A3AFD1C6-EEBD-4F45-B28D-A21C15BEF7B3}" ShortID="647742900">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="dlg_cici_20_v19" ID="{506554DA-C2D7-40A2-A331-850770410FDA}">
+											<Language>SFX</Language>
+											<AudioFile>dlg_cici_20_v19.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="578528480"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="dlg_cici_20_v19" ID="{506554DA-C2D7-40A2-A331-850770410FDA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>

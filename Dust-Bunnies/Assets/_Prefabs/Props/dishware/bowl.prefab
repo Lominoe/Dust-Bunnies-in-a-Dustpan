@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 8880545398891050468}
   - component: {fileID: 6690941348506337582}
   - component: {fileID: -348383188653388440}
+  - component: {fileID: 16974505289160796}
+  - component: {fileID: 6684006113801047980}
   m_Layer: 0
   m_Name: bowl
   m_TagString: Untagged
@@ -109,3 +111,29 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.673284, y: 0.5714794, z: 1.67143}
   m_Center: {x: 0.00018778446, y: 0.26759127, z: 0.00016063453}
+--- !u!114 &16974505289160796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5177454865791459579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7ec0bf29d46cb4cb0987c135d36daa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialogue: 
+--- !u!114 &6684006113801047980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5177454865791459579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7ec0bf29d46cb4cb0987c135d36daa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialogue: 

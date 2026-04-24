@@ -9,10 +9,15 @@ using UnityEngine;
 public class Interactable : MonoBehaviour
 {
     public string Dialogue = null;
+    [SerializeField] private AudioClip audioClip;
     // TODO: temp to make the system work again then revisit a better way to pass info
     public virtual void Interact(Transform playerCam, float moveTime) {
         try {
             DialogueManager.Instance.RunDialogue(Dialogue);
+
+            if (Dialogue != null && audioClip != null) {
+                // TODO: for Fox --> play sound here
+            }
         }
         catch {
             Debug.LogWarning("Dialogue manager instance does not exist");

@@ -159,6 +159,13 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Firework" ID="{6714B61F-BB7F-49FD-B967-EDF97BCBB4E0}">
+					<PropertyList>
+						<Property Name="CooldownTime" Type="Real32">
+							<ValueList>
+								<Value>0.25</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{BEABFB0C-8431-43C5-A3EA-FF4CCE94FD0C}" ShortID="743361111">
 							<ReferenceList>
@@ -186,6 +193,38 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Explosion" ID="{7F0DDCB2-BAA3-4197-96CE-5164DE27D814}" WorkUnitID="{43C2252E-DCD3-44B3-A3E7-636268BFE8A3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Firework_01" ID="{27AAB893-3A56-4B0F-9D77-5DAA55C53179}">
+					<ChildrenList>
+						<Action Name="" ID="{030F6156-5EEC-41F4-ABFE-0A8EA1E1CC0D}" ShortID="642072854">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Finale Whistle" ID="{C4AC6361-F19D-453F-BE11-8F6108EFB612}" WorkUnitID="{43C2252E-DCD3-44B3-A3E7-636268BFE8A3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{58432FA3-0283-404F-A97F-3988EBD667CB}" ShortID="371889174">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="8">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2250CE52-BEAF-4CC4-BECC-D1B71344DDDE}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-0.25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Finale Explosion" ID="{2BD2BA01-3210-44F3-AE0D-94C9A541ACAF}" WorkUnitID="{43C2252E-DCD3-44B3-A3E7-636268BFE8A3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

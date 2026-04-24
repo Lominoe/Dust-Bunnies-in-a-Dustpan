@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; }
 
     public static event System.Action OnLoadNextSnapshot;
+    public static event System.Action OnLoadPreviousSnapshot;
 
     public static Vector3 playerCoords;       // used for when the player teleports to a new scene and coords need to be preserved
     public static Quaternion playerRotation;  // ^
@@ -48,7 +49,9 @@ public class GameManager : MonoBehaviour
         // will get a request from the player to go to the next snapshot
         // first the snapshot requirements will be checked / a way to check if the player has
         // completed what they need to to advance
-        CheckSnapshotRequirements();
+        if (!CheckSnapshotRequirements(currSnapshotNumber + 1)) {
+            return;
+        }
 
         // if it goes through send an event to the ui to advance
         // also send an event to scene loader to load the next scene
@@ -58,6 +61,17 @@ public class GameManager : MonoBehaviour
         currSnapshotNumber++;
     }
 
-    public static void CheckSnapshotRequirements() {
+    public static void PreviousSnapshot() {
+        if (!CheckSnapshotRequirements(currSnapshotNumber - 1)) {
+            return;
+        }
+        OnLoadPreviousSnapshot?.Invoke();
+        currSnapshotNumber--;
+    }
+
+    public static bool CheckSnapshotRequirements(int snapshotNumber) {
+        // TODO: jank b*tch
+        // will write a switch statement here
+        return true;
     }
 }

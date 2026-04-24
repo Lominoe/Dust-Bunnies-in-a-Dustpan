@@ -14,6 +14,7 @@ public class DefaultState : PlayerState
         input.SwitchMaps(input.Maps.Default);
         input.OnInteractPerformed += OnInteract;
         input.OnNextSnapshotPerformed += NextSnapshot;
+        input.OnPreviousSnapshotPerformed += PreviousSnapshot;
 
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
@@ -24,6 +25,7 @@ public class DefaultState : PlayerState
     public override void Exit() {
         input.OnInteractPerformed -= OnInteract;
         input.OnNextSnapshotPerformed -= NextSnapshot;
+        input.OnPreviousSnapshotPerformed -= PreviousSnapshot;
 
         base.Exit();
     }
@@ -49,5 +51,9 @@ public class DefaultState : PlayerState
 
     private void NextSnapshot() {
         GameManager.NextSnapshot();
+    }
+
+    private void PreviousSnapshot() {
+        GameManager.PreviousSnapshot();
     }
 }

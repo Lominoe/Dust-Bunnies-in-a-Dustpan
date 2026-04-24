@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{27AAB893-3A56-4B0F-9D77-5DAA55C53179}",
     "Language": "SFX",
-    "Hash": "{441ED4AA-DFF2-7C6F-0697-25D4D900F120}",
+    "Hash": "{134EE660-A647-C874-4253-B7C415FA4E87}",
     "ObjectPath": "Play_Firework_01",
     "ShortName": "Play_Firework_01",
     "Path": "Event/Play_Firework_01.bnk",
@@ -41,8 +41,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Firework_01",
       "GUID": "{27AAB893-3A56-4B0F-9D77-5DAA55C53179}",
       "DurationType": "OneShot",
-      "DurationMin": "10.9696665",
-      "DurationMax": "13.2196665",
+      "DurationMin": "12.2196665",
+      "DurationMax": "12.2196665",
       "MediaRefs": [
        {
         "Id": "374627359"
@@ -55,6 +55,6 @@
     ]
    }
   ],
-  "FileHash": "{911E28BB-403C-0FDB-1B8A-83D3B32FDE0C}"
+  "FileHash": "{C96341AA-41C9-A842-A9D0-A393263E36BD}"
  }
 }

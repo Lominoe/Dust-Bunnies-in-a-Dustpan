@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C1BBAD37-C5B0-47F1-9484-E71664184B52}",
     "Language": "English(US)",
-    "Hash": "{9A7DECB7-5CD8-218C-A202-39E9F0DDC647}",
+    "Hash": "{97064168-3F5F-4C89-90DC-28F593D93F33}",
     "ObjectPath": "Play_VoiceOver",
     "ShortName": "Play_VoiceOver",
     "Path": "Event/English(US)/Play_VoiceOver.bnk",
@@ -23,6 +23,24 @@
       "ShortName": "dlg_cici_13_v01.wav",
       "Path": "Media/English(US)/6395678.wem",
       "CachePath": "E2/{E2682AEE-692B-B3BE-71DC-C849B291A3F0}.wem"
+     },
+     {
+      "Id": "12799731",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "dlg_cici_20_v18.wav",
+      "Path": "Media/12799731.wem",
+      "CachePath": "82/{8227BEF4-0257-D42A-6CEE-3BFAF369B550}.wem"
+     },
+     {
+      "Id": "22661235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "dlg_cici_20_v06.wav",
+      "Path": "Media/22661235.wem",
+      "CachePath": "9B/{9BA221FF-360E-20F9-9A78-5985BA356DF9}.wem"
      },
      {
       "Id": "43326813",
@@ -50,6 +68,15 @@
       "ShortName": "dlg_cici_32_v01.wav",
       "Path": "Media/English(US)/74870242.wem",
       "CachePath": "69/{694BD609-69E1-5197-2F78-A692B3CEFC8E}.wem"
+     },
+     {
+      "Id": "144773714",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "dlg_cici_20_v15.wav",
+      "Path": "Media/144773714.wem",
+      "CachePath": "30/{309ACF80-7667-E763-73A7-517B86017C51}.wem"
      },
      {
       "Id": "163945368",
@@ -106,6 +133,15 @@
       "CachePath": "8C/{8CCB713C-847F-BCB1-5B47-376504DB9FDD}.wem"
      },
      {
+      "Id": "210569642",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "dlg_cici_20_v09.wav",
+      "Path": "Media/210569642.wem",
+      "CachePath": "F4/{F4D80BCC-2F98-50E9-7370-9EE82C41DD9A}.wem"
+     },
+     {
       "Id": "213093308",
       "Language": "English(US)",
       "Streaming": "false",
@@ -113,6 +149,42 @@
       "ShortName": "dlg_cici_20_v01.wav",
       "Path": "Media/English(US)/213093308.wem",
       "CachePath": "F6/{F64B5794-8725-BF3A-E495-B04188663289}.wem"
+     },
+     {
+      "Id": "267889786",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "dlg_cici_20_v10.wav",
+      "Path": "Media/267889786.wem",
+      "CachePath": "65/{658BBADE-4A25-4552-98B4-E52546473FFD}.wem"
+     },
+     {
+      "Id": "268253264",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "dlg_cici_20_v17.wav",
+      "Path": "Media/268253264.wem",
+      "CachePath": "E0/{E0951E16-9541-D129-1459-01C389FB2A5E}.wem"
+     },
+     {
+      "Id": "296026667",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "dlg_cici_20_v08.wav",
+      "Path": "Media/296026667.wem",
+      "CachePath": "11/{11C8DE81-D28F-B92D-76FA-22437F2FD24F}.wem"
+     },
+     {
+      "Id": "298372658",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "dlg_cici_20_v12.wav",
+      "Path": "Media/298372658.wem",
+      "CachePath": "A2/{A24AFB68-1932-225E-9882-E569F13F1E2D}.wem"
      },
      {
       "Id": "316113706",
@@ -131,6 +203,24 @@
       "ShortName": "dlg_cici_21_v01.wav",
       "Path": "Media/English(US)/327600421.wem",
       "CachePath": "C5/{C5F77E9F-0586-6C11-666B-68D1FE2CC876}.wem"
+     },
+     {
+      "Id": "332804542",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "dlg_cici_20_v13.wav",
+      "Path": "Media/332804542.wem",
+      "CachePath": "B5/{B5353CA4-3D2F-5113-520E-140B9094C9CF}.wem"
+     },
+     {
+      "Id": "333338760",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "dlg_cici_20_v16.wav",
+      "Path": "Media/333338760.wem",
+      "CachePath": "C2/{C294D641-B78E-625E-8266-D0D01A737DBD}.wem"
      },
      {
       "Id": "363548345",
@@ -169,6 +259,15 @@
       "CachePath": "72/{72C46AD0-63BE-9CAF-CB6A-D57742B6BE9F}.wem"
      },
      {
+      "Id": "547090593",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "dlg_cici_20_v05.wav",
+      "Path": "Media/547090593.wem",
+      "CachePath": "59/{59972BBF-89B0-CE2C-7558-C12D5E384571}.wem"
+     },
+     {
       "Id": "549332841",
       "Language": "English(US)",
       "Streaming": "false",
@@ -187,6 +286,15 @@
       "CachePath": "A0/{A0FDC24B-F8B7-1350-7BE1-DD899C84BC4D}.wem"
      },
      {
+      "Id": "578528480",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "dlg_cici_20_v19.wav",
+      "Path": "Media/578528480.wem",
+      "CachePath": "DA/{DA086D68-3D27-8F68-19E8-79A285C80BD8}.wem"
+     },
+     {
       "Id": "594283601",
       "Language": "English(US)",
       "Streaming": "false",
@@ -203,6 +311,15 @@
       "ShortName": "dlg_cici_05_v01.wav",
       "Path": "Media/English(US)/626202810.wem",
       "CachePath": "B8/{B8C01FD2-BF0D-5716-0187-65FFB848A0AE}.wem"
+     },
+     {
+      "Id": "640364612",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "dlg_cici_20_v14.wav",
+      "Path": "Media/640364612.wem",
+      "CachePath": "30/{30E49926-28E9-81AC-7B7F-DEF644CABD9D}.wem"
      },
      {
       "Id": "672933900",
@@ -250,6 +367,15 @@
       "CachePath": "7D/{7DC8FFF3-F7B7-C80C-95BD-C3EE5C114868}.wem"
      },
      {
+      "Id": "743757242",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "dlg_cici_20_v11.wav",
+      "Path": "Media/743757242.wem",
+      "CachePath": "97/{9715BD03-C0EC-29AE-96AA-58355FD7D5ED}.wem"
+     },
+     {
       "Id": "749115596",
       "Language": "English(US)",
       "Streaming": "false",
@@ -257,6 +383,15 @@
       "ShortName": "dlg_cici_22_v01.wav",
       "Path": "Media/English(US)/749115596.wem",
       "CachePath": "E7/{E72C0B10-F175-8D50-0DF2-B42C8257416A}.wem"
+     },
+     {
+      "Id": "805067783",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "dlg_cici_20_v07.wav",
+      "Path": "Media/805067783.wem",
+      "CachePath": "FC/{FC8EEBB9-0FE0-98FE-5595-B1C6E85C6F8F}.wem"
      },
      {
       "Id": "809304906",
@@ -304,6 +439,15 @@
       "CachePath": "D5/{D50806FB-D4AD-C2BD-F669-129632A49F2F}.wem"
      },
      {
+      "Id": "883957678",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "dlg_cici_20_v04.wav",
+      "Path": "Media/883957678.wem",
+      "CachePath": "19/{194A4443-8A7C-37A8-FE00-D9E5ABD3548D}.wem"
+     },
+     {
       "Id": "902434494",
       "Language": "English(US)",
       "Streaming": "false",
@@ -311,6 +455,15 @@
       "ShortName": "dlg_cici_08_v01.wav",
       "Path": "Media/English(US)/902434494.wem",
       "CachePath": "96/{960E2348-2F9F-338B-45DB-68530E171254}.wem"
+     },
+     {
+      "Id": "924186025",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "dlg_cici_20_v03.wav",
+      "Path": "Media/924186025.wem",
+      "CachePath": "F3/{F31DCFAE-B3C4-DAB9-8991-6DBFCCBEED9F}.wem"
      },
      {
       "Id": "931780316",
@@ -712,10 +865,61 @@
         },
         "MediaRefs": [
          {
+          "Id": "12799731"
+         },
+         {
+          "Id": "22661235"
+         },
+         {
+          "Id": "144773714"
+         },
+         {
+          "Id": "210569642"
+         },
+         {
           "Id": "213093308"
          },
          {
+          "Id": "267889786"
+         },
+         {
+          "Id": "268253264"
+         },
+         {
+          "Id": "296026667"
+         },
+         {
+          "Id": "298372658"
+         },
+         {
+          "Id": "332804542"
+         },
+         {
+          "Id": "333338760"
+         },
+         {
           "Id": "457116347"
+         },
+         {
+          "Id": "547090593"
+         },
+         {
+          "Id": "578528480"
+         },
+         {
+          "Id": "640364612"
+         },
+         {
+          "Id": "743757242"
+         },
+         {
+          "Id": "805067783"
+         },
+         {
+          "Id": "883957678"
+         },
+         {
+          "Id": "924186025"
          }
         ]
        },
@@ -991,6 +1195,6 @@
     ]
    }
   ],
-  "FileHash": "{E93F1116-46FB-98C9-82A9-49D18A5211A2}"
+  "FileHash": "{C0F73E00-451D-CA67-0119-A35A5D4616CD}"
  }
 }

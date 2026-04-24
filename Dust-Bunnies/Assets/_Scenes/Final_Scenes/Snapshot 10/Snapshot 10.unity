@@ -256,7 +256,7 @@ MonoBehaviour:
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: cdb4924e18d6d5142a05414564c627a0, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: dd02737a072184e43a52880d281a67a5, type: 2}
   valueIdInternal: 0
   groupIdInternal: 0
   valueGuidInternal: 
@@ -505,6 +505,8 @@ GameObject:
   - component: {fileID: 1466570981}
   - component: {fileID: 1466570980}
   - component: {fileID: 1466570979}
+  - component: {fileID: 1466570982}
+  - component: {fileID: 1466570983}
   m_Layer: 0
   m_Name: Music Triggers
   m_TagString: Untagged
@@ -580,7 +582,8 @@ MonoBehaviour:
   MultiPositionType: 1
   multiPositionTypeLabel: 0
   attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
-  LargeModePositions: []
+  LargeModePositions:
+  - {fileID: 0}
   multiPositionArray: []
 --- !u!114 &1466570980
 MonoBehaviour:
@@ -630,6 +633,37 @@ MonoBehaviour:
   groupIdInternal: 0
   valueGuidInternal: 
   groupGuidInternal: 
+--- !u!114 &1466570982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466570976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7931383f8d322714fb7f33ecb06e0fd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: cdb4924e18d6d5142a05414564c627a0, type: 2}
+--- !u!114 &1466570983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466570976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb2091df44820974594a35b05da3c55b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireworkSpawner: {fileID: 2978663899987157774}
 --- !u!4 &1735501426 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1007377845868197728, guid: 8aeabc88fb67bc1469c3c2282c798914, type: 3}
@@ -647,6 +681,10 @@ PrefabInstance:
       propertyPath: fireworkEvent.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: bdafa3bcf33c6334d91805b330b894c5, type: 2}
+    - target: {fileID: 80639070953746294, guid: 8aeabc88fb67bc1469c3c2282c798914, type: 3}
+      propertyPath: finaleFireworkEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2906998993017993698, guid: 8aeabc88fb67bc1469c3c2282c798914, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5170684
@@ -696,6 +734,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8aeabc88fb67bc1469c3c2282c798914, type: 3}
+--- !u!114 &2978663899987157774 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 80639070953746294, guid: 8aeabc88fb67bc1469c3c2282c798914, type: 3}
+  m_PrefabInstance: {fileID: 2978663899987157773}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93051c29e9e2f284b8e0e910bbb118bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3314250618151691825
 PrefabInstance:
   m_ObjectHideFlags: 0

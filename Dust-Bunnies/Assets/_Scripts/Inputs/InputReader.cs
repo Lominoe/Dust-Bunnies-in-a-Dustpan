@@ -19,6 +19,7 @@ public class InputReader : MonoBehaviour
     public event System.Action OnSprintPerformed;
     public event System.Action OnInteractPerformed;
     public event System.Action OnNextSnapshotPerformed;
+    public event System.Action OnPreviousSnapshotPerformed;
 
     public event System.Action OnInteractExit;
     public event System.Action OnRotatePerformed;
@@ -37,12 +38,14 @@ public class InputReader : MonoBehaviour
     void Start() {
         // cleanup for snapshot switching
         GameManager.OnLoadNextSnapshot += OnDisable;
+        GameManager.OnLoadPreviousSnapshot += OnDisable;
     }
 
     void OnEnable() {
         _inputs.Default.Sprint.performed += SprintPerformed;
         _inputs.Default.Interact.performed += InteractPerformed;
         _inputs.Default.NextSnapshot.performed += NextSnapshotPerformed;
+        _inputs.Default.PreviousSnapshot.performed += PreviousSnapshotPerformed;
 
         _inputs.Interact.Return.performed += InteractExitPerformed;
         _inputs.Interact.StartRotate.performed += RotatePerformed;
@@ -58,6 +61,7 @@ public class InputReader : MonoBehaviour
         _inputs.Default.Sprint.performed -= SprintPerformed;
         _inputs.Default.Interact.performed -= InteractPerformed;
         _inputs.Default.NextSnapshot.performed -= NextSnapshotPerformed;
+        _inputs.Default.PreviousSnapshot.performed -= PreviousSnapshotPerformed;
 
         _inputs.Interact.Return.performed -= InteractExitPerformed;
         _inputs.Interact.StartRotate.performed -= RotatePerformed;
@@ -108,6 +112,9 @@ public class InputReader : MonoBehaviour
 
     private void NextSnapshotPerformed(InputAction.CallbackContext _) =>
         OnNextSnapshotPerformed?.Invoke();
+
+    private void PreviousSnapshotPerformed(InputAction.CallbackContext _) =>
+        OnPreviousSnapshotPerformed?.Invoke();
 
     private void InteractExitPerformed(InputAction.CallbackContext _) =>
         OnInteractExit?.Invoke();

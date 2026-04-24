@@ -80,6 +80,7 @@ MonoBehaviour:
   impactController: {fileID: 6821828506802377329}
   cleanupTime: 10
   ignoreFields: 1
+  isFinale: 1
 --- !u!1 &410122491721067382
 GameObject:
   m_ObjectHideFlags: 0

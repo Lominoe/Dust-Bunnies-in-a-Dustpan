@@ -24,6 +24,14 @@ public class Firework : MonoBehaviour {
     [Header("Finale Params")]
     [SerializeField] private bool ignoreFields;
 
+    [SerializeField] private bool isFinale = false;
+
+    public delegate void FireAction(bool isFinale);
+    public event FireAction OnFire;
+
+    public delegate void BurstAction(bool isFinale);
+    public event BurstAction OnBurst;
+
     #region Internals
     private float _travelDistance = 0f;
     private float _lifetime = 0f;
@@ -50,6 +58,8 @@ public class Firework : MonoBehaviour {
         burst.SetVector4("Burst Color", headColor);
         head.SetVector4("Color", headColor);
         renderer.SetPropertyBlock(mpb);
+        
+        OnFire?.Invoke(isFinale);
     }
 
     private void Update() {
@@ -83,6 +93,8 @@ public class Firework : MonoBehaviour {
             impactController.Initiate();
             
             Destroy(impactController.gameObject, cleanupTime);
+            
+            OnBurst?.Invoke(isFinale);
         }
         
         burst.transform.SetParent(transform.parent);

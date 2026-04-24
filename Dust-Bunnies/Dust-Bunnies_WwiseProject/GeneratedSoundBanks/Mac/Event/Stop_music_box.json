@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{34E88DF4-49B1-4370-B8E2-6BFA511B1AF9}",
     "Language": "SFX",
-    "Hash": "{0DAB141A-2A68-DFE0-669E-7246E538DD66}",
+    "Hash": "{82D7BDD8-6489-4CA7-1AEC-B6504EFB3383}",
     "ObjectPath": "Stop_music_box",
     "ShortName": "Stop_music_box",
     "Path": "Event/Stop_music_box.bnk",
@@ -28,6 +28,6 @@
     ]
    }
   ],
-  "FileHash": "{504BD721-B394-DFB9-108A-45ECB0E36AE4}"
+  "FileHash": "{8A437E88-16ED-B86B-2F0F-E9F8CED39E30}"
  }
 }

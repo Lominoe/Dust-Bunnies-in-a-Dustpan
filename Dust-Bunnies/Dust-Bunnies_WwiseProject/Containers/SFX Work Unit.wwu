@@ -451,6 +451,251 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<PropertyContainer Name="Firework" ID="{BB4EBBBE-F348-4215-8971-38B9E55EC321}" ShortID="814374507">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Whistle" ID="{05F71E57-5A8F-41FC-9E9D-C804AE2E084A}" ShortID="530549500">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="gp_firework_01" ID="{46AE7954-52DD-40CF-8FFF-7295BCBBC7F0}" ShortID="379248081">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gp_firework_01" ID="{7D7CBE42-68AB-4F0F-96C5-83985D3EAE0D}">
+											<Language>SFX</Language>
+											<AudioFile>gp_firework_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="851050395"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gp_firework_01" ID="{7D7CBE42-68AB-4F0F-96C5-83985D3EAE0D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gp_firework_02" ID="{E9F91ECA-65F7-40AF-A75D-EDF5DB42BC9B}" ShortID="396213669">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gp_firework_02" ID="{6CF4B4D9-6E5B-4230-839A-0344A107DB19}">
+											<Language>SFX</Language>
+											<AudioFile>gp_firework_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="818121309"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gp_firework_02" ID="{6CF4B4D9-6E5B-4230-839A-0344A107DB19}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gp_firework_03" ID="{B45E3B40-A8F1-4444-8AF2-A48A81EBCB33}" ShortID="1046475586">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gp_firework_03" ID="{5F0070DE-8AB2-4604-A419-993E1EEEB1BD}">
+											<Language>SFX</Language>
+											<AudioFile>gp_firework_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="883051356"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gp_firework_03" ID="{5F0070DE-8AB2-4604-A419-993E1EEEB1BD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gp_firework_04" ID="{66AA3EC6-567A-407A-A21D-13E0362CFEF6}" ShortID="205448187">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gp_firework_04" ID="{CFE58BEE-C0E2-482A-BCB2-8181D26795D5}">
+											<Language>SFX</Language>
+											<AudioFile>gp_firework_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="892833588"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gp_firework_04" ID="{CFE58BEE-C0E2-482A-BCB2-8181D26795D5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Explosion" ID="{7F0DDCB2-BAA3-4197-96CE-5164DE27D814}" ShortID="490917356">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="gp_firework_explosion_01" ID="{8BF8961D-CB38-468D-9F6C-8D3A149CBC65}" ShortID="594030415">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gp_firework_explosion_01" ID="{7A78C729-7EFB-4855-B782-F72197268EF0}">
+											<Language>SFX</Language>
+											<AudioFile>gp_firework_explosion_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="229642768"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gp_firework_explosion_01" ID="{7A78C729-7EFB-4855-B782-F72197268EF0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gp_firework_explosion_02" ID="{EF3E7E5D-5FFA-4FDE-8DD1-6B2D66B9EEDC}" ShortID="163347852">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gp_firework_explosion_02" ID="{49DFF3D3-9177-459E-A6B9-0BA24E6BB512}">
+											<Language>SFX</Language>
+											<AudioFile>gp_firework_explosion_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="379418074"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gp_firework_explosion_02" ID="{49DFF3D3-9177-459E-A6B9-0BA24E6BB512}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gp_firework_explosion_03" ID="{6E218BE7-6905-465D-A998-7880199F3D90}" ShortID="278327338">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gp_firework_explosion_03" ID="{7BD462F5-2DFB-46B0-B857-BFB52C6DE87E}">
+											<Language>SFX</Language>
+											<AudioFile>gp_firework_explosion_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="493930104"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gp_firework_explosion_03" ID="{7BD462F5-2DFB-46B0-B857-BFB52C6DE87E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gp_firework_explosion_04" ID="{EFCF2630-7509-4F00-BD24-B7BDB5A04C02}" ShortID="887420231">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gp_firework_explosion_04" ID="{2BB5C7A9-5659-48A6-907C-0EED521BF4D2}">
+											<Language>SFX</Language>
+											<AudioFile>gp_firework_explosion_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="597575832"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gp_firework_explosion_04" ID="{2BB5C7A9-5659-48A6-907C-0EED521BF4D2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="gp_firework_explosion_05" ID="{5D1F6A32-726D-4444-A88D-63B2B961D40C}" ShortID="620902695">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="gp_firework_explosion_05" ID="{5E5CBDAE-F516-4A9E-BD86-5661A57E8B69}">
+											<Language>SFX</Language>
+											<AudioFile>gp_firework_explosion_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="8699489"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="gp_firework_explosion_05" ID="{5E5CBDAE-F516-4A9E-BD86-5661A57E8B69}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{F5775B0E-DCCD-4195-A8F5-1BABFAC18A20}" ShortID="627454822">
+								<ReferenceList>
+									<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+										<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+						</ObjectList>
+					</ObjectLists>
+				</PropertyContainer>
 				<RandomSequenceContainer Name="Sparkle" ID="{EF454E15-620B-491B-B858-5AEC866624B6}" ShortID="229252729">
 					<PropertyList>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
@@ -458,14 +703,13 @@
 						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
 						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="SFX" ID="{8D954BD1-37BF-4C6A-B849-5E1E2690394C}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -586,49 +830,6 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
-					<PositioningInfo>
-						<Panner Name="" ID="{E4953705-28E0-4F5D-A7A5-075E5943ACBF}">
-							<PropertyList>
-								<Property Name="PanX" Type="Real64" Value="-1.11022302462516E-16"/>
-							</PropertyList>
-							<ObjectLists>
-								<ObjectList Name="RTPC">
-									<RTPC Name="" ID="{BA91185D-1421-4F73-B552-5B29ACC19220}" ShortID="585148100">
-										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="PanX"/>
-										</PropertyList>
-										<ReferenceList>
-											<Reference Name="ControlInput">
-												<ObjectRef Name="CandlePan" ID="{68674527-2BB2-460D-A004-80EF02439885}" WorkUnitID="{1084BDEC-3701-4C54-B748-D1FB0B09AB5E}"/>
-											</Reference>
-											<Reference Name="Curve">
-												<Custom>
-													<Curve Name="" ID="{DC587173-9DBE-4460-9386-C9F66BA56BD7}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="1"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>-1</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>1</XPos>
-																<YPos>200</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</Custom>
-											</Reference>
-										</ReferenceList>
-									</RTPC>
-								</ObjectList>
-							</ObjectLists>
-						</Panner>
-						<Position Name="" ID="{03132A11-DD69-43A0-97BE-6515051C51DF}"/>
-					</PositioningInfo>
 				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>

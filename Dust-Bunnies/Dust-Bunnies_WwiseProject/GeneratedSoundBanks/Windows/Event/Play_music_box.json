@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1F7F56A5-DF69-449D-9642-624062226223}",
     "Language": "SFX",
-    "Hash": "{C2CD2246-2D36-8933-4254-EB1F5C224972}",
+    "Hash": "{D1BADAF2-BC22-7B84-B8BA-9835BE143485}",
     "ObjectPath": "Play_music_box",
     "ShortName": "Play_music_box",
     "Path": "Event/Play_music_box.bnk",
@@ -41,6 +41,6 @@
     ]
    }
   ],
-  "FileHash": "{FA1D0F4F-13A8-B9F8-8148-AFE846391CE1}"
+  "FileHash": "{830CBFF0-0EE7-C904-1DF9-6C4CE1FE2D9C}"
  }
 }

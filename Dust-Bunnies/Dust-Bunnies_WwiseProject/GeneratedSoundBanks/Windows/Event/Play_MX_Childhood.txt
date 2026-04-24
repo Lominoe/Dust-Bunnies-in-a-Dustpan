@@ -20,3 +20,6 @@ State	ID	Name	State Group			Notes
 	4212171422	Snapshot9	Scene			
 	4212171423	Snapshot8	Scene			
 
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	993499586	Cold Empty	.cache\84\{84BFE9EF-6DA9-71F2-B3C7-AF070E8DB5C2}.wem	993499586.wem	\Containers\Music Work Unit\Music\Cold Empty\Cold Empty\Cold Empty	
+

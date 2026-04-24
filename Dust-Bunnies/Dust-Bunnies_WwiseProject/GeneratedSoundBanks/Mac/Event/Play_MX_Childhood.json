@@ -10,19 +10,37 @@
     "Type": "Event",
     "GUID": "{202C98C0-29C9-4172-BBD4-4878CFA0A5DB}",
     "Language": "SFX",
-    "Hash": "{E7FB8E97-9936-A07D-A135-3A7481B65E7F}",
+    "Hash": "{A0131A5E-9EAA-CCC8-E0DB-950CBC195D5C}",
     "ObjectPath": "Play_MX_Childhood",
     "ShortName": "Play_MX_Childhood",
     "Path": "Event/Play_MX_Childhood.bnk",
     "Media": [
      {
-      "Id": "25738766",
+      "Id": "10160456",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "idea2.wav",
-      "Path": "Media/25738766.wem",
-      "CachePath": "7E/{7EEBB8A1-EF77-729F-7D2B-2E8828E593B0}.wem"
+      "ShortName": "preclimax.wav",
+      "Path": "Media/10160456.wem",
+      "CachePath": "DA/{DA25A9E0-B23B-FD71-E0C7-D1B1D75E205D}.wem"
+     },
+     {
+      "Id": "144618686",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "ElodieMotif.wav",
+      "Path": "Media/144618686.wem",
+      "CachePath": "B8/{B87F3A2B-4066-F220-469D-6A30EBF8BF3D}.wem"
+     },
+     {
+      "Id": "254838844",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "sadadultelodie.wav",
+      "Path": "Media/254838844.wem",
+      "CachePath": "4F/{4F859B28-6AD6-F51B-E6EC-A1787788164F}.wem"
      },
      {
       "Id": "369819652",
@@ -31,7 +49,61 @@
       "Location": "Loose",
       "ShortName": "childhoodelodie.wav",
       "Path": "Media/369819652.wem",
-      "CachePath": "93/{93B8DF02-90FD-8286-8E96-BA6C85F564BA}.wem"
+      "CachePath": "A5/{A540CA43-58F3-610D-EAC7-4AD612E388A8}.wem"
+     },
+     {
+      "Id": "419634899",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Fireworks.wav",
+      "Path": "Media/419634899.wem",
+      "CachePath": "23/{23956A7C-F9A4-46A0-F6FD-4B8270E7CEB3}.wem"
+     },
+     {
+      "Id": "434520805",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "climax.wav",
+      "Path": "Media/434520805.wem",
+      "CachePath": "07/{07CCAD60-0D5C-073C-B7CF-5D452D5D1B2B}.wem"
+     },
+     {
+      "Id": "467729287",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "NostalgicFinal.wav",
+      "Path": "Media/467729287.wem",
+      "CachePath": "B7/{B783B1B0-11C3-2134-60EF-FC5D5E991081}.wem"
+     },
+     {
+      "Id": "835089959",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "adultelodie.wav",
+      "Path": "Media/835089959.wem",
+      "CachePath": "3A/{3A84E0AD-62FD-9382-FE02-954F9E2313F5}.wem"
+     },
+     {
+      "Id": "993499586",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Cold Empty.wav",
+      "Path": "Media/993499586.wem",
+      "CachePath": "84/{84BFE9EF-6DA9-71F2-B3C7-AF070E8DB5C2}.wem"
+     },
+     {
+      "Id": "1002149595",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "DustBunnies_EndCredits_M4.wav",
+      "Path": "Media/1002149595.wem",
+      "CachePath": "6A/{6A14353B-9D68-DC3F-5230-FC9F08C18756}.wem"
      },
      {
       "Id": "1056537027",
@@ -40,7 +112,7 @@
       "Location": "Loose",
       "ShortName": "ES_Communications, Static, Analog, Radio, Buzz, Noise, SW - Epidemic Sound.wav",
       "Path": "Media/1056537027.wem",
-      "CachePath": "13/{13EB850B-5CCF-7E7C-AEA6-AAD94720C928}.wem"
+      "CachePath": "94/{9473DD8A-CEC1-EDE0-6A11-614D3C20D5BF}.wem"
      }
     ],
     "Events": [
@@ -61,7 +133,7 @@
         },
         "MediaRefs": [
          {
-          "Id": "369819652"
+          "Id": "144618686"
          }
         ]
        },
@@ -74,7 +146,7 @@
         },
         "MediaRefs": [
          {
-          "Id": "1056537027"
+          "Id": "369819652"
          }
         ]
        },
@@ -87,7 +159,137 @@
         },
         "MediaRefs": [
          {
-          "Id": "25738766"
+          "Id": "467729287"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1926883983",
+         "Id": "4212171415",
+         "GUID": "{ABEBC7D1-1837-4AB9-A416-C9E9978EABAE}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "993499586"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1926883983",
+         "Id": "4212171410",
+         "GUID": "{E73CCE6A-635C-45B4-83AA-AD8CD848F038}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "419634899"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1926883983",
+         "Id": "4212171409",
+         "GUID": "{E7480DB2-593E-4F8E-B805-A5E01A027566}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "835089959"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1926883983",
+         "Id": "4212171411",
+         "GUID": "{77AED6EA-A8E3-4084-9A07-13F06370386E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "467729287"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1926883983",
+         "Id": "4212171423",
+         "GUID": "{F3CF013D-FBFE-4E68-9C6B-F96B3C4004CD}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "1056537027"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1926883983",
+         "Id": "3509580306",
+         "GUID": "{045F5ED5-A242-4CD2-8917-B3F2688CFF61}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "434520805"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1926883983",
+         "Id": "3509580307",
+         "GUID": "{7AB3AD99-9CA9-46C9-9328-1BD8DD5A49D3}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "835089959"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1926883983",
+         "Id": "3509580304",
+         "GUID": "{C676EE26-02A7-4A77-94B3-913C85DFE9C9}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "1002149595"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1926883983",
+         "Id": "4212171422",
+         "GUID": "{F0F4BEB1-442F-4263-A365-E8B0F6ECCB4D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "10160456"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1926883983",
+         "Id": "4212171408",
+         "GUID": "{0916282F-59D8-409B-AE91-6ACDBD9F8264}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "254838844"
          }
         ]
        }
@@ -190,6 +392,6 @@
     ]
    }
   ],
-  "FileHash": "{46D3D46E-975F-D50B-CC64-B8943D278FC7}"
+  "FileHash": "{3B3418CF-0277-F5C2-AD18-88F34C259A89}"
  }
 }

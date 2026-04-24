@@ -5,6 +5,12 @@
 			<ChildrenList>
 				<SwitchContainer Name="VoiceOver" ID="{4A002ACA-DC86-404C-86EA-91C41AAEA68E}" ShortID="221215874">
 					<PropertyList>
+						<Property Name="InitialDelay" Type="Real64">
+							<ValueList>
+								<Value>0.5</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
 						<Property Name="UserAuxSendVolume0" Type="Real64">
 							<ValueList>
 								<Value>-21</Value>
@@ -103,7 +109,17 @@
 						</Sound>
 						<Sound Name="dlg_cici_06_v01" ID="{F3F956EE-4B30-4F45-A2FC-04F9AAEE8DBB}" ShortID="345036644">
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.25</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -975,6 +991,34 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{153A53ED-E20F-4F28-8E2B-10DD57FD3299}" ShortID="880134738">
+								<ReferenceList>
+									<Reference Name="Effect">
+										<Custom>
+											<Effect Name="Parametric EQ (Custom)" ID="{075DE09A-F3B1-46D8-9E96-A672EFC19E7A}" ShortID="37826124" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<PropertyList>
+													<Property Name="FilterTypeBand4" Type="int32" Value="7"/>
+													<Property Name="FrequencyBand1" Type="Real32" Value="105.7798"/>
+													<Property Name="FrequencyBand2" Type="Real32" Value="904.3893"/>
+													<Property Name="FrequencyBand3" Type="Real32" Value="2200.139"/>
+													<Property Name="FrequencyBand4" Type="Real32" Value="11998.76"/>
+													<Property Name="GainBand1" Type="Real32" Value="-3.230769"/>
+													<Property Name="GainBand2" Type="Real32" Value="-3.051282"/>
+													<Property Name="GainBand3" Type="Real32" Value="-4.794872"/>
+													<Property Name="NumBands" Type="int32" Value="4"/>
+													<Property Name="OnOffBand3" Type="bool" Value="True"/>
+													<Property Name="OnOffBand4" Type="bool" Value="True"/>
+													<Property Name="QFactorBand4" Type="Real32" Value="0.6900022"/>
+												</PropertyList>
+											</Effect>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+						</ObjectList>
+					</ObjectLists>
 					<GroupingInfo>
 						<GroupingBehaviorList>
 							<GroupingBehavior>

@@ -10,7 +10,8 @@ public class SceneLoader : MonoBehaviour
     void Start()
     {
         GameManager.OnLoadNextSnapshot += LoadNextScene;
-        GameManager.OnLoadNextSnapshot += LoadPreviousScene;
+        GameManager.OnLoadPreviousSnapshot += LoadPreviousScene;
+        GameManager.OnRestartGame += RestartGame;
     }
 
     public void LoadNextScene()
@@ -25,10 +26,15 @@ public class SceneLoader : MonoBehaviour
         StartCoroutine(LoadScene(index));
         Cleanup();
     }
+    public void RestartGame() {
+        StartCoroutine(LoadScene(0));
+        Cleanup();
+    }
 
     private void Cleanup() {
         GameManager.OnLoadNextSnapshot -= LoadNextScene;
-        GameManager.OnLoadNextSnapshot -= LoadPreviousScene;
+        GameManager.OnLoadPreviousSnapshot -= LoadPreviousScene;
+        GameManager.OnRestartGame -= RestartGame;
     }
 
     private IEnumerator LoadScene(int index)

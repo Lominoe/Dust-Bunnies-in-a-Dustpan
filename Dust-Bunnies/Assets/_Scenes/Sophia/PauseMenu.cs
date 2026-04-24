@@ -11,7 +11,6 @@ public class PauseMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Debug.Log("Pausing");
             Pause();
         }
     }
@@ -44,7 +43,8 @@ public class PauseMenu : MonoBehaviour
     {
         //reset game manager and journal (probably need custom function in Journal for hard reset
         //Debug.LogWarning("Instantiation not complete: must hard-reset journal and game manager (when it exists)");
-        QuitHome();
+        GameManager.RestartGame();
+        Time.timeScale = 1f;
     }
     public void QuitHome()
     {

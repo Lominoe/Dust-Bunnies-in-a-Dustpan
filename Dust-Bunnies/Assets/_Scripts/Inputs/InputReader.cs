@@ -38,6 +38,7 @@ public class InputReader : MonoBehaviour
     void Start() {
         // cleanup for snapshot switching
         GameManager.OnLoadNextSnapshot += OnDisable;
+        GameManager.OnLoadPreviousSnapshot += OnDisable;
     }
 
     void OnEnable() {

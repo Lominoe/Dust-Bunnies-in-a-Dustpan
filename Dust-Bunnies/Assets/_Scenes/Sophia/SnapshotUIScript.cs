@@ -33,7 +33,7 @@ public class SnapshotUIScript : MonoBehaviour
         for (int i = 0; i < numbers.Count; i++)
         {
             numberpos.Add(numbers[i].rectTransform.anchoredPosition);
-            Debug.Log(numberpos[i]);
+            
         }
         Expand();
 
@@ -71,6 +71,11 @@ public class SnapshotUIScript : MonoBehaviour
             }
         }   
     }
+
+    void OnDisable() {
+        CleanUp();
+    }
+
     public void Expand()
     {
         //assumes UI is in a compressed state
@@ -175,7 +180,7 @@ public class SnapshotUIScript : MonoBehaviour
         }
         direction = 1;
         Expand();
-
+        CleanUp();
     }
     public void DecrementSnapshot()
     {
@@ -198,6 +203,7 @@ public class SnapshotUIScript : MonoBehaviour
             }
         }
         Expand();
+        CleanUp();
     }
 
     private void UpdateSnapshotUI() {

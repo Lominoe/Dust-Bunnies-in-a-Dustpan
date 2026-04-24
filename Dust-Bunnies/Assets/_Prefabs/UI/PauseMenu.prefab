@@ -12,13 +12,13 @@ GameObject:
   - component: {fileID: 1850317994288694011}
   - component: {fileID: 5046136462058201483}
   - component: {fileID: 1822370878808380896}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: QuitHome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4556902948562009972
 RectTransform:
   m_ObjectHideFlags: 0
@@ -145,7 +145,7 @@ GameObject:
   - component: {fileID: 6896341221658855923}
   - component: {fileID: 8165535316202967909}
   - component: {fileID: 662018272901920091}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Restart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 1625087495708075828}
   - component: {fileID: 6508741931672967497}
   - component: {fileID: 2971563762191891755}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -291,7 +291,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2187424371470670653}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -398,7 +398,7 @@ GameObject:
   - component: {fileID: 4138278878145978516}
   - component: {fileID: 4689053154297058066}
   - component: {fileID: 4872656560197427124}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Resume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -530,7 +530,7 @@ GameObject:
   - component: {fileID: 7705243590851334736}
   - component: {fileID: 6536960473852590024}
   - component: {fileID: 3747342258685288748}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -668,7 +668,7 @@ GameObject:
   - component: {fileID: 8865282419556686019}
   - component: {fileID: 1464453969113763665}
   - component: {fileID: 9175630935369091985}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: PauseCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -772,7 +772,7 @@ GameObject:
   - component: {fileID: 4039375593242210553}
   - component: {fileID: 474240245205478382}
   - component: {fileID: 4907911279654868300}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -909,7 +909,7 @@ GameObject:
   - component: {fileID: 1666506203828070658}
   - component: {fileID: 6476126880371203998}
   - component: {fileID: 7180298065466875459}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

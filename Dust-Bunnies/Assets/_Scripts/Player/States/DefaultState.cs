@@ -13,8 +13,12 @@ public class DefaultState : PlayerState
 
         input.SwitchMaps(input.Maps.Default);
         input.OnInteractPerformed += OnInteract;
-        input.OnNextSnapshotPerformed += NextSnapshot;
-        input.OnPreviousSnapshotPerformed += PreviousSnapshot;
+
+        // TODO: jank jank jank
+        if (GameManager.CurrentSnapshotNumber != 0) {
+            input.OnNextSnapshotPerformed += NextSnapshot;
+            input.OnPreviousSnapshotPerformed += PreviousSnapshot;
+        }
 
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
@@ -50,10 +54,10 @@ public class DefaultState : PlayerState
     }
 
     private void NextSnapshot() {
-        GameManager.NextSnapshot();
+        GameManager.ChangeSnapshot(1);
     }
 
     private void PreviousSnapshot() {
-        GameManager.PreviousSnapshot();
+        GameManager.ChangeSnapshot(-1);
     }
 }

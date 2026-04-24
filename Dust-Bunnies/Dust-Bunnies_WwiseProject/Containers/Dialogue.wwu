@@ -7,7 +7,7 @@
 					<PropertyList>
 						<Property Name="InitialDelay" Type="Real64">
 							<ValueList>
-								<Value>0.5</Value>
+								<Value>0.75</Value>
 							</ValueList>
 						</Property>
 						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
@@ -84,6 +84,11 @@
 						</Sound>
 						<Sound Name="dlg_cici_05_v01" ID="{F18334D0-26BF-4400-AC60-9DC0AE44CD94}" ShortID="932965721">
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>2.5</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsVoice" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -144,6 +149,11 @@
 						</Sound>
 						<Sound Name="dlg_cici_07_v01" ID="{A75AC716-2C80-478F-8499-F0A033413702}" ShortID="860908674">
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsVoice" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -369,6 +379,11 @@
 						</Sound>
 						<Sound Name="dlg_cici_17_v01" ID="{E2A95DE5-C10E-4D4A-B8C4-5AF1AEB7848E}" ShortID="856314038">
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsVoice" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -394,7 +409,17 @@
 						</Sound>
 						<Sound Name="dlg_cici_18_v01" ID="{7CAE6D29-8979-4AFB-A208-1AE979EB8879}" ShortID="704529080">
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -719,6 +744,11 @@
 						</Sound>
 						<Sound Name="dlg_cici_32_v01" ID="{8E6E7DF4-97DE-4EFF-B7F8-F6D8B6E97060}" ShortID="945264486">
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsVoice" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -994,6 +1024,9 @@
 					<ObjectLists>
 						<ObjectList Name="Effects">
 							<EffectSlot Name="" ID="{153A53ED-E20F-4F28-8E2B-10DD57FD3299}" ShortID="880134738">
+								<PropertyList>
+									<Property Name="Render" Type="bool" Value="True"/>
+								</PropertyList>
 								<ReferenceList>
 									<Reference Name="Effect">
 										<Custom>
@@ -1004,12 +1037,15 @@
 													<Property Name="FrequencyBand2" Type="Real32" Value="904.3893"/>
 													<Property Name="FrequencyBand3" Type="Real32" Value="2200.139"/>
 													<Property Name="FrequencyBand4" Type="Real32" Value="11998.76"/>
+													<Property Name="FrequencyBand5" Type="Real32" Value="265.3451"/>
 													<Property Name="GainBand1" Type="Real32" Value="-3.230769"/>
 													<Property Name="GainBand2" Type="Real32" Value="-3.051282"/>
 													<Property Name="GainBand3" Type="Real32" Value="-4.794872"/>
-													<Property Name="NumBands" Type="int32" Value="4"/>
+													<Property Name="GainBand5" Type="Real32" Value="-2.820513"/>
+													<Property Name="NumBands" Type="int32" Value="5"/>
 													<Property Name="OnOffBand3" Type="bool" Value="True"/>
 													<Property Name="OnOffBand4" Type="bool" Value="True"/>
+													<Property Name="OnOffBand5" Type="bool" Value="True"/>
 													<Property Name="QFactorBand4" Type="Real32" Value="0.6900022"/>
 												</PropertyList>
 											</Effect>

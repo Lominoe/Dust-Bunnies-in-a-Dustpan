@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A8C42F77-7FAA-4399-B3C5-5F7DF3F661B0}" SchemaVersion="133">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{A8C42F77-7FAA-4399-B3C5-5F7DF3F661B0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A8C42F77-7FAA-4399-B3C5-5F7DF3F661B0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{C59FEB18-C400-46F7-A1AE-BCFF701B6624}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_MX_Childhood" ID="{202C98C0-29C9-4172-BBD4-4878CFA0A5DB}" WorkUnitID="{FC1A7273-D75F-43A7-A8EE-2F04ED5E8F6B}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_music_box" ID="{1F7F56A5-DF69-449D-9642-624062226223}" WorkUnitID="{FC1A7273-D75F-43A7-A8EE-2F04ED5E8F6B}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_music_box" ID="{34E88DF4-49B1-4370-B8E2-6BFA511B1AF9}" WorkUnitID="{FC1A7273-D75F-43A7-A8EE-2F04ED5E8F6B}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

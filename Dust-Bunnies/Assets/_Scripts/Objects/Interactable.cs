@@ -9,9 +9,14 @@ using UnityEngine;
 public class Interactable : MonoBehaviour
 {
     public string Dialogue = null;
-    [SerializeField] private AudioClip audioClip;
+    [SerializeField] private AK.Wwise.Switch lineSwitch;
+    [SerializeField] private AK.Wwise.Event interactEvent;
+
     // TODO: temp to make the system work again then revisit a better way to pass info
     public virtual void Interact(Transform playerCam, float moveTime) {
+        lineSwitch?.SetValue(gameObject);
+        interactEvent?.Post(gameObject);
+
         try {
             DialogueManager.Instance.RunDialogue(Dialogue);
 

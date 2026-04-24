@@ -103,9 +103,9 @@
 				</Event>
 				<Event Name="Play_VoiceOver" ID="{C1BBAD37-C5B0-47F1-9484-E71664184B52}">
 					<PropertyList>
-						<Property Name="InstanceLimit" Type="int16">
+						<Property Name="CooldownTime" Type="Real32">
 							<ValueList>
-								<Value>1</Value>
+								<Value>4.7</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -117,6 +117,75 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="VoiceOver" ID="{4A002ACA-DC86-404C-86EA-91C41AAEA68E}" WorkUnitID="{3C725967-0A9D-44F9-AF33-1F14F2C16EAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_music_box" ID="{1F7F56A5-DF69-449D-9642-624062226223}">
+					<PropertyList>
+						<Property Name="InstanceLimit" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{00B5FA44-BCF3-4679-9784-8EFD3A48D1BA}" ShortID="693698335">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music Box" ID="{4E87CF54-AC59-429B-B3E6-535CE7338232}" WorkUnitID="{5DDF8A02-71F0-4FB3-9BDC-786385EDC375}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_music_box" ID="{34E88DF4-49B1-4370-B8E2-6BFA511B1AF9}">
+					<ChildrenList>
+						<Action Name="" ID="{57C6A341-A618-40C1-B59B-B31FD8D3B45B}" ShortID="1006203120">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music Box" ID="{4E87CF54-AC59-429B-B3E6-535CE7338232}" WorkUnitID="{5DDF8A02-71F0-4FB3-9BDC-786385EDC375}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Firework" ID="{6714B61F-BB7F-49FD-B967-EDF97BCBB4E0}">
+					<ChildrenList>
+						<Action Name="" ID="{BEABFB0C-8431-43C5-A3EA-FF4CCE94FD0C}" ShortID="743361111">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Whistle" ID="{05F71E57-5A8F-41FC-9E9D-C804AE2E084A}" WorkUnitID="{43C2252E-DCD3-44B3-A3E7-636268BFE8A3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B6F0FA39-3555-4958-B99C-6769E113C729}" ShortID="289712951">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{03EACB5D-0018-4C67-8824-11B63376ABF8}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-0.25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explosion" ID="{7F0DDCB2-BAA3-4197-96CE-5164DE27D814}" WorkUnitID="{43C2252E-DCD3-44B3-A3E7-636268BFE8A3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

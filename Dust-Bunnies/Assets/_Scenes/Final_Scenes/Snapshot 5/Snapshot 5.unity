@@ -1266,6 +1266,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 22.969
       objectReference: {fileID: 0}
+    - target: {fileID: 9118684959630436912, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.45367432
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1287,6 +1291,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1585769993744308044, guid: c380d9ea340d6a94da5fc04f55f47632, type: 3}
+      propertyPath: lineSwitch.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 168e7b6ad55378446a5bb5dc62dad2d5, type: 2}
+    - target: {fileID: 1585769993744308044, guid: c380d9ea340d6a94da5fc04f55f47632, type: 3}
+      propertyPath: interactEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 0ccfe6eb0b4330b44beb492babc42efe, type: 2}
+    - target: {fileID: 3245595664960126392, guid: c380d9ea340d6a94da5fc04f55f47632, type: 3}
+      propertyPath: lineSwitch.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 1da1cfeefffee064da90d6704dfefe67, type: 2}
+    - target: {fileID: 3245595664960126392, guid: c380d9ea340d6a94da5fc04f55f47632, type: 3}
+      propertyPath: interactEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 0ccfe6eb0b4330b44beb492babc42efe, type: 2}
     - target: {fileID: 7210588362090524055, guid: c380d9ea340d6a94da5fc04f55f47632, type: 3}
       propertyPath: m_Name
       value: Art

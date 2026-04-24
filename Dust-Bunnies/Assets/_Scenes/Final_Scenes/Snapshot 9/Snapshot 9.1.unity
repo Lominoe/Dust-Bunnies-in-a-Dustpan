@@ -480,6 +480,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1755478044232866725, guid: 39e068a8f27b94445853c80f24a86f4a, type: 3}
+      propertyPath: lineSwitch.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 076952bb168cab94d9ec5a28b028c9fc, type: 2}
+    - target: {fileID: 1755478044232866725, guid: 39e068a8f27b94445853c80f24a86f4a, type: 3}
+      propertyPath: interactEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 0ccfe6eb0b4330b44beb492babc42efe, type: 2}
     - target: {fileID: 4893276294621531613, guid: 39e068a8f27b94445853c80f24a86f4a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5170684
@@ -617,6 +625,10 @@ PrefabInstance:
       propertyPath: sceneLoader
       value: 
       objectReference: {fileID: 1565373631}
+    - target: {fileID: 9118684959630436912, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.45367432
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

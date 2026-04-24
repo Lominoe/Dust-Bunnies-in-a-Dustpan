@@ -12,6 +12,16 @@
 						<Property Name="Threshold" Type="Real32" Value="-47.6"/>
 					</PropertyList>
 				</Effect>
+				<Effect Name="MX_AMB_Ducking" ID="{239CCD98-6A21-48B8-8593-26BD07FACFD2}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.75"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="GameParameter">
+							<ObjectRef Name="RTPC_MX_AMB_Ducking" ID="{A9841535-26FC-472D-A7EF-9324F3172592}" WorkUnitID="{1084BDEC-3701-4C54-B748-D1FB0B09AB5E}"/>
+						</Reference>
+					</ReferenceList>
+				</Effect>
 			</ChildrenList>
 		</WorkUnit>
 	</Effects>

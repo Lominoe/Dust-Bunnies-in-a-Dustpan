@@ -1,8 +1,10 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	1926883983	Scene			\Default Work Unit\Scene	
+	2785641797	MusicBox			\Default Work Unit\MusicBox	
 
 State	ID	Name	State Group			Notes
 	748895195	None	Scene			
+	2579478339	EndCredit	Scene			
 	3509580304	Snapshot12	Scene			
 	3509580306	Snapshot10	Scene			
 	3509580307	Snapshot11	Scene			
@@ -16,6 +18,12 @@ State	ID	Name	State Group			Notes
 	4212171415	Snapshot0	Scene			
 	4212171422	Snapshot9	Scene			
 	4212171423	Snapshot8	Scene			
+	748895195	None	MusicBox			
+	930712164	Off	MusicBox			
+	1651971902	On	MusicBox			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1905946137	RTPC_MX_AMB_Ducking			\Default Work Unit\RTPC_MX_AMB_Ducking	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	85412153	Ambience			\Default Work Unit\Main Audio Bus\Ambience	
@@ -34,6 +42,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	42698580	Echoes_Linear (Custom)	Wwise Delay			
 	914620648	Parametric EQ (Custom)	Wwise Parametric EQ			
 	2901166873	Footstep_Compressor	Wwise Compressor			
+	2961606443	MX_AMB_Ducking	Wwise Meter			
 	2995775460	Room_Small	Wwise RoomVerb			
 	3216246379	Space_Dreaming	Wwise RoomVerb			
 

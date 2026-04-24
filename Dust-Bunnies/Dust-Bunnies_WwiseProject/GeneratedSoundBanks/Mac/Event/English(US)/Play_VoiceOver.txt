@@ -38,6 +38,3 @@ Switch	ID	Name	Switch Group			Notes
 	2054046798	Line3	Line			
 	2054046799	Line2	Line			
 
-Effect plug-ins	ID	Name	Type				Notes
-	37826124	Parametric EQ (Custom)	Wwise Parametric EQ			
-

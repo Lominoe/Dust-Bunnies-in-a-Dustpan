@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{E5CC99EE-C26C-1F07-7A52-D66670B9EA97}",
+    "Hash": "{87140D42-C1D3-63EC-7BFA-0F79193949EC}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -41,6 +41,14 @@
        "GUID": "{6F6022D4-981D-4F8B-B50A-6C54F53E0B12}",
        "LibName": "Wwise Compressor",
        "LibId": "7077891"
+      },
+      {
+       "Id": "2961606443",
+       "Name": "MX_AMB_Ducking",
+       "ObjectPath": "\\Effects\\Default Work Unit\\MX_AMB_Ducking",
+       "GUID": "{239CCD98-6A21-48B8-8593-26BD07FACFD2}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
       },
       {
        "Id": "2995775460",
@@ -132,7 +140,14 @@
       "Id": "3930136735",
       "Name": "Dialogue",
       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Dialogue",
-      "GUID": "{3F45D375-691E-42D6-AF47-94578729868A}"
+      "GUID": "{3F45D375-691E-42D6-AF47-94578729868A}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2961606443"
+        }
+       ]
+      }
      },
      {
       "Id": "3991942870",
@@ -175,6 +190,12 @@
      }
     ],
     "GameParameters": [
+     {
+      "Id": "1905946137",
+      "Name": "RTPC_MX_AMB_Ducking",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_MX_AMB_Ducking",
+      "GUID": "{A9841535-26FC-472D-A7EF-9324F3172592}"
+     },
      {
       "Id": "2460978563",
       "Name": "CandlePan",
@@ -278,6 +299,32 @@
         "Name": "Snapshot8",
         "ObjectPath": "\\States\\Default Work Unit\\Scene\\Snapshot8",
         "GUID": "{F3CF013D-FBFE-4E68-9C6B-F96B3C4004CD}"
+       }
+      ]
+     },
+     {
+      "Id": "2785641797",
+      "Name": "MusicBox",
+      "ObjectPath": "\\States\\Default Work Unit\\MusicBox",
+      "GUID": "{C9D090F6-E253-4426-A9DC-0B89D297DD3B}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicBox\\None",
+        "GUID": "{490593E5-0F9A-4914-8C3B-B6A49BE119F4}"
+       },
+       {
+        "Id": "930712164",
+        "Name": "Off",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicBox\\Off",
+        "GUID": "{F98D5FA3-93A5-4B2E-974F-61975DA001FF}"
+       },
+       {
+        "Id": "1651971902",
+        "Name": "On",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicBox\\On",
+        "GUID": "{EA292BB9-D476-4AA2-813D-42D5977EAD05}"
        }
       ]
      }
@@ -506,6 +553,6 @@
     ]
    }
   ],
-  "FileHash": "{0153B4C6-27B5-5549-30D1-FC10BB7A1BBA}"
+  "FileHash": "{4BC7793E-5C94-75E8-159B-0500581CAD53}"
  }
 }

@@ -14,6 +14,10 @@ public class FireworkSpawner : MonoBehaviour {
     [SerializeField] private float tiltAmount = 10f;
     [SerializeField] private float spawnRadius = 20f;
     [SerializeField] private float spawnRate = 2f;
+
+    [Header("Audio")]
+    [SerializeField] private AK.Wwise.Event fireworkEvent;
+    [SerializeField] private AK.Wwise.Event finaleFireworkEvent;
     
     [Header("Color Bank")]
     [SerializeField] private List<ColorBank> colorBank;
@@ -40,20 +44,20 @@ public class FireworkSpawner : MonoBehaviour {
 
     public void PlayFinale() {
         _inFinale = true;
-        SpawnFirework(finale);
+        SpawnFirework(finale, true);
     }
     
     //Calls automatically on loop. Stops during the finale.
     private IEnumerator SpawnLoop() {
         while (!_inFinale) {
-            SpawnFirework(fireworkPrefab);
+            SpawnFirework(fireworkPrefab, false);
 
             float delay = 1f / spawnRate;
             yield return new WaitForSeconds(delay);
         }
     }
 
-    private void SpawnFirework(Firework firework) {
+    private void SpawnFirework(Firework firework, bool isFinale) {
         Vector2 circle = Random.insideUnitCircle * spawnRadius;
         Vector3 spawnPos = transform.position + new Vector3(circle.x, 0f, circle.y);
 
@@ -64,6 +68,9 @@ public class FireworkSpawner : MonoBehaviour {
         );
         
         Firework fw = Instantiate(firework, spawnPos, rotation, transform);
+
+        AK.Wwise.Event eventToPost = isFinale ? finaleFireworkEvent : fireworkEvent;
+        eventToPost?.Post(fw.gameObject);
 
         int index = Random.Range(0, colorBank.Count);
         fw.Activate(colorBank[index].HeadColor, colorBank[index].TailColor);

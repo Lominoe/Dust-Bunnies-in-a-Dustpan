@@ -24,7 +24,6 @@ public class DialogueManager : MonoBehaviour
         else
         {
             _instance = this;
-            Debug.Log("Dialogue manager instance created");
         }
         if (canvas != null)
         {

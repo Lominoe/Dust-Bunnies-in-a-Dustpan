@@ -84,8 +84,212 @@
 								</Bus>
 							</ChildrenList>
 						</Bus>
-						<Bus Name="Music" ID="{775EDE36-C56F-4508-9C5A-ADAD9C4ED199}"/>
-						<Bus Name="Ambience" ID="{81889309-9F76-43EA-A22A-73DFD1D76715}"/>
+						<Bus Name="Music" ID="{775EDE36-C56F-4508-9C5A-ADAD9C4ED199}">
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{BB737DBA-BF5C-4152-83D7-7D4AA31D860D}" ShortID="493583403">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_MX_AMB_Ducking" ID="{A9841535-26FC-472D-A7EF-9324F3172592}" WorkUnitID="{1084BDEC-3701-4C54-B748-D1FB0B09AB5E}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{08D5ED64-3E02-4AB1-BAAB-71FCBA37C818}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-37</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>-30.02532</XPos>
+																<YPos>21</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>21</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+									<RTPC Name="" ID="{48F0156E-83C9-4B3F-AB41-0110F06DD2B4}" ShortID="745075005">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_MX_AMB_Ducking" ID="{A9841535-26FC-472D-A7EF-9324F3172592}" WorkUnitID="{1084BDEC-3701-4C54-B748-D1FB0B09AB5E}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{311F7683-594C-432A-8F71-BDAE326E2D58}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-37</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>-29.83369</XPos>
+																<YPos>-4</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-4</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+						<Bus Name="Ambience" ID="{81889309-9F76-43EA-A22A-73DFD1D76715}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="MusicBox" ID="{C9D090F6-E253-4426-A9DC-0B89D297DD3B}"/>
+										<StateGroupInfo Name="" ID="{640459B3-F127-42CB-89FF-D33C38B7E644}" ShortID="1018272897"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="None" ID="{490593E5-0F9A-4914-8C3B-B6A49BE119F4}"/>
+										<CustomState Name="" ID="{4574AA0E-B0EC-4E6D-8C4D-1E90AD344477}" ShortID="327488730"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="On" ID="{EA292BB9-D476-4AA2-813D-42D5977EAD05}"/>
+										<CustomState Name="" ID="{D569C765-7BFF-4388-965F-01150E08B210}" ShortID="722017636">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Off" ID="{F98D5FA3-93A5-4B2E-974F-61975DA001FF}"/>
+										<CustomState Name="" ID="{336360E3-73A3-4036-BD04-FA22BF86ED9E}" ShortID="244503089"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{A16DDAEE-5CD0-4E31-BF08-967CB5443D5C}" ShortID="963943936">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_MX_AMB_Ducking" ID="{A9841535-26FC-472D-A7EF-9324F3172592}" WorkUnitID="{1084BDEC-3701-4C54-B748-D1FB0B09AB5E}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{CBE7D5B7-760C-4472-839C-26DAC9E02D9A}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-37</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>-29.83369</XPos>
+																<YPos>-4</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-4</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+									<RTPC Name="" ID="{9D3242FE-F92E-4855-B54B-CAB1A768E2BD}" ShortID="836918020">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_MX_AMB_Ducking" ID="{A9841535-26FC-472D-A7EF-9324F3172592}" WorkUnitID="{1084BDEC-3701-4C54-B748-D1FB0B09AB5E}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{5D972F6A-A3E5-498E-BCEC-A03EB9D4041A}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-37</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log2</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>-30.02532</XPos>
+																<YPos>21</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>21</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
 						<Bus Name="Dialogue" ID="{3F45D375-691E-42D6-AF47-94578729868A}">
 							<PropertyList>
 								<Property Name="BusVolume" Type="Real64">
@@ -94,6 +298,17 @@
 									</ValueList>
 								</Property>
 							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{0C80E002-5826-438D-9EDB-945C2F2E43BF}" ShortID="1049507963">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+												<ObjectRef Name="MX_AMB_Ducking" ID="{239CCD98-6A21-48B8-8593-26BD07FACFD2}" WorkUnitID="{3166C6A7-BE21-4A7F-AB0A-5C9A9D316501}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
 						</Bus>
 						<AuxBus Name="VoiceOverVerb" ID="{FA315553-A35E-43B4-9205-D6A4A125F4C9}">
 							<ObjectLists>

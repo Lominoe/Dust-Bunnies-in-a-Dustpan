@@ -132,6 +132,8 @@ GameObject:
   - component: {fileID: 37216341}
   - component: {fileID: 37216340}
   - component: {fileID: 37216339}
+  - component: {fileID: 37216343}
+  - component: {fileID: 37216342}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -257,6 +259,64 @@ MonoBehaviour:
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 0e9168f4c58aa624ea52853d1e3aea8a, type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
+--- !u!114 &37216342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37216336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c38ae239f4c6224ab8fae9b56ab2ff0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0ccfe6eb0b4330b44beb492babc42efe, type: 2}
+  useCallbacks: 0
+  stopSoundOnDestroy: 1
+  Callbacks: []
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
+--- !u!114 &37216343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37216336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5804c770bcd8d1449c40014f58d5b84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: da46a9373e26ef6409034292292b2e27, type: 2}
   valueIdInternal: 0
   groupIdInternal: 0
   valueGuidInternal: 
@@ -1270,6 +1330,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 22.969
       objectReference: {fileID: 0}
+    - target: {fileID: 9118684959630436912, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.45367432
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1291,6 +1355,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 218488735846362574, guid: 8e371d972f9cada4cb0ae1785a360089, type: 3}
+      propertyPath: lineSwitch.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 088b51d9371d62d43abe613acb84592f, type: 2}
+    - target: {fileID: 218488735846362574, guid: 8e371d972f9cada4cb0ae1785a360089, type: 3}
+      propertyPath: interactEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 0ccfe6eb0b4330b44beb492babc42efe, type: 2}
     - target: {fileID: 4733352115667994346, guid: 8e371d972f9cada4cb0ae1785a360089, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27.411045
@@ -1331,6 +1403,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5639902728869414702, guid: 8e371d972f9cada4cb0ae1785a360089, type: 3}
+      propertyPath: lineSwitch.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: cbf01a2a32fdc6448816f08827af6710, type: 2}
+    - target: {fileID: 5639902728869414702, guid: 8e371d972f9cada4cb0ae1785a360089, type: 3}
+      propertyPath: interactEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 0ccfe6eb0b4330b44beb492babc42efe, type: 2}
     - target: {fileID: 6819469320623888940, guid: 8e371d972f9cada4cb0ae1785a360089, type: 3}
       propertyPath: m_Name
       value: Art

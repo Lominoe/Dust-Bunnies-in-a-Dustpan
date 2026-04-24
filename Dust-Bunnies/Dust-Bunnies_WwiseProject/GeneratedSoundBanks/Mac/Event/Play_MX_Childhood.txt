@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1926883983	Scene			\Default Work Unit\Scene	
+	2785641797	MusicBox			\Default Work Unit\MusicBox	
 
 State	ID	Name	State Group			Notes
 	748895195	None	Scene			
@@ -20,6 +21,9 @@ State	ID	Name	State Group			Notes
 	4212171415	Snapshot0	Scene			
 	4212171422	Snapshot9	Scene			
 	4212171423	Snapshot8	Scene			
+	748895195	None	MusicBox			
+	930712164	Off	MusicBox			
+	1651971902	On	MusicBox			
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	993499586	Cold Empty	.cache\84\{84BFE9EF-6DA9-71F2-B3C7-AF070E8DB5C2}.wem	993499586.wem	\Containers\Music Work Unit\Music\Cold Empty\Cold Empty\Cold Empty	

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C1BBAD37-C5B0-47F1-9484-E71664184B52}",
     "Language": "English(US)",
-    "Hash": "{9D625A44-E937-D5AC-4C82-0A9C662F9A4E}",
+    "Hash": "{9A7DECB7-5CD8-218C-A202-39E9F0DDC647}",
     "ObjectPath": "Play_VoiceOver",
     "ShortName": "Play_VoiceOver",
     "Path": "Event/English(US)/Play_VoiceOver.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_13_v01.wav",
       "Path": "Media/English(US)/6395678.wem",
-      "CachePath": "4A/{4A4D040D-0E3C-7CDF-BDFB-629F6EC543AA}.wem"
+      "CachePath": "E2/{E2682AEE-692B-B3BE-71DC-C849B291A3F0}.wem"
      },
      {
       "Id": "43326813",
@@ -31,7 +31,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_11_v01.wav",
       "Path": "Media/English(US)/43326813.wem",
-      "CachePath": "40/{40F16F46-FA25-2643-0705-DF477D204502}.wem"
+      "CachePath": "73/{738BB15F-3699-B7CC-E17E-03E5E7034263}.wem"
      },
      {
       "Id": "44487178",
@@ -40,7 +40,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_04_v02.wav",
       "Path": "Media/English(US)/44487178.wem",
-      "CachePath": "FE/{FEBBB37F-CE1F-E06B-3407-0A910DDA1A01}.wem"
+      "CachePath": "EA/{EA8A01DA-5BF0-2104-84A2-852A660F3823}.wem"
      },
      {
       "Id": "74870242",
@@ -49,7 +49,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_32_v01.wav",
       "Path": "Media/English(US)/74870242.wem",
-      "CachePath": "98/{98A1468A-3B32-6ECD-AABF-8B283708DE91}.wem"
+      "CachePath": "69/{694BD609-69E1-5197-2F78-A692B3CEFC8E}.wem"
      },
      {
       "Id": "163945368",
@@ -58,7 +58,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_14_v01.wav",
       "Path": "Media/English(US)/163945368.wem",
-      "CachePath": "04/{0487F380-BC8F-2B48-B794-90ECC92CD0EC}.wem"
+      "CachePath": "FB/{FB907BD4-BC58-8628-12A2-3B71EB272E6C}.wem"
      },
      {
       "Id": "175862122",
@@ -67,7 +67,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_16_v01.wav",
       "Path": "Media/English(US)/175862122.wem",
-      "CachePath": "BC/{BCB379F9-351A-5235-CE22-A85E412326C4}.wem"
+      "CachePath": "34/{342E8E89-62CC-4624-53ED-623DE76B7BD7}.wem"
      },
      {
       "Id": "180982002",
@@ -76,7 +76,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_07_v01.wav",
       "Path": "Media/English(US)/180982002.wem",
-      "CachePath": "02/{0253A7F7-B8BE-74EC-BE5F-F3AA05B1B7AC}.wem"
+      "CachePath": "0B/{0B1CC1FE-C6CC-1BF0-569A-4FBACEF4D0CE}.wem"
      },
      {
       "Id": "184501439",
@@ -85,7 +85,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_10_v02.wav",
       "Path": "Media/English(US)/184501439.wem",
-      "CachePath": "A3/{A31B5F60-1191-5CAC-C7CC-437B67528115}.wem"
+      "CachePath": "88/{88579E4D-BF59-329A-5848-DDB4DDAE5B28}.wem"
      },
      {
       "Id": "207965947",
@@ -94,7 +94,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_30_v01.wav",
       "Path": "Media/English(US)/207965947.wem",
-      "CachePath": "7A/{7A7AA327-B750-CCE2-BF9F-D78DF954A66A}.wem"
+      "CachePath": "54/{543E1BA5-4173-A7CB-9E79-246F26386BD9}.wem"
      },
      {
       "Id": "208206733",
@@ -103,7 +103,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_09_v01.wav",
       "Path": "Media/English(US)/208206733.wem",
-      "CachePath": "55/{55D70C1B-73BC-94D9-27EA-435F94C234D1}.wem"
+      "CachePath": "8C/{8CCB713C-847F-BCB1-5B47-376504DB9FDD}.wem"
      },
      {
       "Id": "213093308",
@@ -112,7 +112,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v01.wav",
       "Path": "Media/English(US)/213093308.wem",
-      "CachePath": "90/{907926BA-6664-F569-FA6A-B14D363CD598}.wem"
+      "CachePath": "F6/{F64B5794-8725-BF3A-E495-B04188663289}.wem"
      },
      {
       "Id": "316113706",
@@ -121,7 +121,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_25_v01.wav",
       "Path": "Media/English(US)/316113706.wem",
-      "CachePath": "C7/{C79095A6-806A-A042-8262-C84F30DD01FF}.wem"
+      "CachePath": "95/{95655F99-508E-6015-0808-641AC93F02E8}.wem"
      },
      {
       "Id": "327600421",
@@ -130,7 +130,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_21_v01.wav",
       "Path": "Media/English(US)/327600421.wem",
-      "CachePath": "51/{514FC5F6-7865-0EB3-19C1-AF04EA48DA0E}.wem"
+      "CachePath": "C5/{C5F77E9F-0586-6C11-666B-68D1FE2CC876}.wem"
      },
      {
       "Id": "363548345",
@@ -139,7 +139,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_15_v01.wav",
       "Path": "Media/English(US)/363548345.wem",
-      "CachePath": "4D/{4D5087D7-FDE1-6982-5205-16065A3F35E1}.wem"
+      "CachePath": "C9/{C994D05D-5FDD-24E2-3EA2-4CD49BCD450A}.wem"
      },
      {
       "Id": "414074992",
@@ -148,7 +148,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_02_v01.wav",
       "Path": "Media/English(US)/414074992.wem",
-      "CachePath": "3E/{3E243F25-6927-79D3-65DB-DF441A58F756}.wem"
+      "CachePath": "4D/{4DB971E2-3C9C-4EAA-52A3-FEEFFCC81A23}.wem"
      },
      {
       "Id": "444649846",
@@ -157,7 +157,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_23_v01.wav",
       "Path": "Media/English(US)/444649846.wem",
-      "CachePath": "B2/{B2BA1593-1024-1FA0-B6AA-D8DC319312F4}.wem"
+      "CachePath": "A9/{A9DC6E9E-00D5-43CF-FF2C-E30616471039}.wem"
      },
      {
       "Id": "457116347",
@@ -166,7 +166,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v02.wav",
       "Path": "Media/English(US)/457116347.wem",
-      "CachePath": "9B/{9BF041C1-3936-1392-4933-43BDE388B291}.wem"
+      "CachePath": "72/{72C46AD0-63BE-9CAF-CB6A-D57742B6BE9F}.wem"
      },
      {
       "Id": "549332841",
@@ -175,7 +175,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_06_v01.wav",
       "Path": "Media/English(US)/549332841.wem",
-      "CachePath": "FB/{FBF90DF6-034C-A634-6A31-BBE4CF991F1E}.wem"
+      "CachePath": "00/{00A291E9-9638-6261-F8AF-257F86D4CE56}.wem"
      },
      {
       "Id": "551772660",
@@ -184,7 +184,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_19_v01.wav",
       "Path": "Media/English(US)/551772660.wem",
-      "CachePath": "5E/{5E1D13DD-0AA3-E2B4-6420-FE1D87AB6E9F}.wem"
+      "CachePath": "A0/{A0FDC24B-F8B7-1350-7BE1-DD899C84BC4D}.wem"
      },
      {
       "Id": "594283601",
@@ -193,7 +193,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_27_v01.wav",
       "Path": "Media/English(US)/594283601.wem",
-      "CachePath": "64/{648151B8-A3E1-84F0-3D18-9B32C56E15CC}.wem"
+      "CachePath": "21/{21768557-D67F-B1C4-31C2-D28E26BEB0AA}.wem"
      },
      {
       "Id": "626202810",
@@ -202,7 +202,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_05_v01.wav",
       "Path": "Media/English(US)/626202810.wem",
-      "CachePath": "58/{58FC3F0C-B43A-A6A8-D98F-96CD28A44023}.wem"
+      "CachePath": "B8/{B8C01FD2-BF0D-5716-0187-65FFB848A0AE}.wem"
      },
      {
       "Id": "672933900",
@@ -211,7 +211,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_03_v01.wav",
       "Path": "Media/English(US)/672933900.wem",
-      "CachePath": "43/{43503672-D312-73D9-0EAA-CB220633EB0E}.wem"
+      "CachePath": "02/{02947379-292D-6851-4038-0E3C782341FB}.wem"
      },
      {
       "Id": "673419931",
@@ -220,7 +220,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_17_v01.wav",
       "Path": "Media/English(US)/673419931.wem",
-      "CachePath": "7A/{7AF23C67-C38F-B33F-947C-3445CA9A924C}.wem"
+      "CachePath": "02/{02579BDF-15C8-3A0A-A035-F4829C369692}.wem"
      },
      {
       "Id": "699803301",
@@ -229,7 +229,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_26_v01.wav",
       "Path": "Media/English(US)/699803301.wem",
-      "CachePath": "D9/{D91C7A47-3758-738A-4DE1-EB6BB439EAA1}.wem"
+      "CachePath": "B5/{B537D3E9-97EF-8880-72C4-676DC1B63896}.wem"
      },
      {
       "Id": "713818229",
@@ -238,7 +238,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_29_v01.wav",
       "Path": "Media/English(US)/713818229.wem",
-      "CachePath": "59/{59210F38-A299-7C2C-B5C7-8449249A94F0}.wem"
+      "CachePath": "AD/{ADDD0CF5-8388-AE16-4770-4679B66EEDEF}.wem"
      },
      {
       "Id": "728463885",
@@ -247,7 +247,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_04_v01.wav",
       "Path": "Media/English(US)/728463885.wem",
-      "CachePath": "A2/{A214C642-2BFB-F0B0-155B-EC11BD491BB5}.wem"
+      "CachePath": "7D/{7DC8FFF3-F7B7-C80C-95BD-C3EE5C114868}.wem"
      },
      {
       "Id": "749115596",
@@ -256,7 +256,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_22_v01.wav",
       "Path": "Media/English(US)/749115596.wem",
-      "CachePath": "B6/{B605D1E4-1042-75D8-D8BC-8062ABE99B94}.wem"
+      "CachePath": "E7/{E72C0B10-F175-8D50-0DF2-B42C8257416A}.wem"
      },
      {
       "Id": "809304906",
@@ -265,7 +265,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_01_v01.wav",
       "Path": "Media/English(US)/809304906.wem",
-      "CachePath": "4B/{4BDE11A9-2C1B-80E0-4BA4-845A9FAEC522}.wem"
+      "CachePath": "F1/{F1D636E3-7449-B380-1445-F8C834978E70}.wem"
      },
      {
       "Id": "820328979",
@@ -274,7 +274,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_18_v01.wav",
       "Path": "Media/English(US)/820328979.wem",
-      "CachePath": "86/{86F95A75-F7C7-6D61-204E-80A59293B318}.wem"
+      "CachePath": "39/{39C2E3F2-7A7C-C850-B46A-E454F92F3826}.wem"
      },
      {
       "Id": "844335457",
@@ -283,7 +283,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_10_v01.wav",
       "Path": "Media/English(US)/844335457.wem",
-      "CachePath": "1F/{1FB1751C-6F19-01C2-961A-A47275C6B3DF}.wem"
+      "CachePath": "FE/{FE14A64B-78E7-1F2A-618C-1DC492A34702}.wem"
      },
      {
       "Id": "859434792",
@@ -292,7 +292,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_31_v01.wav",
       "Path": "Media/English(US)/859434792.wem",
-      "CachePath": "FC/{FC338142-9D3A-1748-B7F4-EBC06C08B282}.wem"
+      "CachePath": "76/{7661274A-B2DC-9FE1-80C0-255CEEB07D1C}.wem"
      },
      {
       "Id": "881617149",
@@ -301,7 +301,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_24_v01.wav",
       "Path": "Media/English(US)/881617149.wem",
-      "CachePath": "3C/{3CC566D0-96E8-DE7F-3E97-CC3D2EFC7B5C}.wem"
+      "CachePath": "D5/{D50806FB-D4AD-C2BD-F669-129632A49F2F}.wem"
      },
      {
       "Id": "902434494",
@@ -310,7 +310,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_08_v01.wav",
       "Path": "Media/English(US)/902434494.wem",
-      "CachePath": "46/{46CEE0A9-68FC-5F25-BB3A-59F3226F139A}.wem"
+      "CachePath": "96/{960E2348-2F9F-338B-45DB-68530E171254}.wem"
      },
      {
       "Id": "931780316",
@@ -319,7 +319,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_12_v01.wav",
       "Path": "Media/English(US)/931780316.wem",
-      "CachePath": "01/{0121E4D0-B8DD-BA61-309A-CB92E5C78443}.wem"
+      "CachePath": "4A/{4A23DCE1-CF0E-74BF-57ED-8D5D9AE3DBA3}.wem"
      },
      {
       "Id": "974675745",
@@ -328,7 +328,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_28_v01.wav",
       "Path": "Media/English(US)/974675745.wem",
-      "CachePath": "0F/{0F37FD3F-1633-6756-6F74-C1F2978690B8}.wem"
+      "CachePath": "90/{90EA2093-E00F-460D-E71A-80BE9B5257A8}.wem"
      },
      {
       "Id": "1068017370",
@@ -337,21 +337,9 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_03_v02.wav",
       "Path": "Media/English(US)/1068017370.wem",
-      "CachePath": "D9/{D9A41597-A7E4-FAE0-36F8-E181A9181421}.wem"
+      "CachePath": "2A/{2A40526D-AFC7-6A4A-998E-9917965F00F7}.wem"
      }
     ],
-    "Plugins": {
-     "Custom": [
-      {
-       "Id": "37826124",
-       "Name": "Parametric EQ (Custom)",
-       "ObjectPath": "\\Containers\\Dialogue\\VoiceOver\\[Effect Slot [0]: (Parametric EQ)]\\Parametric EQ (Custom)",
-       "GUID": "{075DE09A-F3B1-46D8-9E96-A672EFC19E7A}",
-       "LibName": "Wwise Parametric EQ",
-       "LibId": "6881283"
-      }
-     ]
-    },
     "Events": [
      {
       "Id": "1769700134",
@@ -379,14 +367,7 @@
          {
           "Id": "699803301"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -399,14 +380,7 @@
          {
           "Id": "208206733"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -422,14 +396,7 @@
          {
           "Id": "1068017370"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -442,14 +409,7 @@
          {
           "Id": "820328979"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -462,14 +422,7 @@
          {
           "Id": "713818229"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -482,14 +435,7 @@
          {
           "Id": "673419931"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -502,14 +448,7 @@
          {
           "Id": "809304906"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -522,14 +461,7 @@
          {
           "Id": "6395678"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -542,14 +474,7 @@
          {
           "Id": "163945368"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -562,14 +487,7 @@
          {
           "Id": "316113706"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -582,14 +500,7 @@
          {
           "Id": "551772660"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -602,14 +513,7 @@
          {
           "Id": "931780316"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -622,14 +526,7 @@
          {
           "Id": "363548345"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -642,14 +539,7 @@
          {
           "Id": "414074992"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -662,14 +552,7 @@
          {
           "Id": "549332841"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -682,14 +565,7 @@
          {
           "Id": "626202810"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -702,14 +578,7 @@
          {
           "Id": "594283601"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -722,14 +591,7 @@
          {
           "Id": "74870242"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -745,14 +607,7 @@
          {
           "Id": "728463885"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -765,14 +620,7 @@
          {
           "Id": "859434792"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -785,14 +633,7 @@
          {
           "Id": "881617149"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -805,14 +646,7 @@
          {
           "Id": "444649846"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -825,14 +659,7 @@
          {
           "Id": "974675745"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -845,14 +672,7 @@
          {
           "Id": "43326813"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -868,14 +688,7 @@
          {
           "Id": "844335457"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -888,14 +701,7 @@
          {
           "Id": "902434494"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -911,14 +717,7 @@
          {
           "Id": "457116347"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -931,14 +730,7 @@
          {
           "Id": "207965947"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -951,14 +743,7 @@
          {
           "Id": "749115596"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -971,14 +756,7 @@
          {
           "Id": "180982002"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -991,14 +769,7 @@
          {
           "Id": "327600421"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        },
        {
         "SwitchValue": {
@@ -1011,14 +782,7 @@
          {
           "Id": "175862122"
          }
-        ],
-        "PluginRefs": {
-         "Custom": [
-          {
-           "Id": "37826124"
-          }
-         ]
-        }
+        ]
        }
       ]
      }
@@ -1227,6 +991,6 @@
     ]
    }
   ],
-  "FileHash": "{5C239B94-6C22-8436-7864-2E91620981FC}"
+  "FileHash": "{E93F1116-46FB-98C9-82A9-49D18A5211A2}"
  }
 }

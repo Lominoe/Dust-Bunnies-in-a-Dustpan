@@ -827,6 +827,10 @@ PrefabInstance:
       propertyPath: sceneLoader
       value: 
       objectReference: {fileID: 1857550020}
+    - target: {fileID: 9118684959630436912, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.45367432
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -880,6 +884,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1763121636011814997, guid: 9bf443c6a6bf66a448803e016aac1830, type: 3}
+      propertyPath: lineSwitch.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 4ceaa6ceb892a1949995208a7824709e, type: 2}
+    - target: {fileID: 1763121636011814997, guid: 9bf443c6a6bf66a448803e016aac1830, type: 3}
+      propertyPath: interactEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 0ccfe6eb0b4330b44beb492babc42efe, type: 2}
     - target: {fileID: 2465095559376914048, guid: 9bf443c6a6bf66a448803e016aac1830, type: 3}
       propertyPath: m_Name
       value: Art

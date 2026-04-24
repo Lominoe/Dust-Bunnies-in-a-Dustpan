@@ -67,8 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 281726068ab169e4cbed8a36d5ba777d, type: 2}
-  m_sharedMaterial: {fileID: -7601628461884782888, guid: 281726068ab169e4cbed8a36d5ba777d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6cf2227d350170e48866dbeb371cdf98, type: 2}
+  m_sharedMaterial: {fileID: -7601628461884782888, guid: 6cf2227d350170e48866dbeb371cdf98, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -204,8 +204,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 281726068ab169e4cbed8a36d5ba777d, type: 2}
-  m_sharedMaterial: {fileID: -7601628461884782888, guid: 281726068ab169e4cbed8a36d5ba777d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6cf2227d350170e48866dbeb371cdf98, type: 2}
+  m_sharedMaterial: {fileID: -7601628461884782888, guid: 6cf2227d350170e48866dbeb371cdf98, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -487,7 +487,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3298887462891214409}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
@@ -564,8 +564,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 281726068ab169e4cbed8a36d5ba777d, type: 2}
-  m_sharedMaterial: {fileID: -7601628461884782888, guid: 281726068ab169e4cbed8a36d5ba777d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6cf2227d350170e48866dbeb371cdf98, type: 2}
+  m_sharedMaterial: {fileID: -7601628461884782888, guid: 6cf2227d350170e48866dbeb371cdf98, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -796,8 +796,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 281726068ab169e4cbed8a36d5ba777d, type: 2}
-  m_sharedMaterial: {fileID: -7601628461884782888, guid: 281726068ab169e4cbed8a36d5ba777d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6cf2227d350170e48866dbeb371cdf98, type: 2}
+  m_sharedMaterial: {fileID: -7601628461884782888, guid: 6cf2227d350170e48866dbeb371cdf98, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1008,8 +1008,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 281726068ab169e4cbed8a36d5ba777d, type: 2}
-  m_sharedMaterial: {fileID: -7601628461884782888, guid: 281726068ab169e4cbed8a36d5ba777d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6cf2227d350170e48866dbeb371cdf98, type: 2}
+  m_sharedMaterial: {fileID: -7601628461884782888, guid: 6cf2227d350170e48866dbeb371cdf98, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1220,8 +1220,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Summer
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 281726068ab169e4cbed8a36d5ba777d, type: 2}
-  m_sharedMaterial: {fileID: -7601628461884782888, guid: 281726068ab169e4cbed8a36d5ba777d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6cf2227d350170e48866dbeb371cdf98, type: 2}
+  m_sharedMaterial: {fileID: -7601628461884782888, guid: 6cf2227d350170e48866dbeb371cdf98, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1432,8 +1432,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: age 9
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 281726068ab169e4cbed8a36d5ba777d, type: 2}
-  m_sharedMaterial: {fileID: -7601628461884782888, guid: 281726068ab169e4cbed8a36d5ba777d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6cf2227d350170e48866dbeb371cdf98, type: 2}
+  m_sharedMaterial: {fileID: -7601628461884782888, guid: 6cf2227d350170e48866dbeb371cdf98, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

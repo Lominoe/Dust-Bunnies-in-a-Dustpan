@@ -847,6 +847,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Required Systems
       objectReference: {fileID: 0}
+    - target: {fileID: 3554045838287742995, guid: 76cfc95a5b067e3459f769663415a19a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5153779494005816565, guid: 76cfc95a5b067e3459f769663415a19a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.5239224
@@ -1331,7 +1335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1205533678743235203, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1845076568465629701, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: m_Antialiasing

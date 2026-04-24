@@ -10,16 +10,34 @@ public class SceneLoader : MonoBehaviour
     void Start()
     {
         GameManager.OnLoadNextSnapshot += LoadNextScene;
+        GameManager.OnLoadPreviousSnapshot += LoadPreviousScene;
+        GameManager.OnRestartGame += RestartGame;
     }
 
     public void LoadNextScene()
     {
         int index = SceneManager.GetActiveScene().buildIndex + 1;
-        StartCoroutine(NextScene(index));
-        GameManager.OnLoadNextSnapshot -= LoadNextScene;
+        StartCoroutine(LoadScene(index));
+        Cleanup();
     }
 
-    private IEnumerator NextScene(int index)
+    public void LoadPreviousScene() {
+        int index = SceneManager.GetActiveScene().buildIndex - 1;
+        StartCoroutine(LoadScene(index));
+        Cleanup();
+    }
+    public void RestartGame() {
+        StartCoroutine(LoadScene(0));
+        Cleanup();
+    }
+
+    private void Cleanup() {
+        GameManager.OnLoadNextSnapshot -= LoadNextScene;
+        GameManager.OnLoadPreviousSnapshot -= LoadPreviousScene;
+        GameManager.OnRestartGame -= RestartGame;
+    }
+
+    private IEnumerator LoadScene(int index)
     {
         yield return StartCoroutine(sceneFader.FadeOut());
 

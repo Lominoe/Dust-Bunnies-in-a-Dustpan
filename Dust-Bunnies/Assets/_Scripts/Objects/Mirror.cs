@@ -5,7 +5,6 @@ using UnityEngine.UI;
 public class Mirror : Interactable
 {
     [SerializeField] private SceneFader sceneFader;
-    [SerializeField] private SceneLoader sceneLoader;
     [SerializeField] private DialogueManager dialogueManager;
     [SerializeField] private Camera playerCam;
     [SerializeField] private Camera mirrorCam;
@@ -46,6 +45,6 @@ public class Mirror : Interactable
         dialogueManager.RunDialogue("Alright, let's get to work.");
         yield return new WaitForSeconds(4f);
 
-        sceneLoader.LoadNextScene();
+        GameManager.ChangeSnapshot(1);
     }
 }

@@ -33,13 +33,14 @@ public class SnapshotUIScript : MonoBehaviour
         for (int i = 0; i < numbers.Count; i++)
         {
             numberpos.Add(numbers[i].rectTransform.anchoredPosition);
-            Debug.Log(numberpos[i]);
+            
         }
         Expand();
 
 
         // Edits - Jazz man
         GameManager.OnLoadNextSnapshot += AdvanceSnapshot;
+        GameManager.OnLoadPreviousSnapshot += DecrementSnapshot;
         snapshot = GameManager.CurrentSnapshotNumber;
         UpdateSnapshotUI();
     }
@@ -52,7 +53,6 @@ public class SnapshotUIScript : MonoBehaviour
             if (Vector2.Distance(background.rectTransform.anchoredPosition, initialposbg + movevector) < 0.5)
             {
                 moving = false;
-                Debug.Log("stopped moving");
             }
             else
             {
@@ -71,6 +71,11 @@ public class SnapshotUIScript : MonoBehaviour
             }
         }   
     }
+
+    void OnDisable() {
+        CleanUp();
+    }
+
     public void Expand()
     {
         //assumes UI is in a compressed state
@@ -128,7 +133,6 @@ public class SnapshotUIScript : MonoBehaviour
             StartCoroutine(WaitCompress());
         }
         expanded = true;
-        Debug.LogWarning("Expanding");
     }
     public void Compress()
     {
@@ -176,9 +180,7 @@ public class SnapshotUIScript : MonoBehaviour
         }
         direction = 1;
         Expand();
-
-        // EDITS: jazz man
-        GameManager.OnLoadNextSnapshot -= AdvanceSnapshot;
+        CleanUp();
     }
     public void DecrementSnapshot()
     {
@@ -201,6 +203,7 @@ public class SnapshotUIScript : MonoBehaviour
             }
         }
         Expand();
+        CleanUp();
     }
 
     private void UpdateSnapshotUI() {
@@ -228,5 +231,9 @@ public class SnapshotUIScript : MonoBehaviour
     {
         yield return new WaitForSeconds(2.5f);
         Compress();
+    }
+    private void CleanUp() {
+        GameManager.OnLoadNextSnapshot -= AdvanceSnapshot;
+        GameManager.OnLoadPreviousSnapshot -= DecrementSnapshot;
     }
 }

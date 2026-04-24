@@ -39,6 +39,7 @@ public class PlayerController : MonoBehaviour
 
     private void PlayerInit() {
         GameManager.OnLoadNextSnapshot += SavePlayerData;
+        GameManager.OnLoadPreviousSnapshot += SavePlayerData;
 
         GameManager.Player = this;
         if (GameManager.hasStoredData == true) {
@@ -58,6 +59,11 @@ public class PlayerController : MonoBehaviour
         _currentState?.Update();
     }
 
+    void OnDisable() {
+        GameManager.OnLoadNextSnapshot -= SavePlayerData;
+        GameManager.OnLoadPreviousSnapshot -= SavePlayerData;
+    }
+
     public void EnableCrosshair() => crosshair.SetActive(true);
     public void DisableCrosshair() => crosshair.SetActive(false);
 
@@ -70,6 +76,7 @@ public class PlayerController : MonoBehaviour
 
         GameManager.StorePlayerPosition(relativePos, relativeRot);
 
-        GameManager.OnLoadNextSnapshot -= SavePlayerData;
+        //GameManager.OnLoadNextSnapshot -= SavePlayerData;
+        //GameManager.OnLoadPreviousSnapshot -= SavePlayerData;
     }
 }

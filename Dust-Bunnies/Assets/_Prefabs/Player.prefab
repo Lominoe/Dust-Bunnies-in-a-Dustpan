@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.2}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -138,8 +138,8 @@ Transform:
   m_LocalScale: {x: 1.8, y: 1.8, z: 1.8}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 2534584440272468963}
   - {fileID: 885976298709715419}
+  - {fileID: 2534584440272468963}
   - {fileID: 7403470775012371508}
   - {fileID: 8711568326430177903}
   m_Father: {fileID: 0}
@@ -189,7 +189,6 @@ MonoBehaviour:
   room: {fileID: 0}
   myCollider: {fileID: 8189818858799356806}
   crosshair: {fileID: 1205533678743235203}
-  debug: {fileID: 0}
 --- !u!114 &5661372990698979659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -636,7 +635,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4895623624917957999}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 

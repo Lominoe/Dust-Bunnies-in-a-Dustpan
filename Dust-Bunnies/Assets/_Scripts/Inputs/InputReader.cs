@@ -47,7 +47,7 @@ public class InputReader : MonoBehaviour
         _inputs.Default.NextSnapshot.performed += NextSnapshotPerformed;
         _inputs.Default.PreviousSnapshot.performed += PreviousSnapshotPerformed;
 
-        _inputs.Interact.Return.performed += InteractExitPerformed;
+        _inputs.Interact.StopInteract.performed += InteractExitPerformed;
         _inputs.Interact.StartRotate.performed += RotatePerformed;
         _inputs.Interact.StartRotate.canceled += RotatePerformed;
         _inputs.Interact.Zoom.performed += ZoomPerformed;
@@ -63,7 +63,7 @@ public class InputReader : MonoBehaviour
         _inputs.Default.NextSnapshot.performed -= NextSnapshotPerformed;
         _inputs.Default.PreviousSnapshot.performed -= PreviousSnapshotPerformed;
 
-        _inputs.Interact.Return.performed -= InteractExitPerformed;
+        _inputs.Interact.StopInteract.performed -= InteractExitPerformed;
         _inputs.Interact.StartRotate.performed -= RotatePerformed;
         _inputs.Interact.StartRotate.canceled -= RotatePerformed;
         _inputs.Interact.Zoom.performed -= ZoomPerformed;

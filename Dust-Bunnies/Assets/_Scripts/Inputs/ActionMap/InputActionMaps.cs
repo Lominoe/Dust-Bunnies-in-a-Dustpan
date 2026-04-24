@@ -907,7 +907,7 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""Return"",
+                    ""name"": ""StopInteract"",
                     ""type"": ""Button"",
                     ""id"": ""ca34a66a-a77a-4cd6-b95f-5fb85af6c051"",
                     ""expectedControlType"": """",
@@ -949,11 +949,11 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""a1322a9d-34ff-4cce-b373-d4a5e7cf31b0"",
-                    ""path"": ""<Keyboard>/x"",
+                    ""path"": ""<Mouse>/rightButton"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Return"",
+                    ""action"": ""StopInteract"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -1109,7 +1109,7 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
         m_Interact = asset.FindActionMap("Interact", throwIfNotFound: true);
         m_Interact_Zoom = m_Interact.FindAction("Zoom", throwIfNotFound: true);
         m_Interact_Rotate = m_Interact.FindAction("Rotate", throwIfNotFound: true);
-        m_Interact_Return = m_Interact.FindAction("Return", throwIfNotFound: true);
+        m_Interact_StopInteract = m_Interact.FindAction("StopInteract", throwIfNotFound: true);
         m_Interact_StartRotate = m_Interact.FindAction("StartRotate", throwIfNotFound: true);
         m_Interact_ResetZoom = m_Interact.FindAction("ResetZoom", throwIfNotFound: true);
         // DEBUG
@@ -1557,7 +1557,7 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
     private List<IInteractActions> m_InteractActionsCallbackInterfaces = new List<IInteractActions>();
     private readonly InputAction m_Interact_Zoom;
     private readonly InputAction m_Interact_Rotate;
-    private readonly InputAction m_Interact_Return;
+    private readonly InputAction m_Interact_StopInteract;
     private readonly InputAction m_Interact_StartRotate;
     private readonly InputAction m_Interact_ResetZoom;
     /// <summary>
@@ -1580,9 +1580,9 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
         /// </summary>
         public InputAction @Rotate => m_Wrapper.m_Interact_Rotate;
         /// <summary>
-        /// Provides access to the underlying input action "Interact/Return".
+        /// Provides access to the underlying input action "Interact/StopInteract".
         /// </summary>
-        public InputAction @Return => m_Wrapper.m_Interact_Return;
+        public InputAction @StopInteract => m_Wrapper.m_Interact_StopInteract;
         /// <summary>
         /// Provides access to the underlying input action "Interact/StartRotate".
         /// </summary>
@@ -1623,9 +1623,9 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
             @Rotate.started += instance.OnRotate;
             @Rotate.performed += instance.OnRotate;
             @Rotate.canceled += instance.OnRotate;
-            @Return.started += instance.OnReturn;
-            @Return.performed += instance.OnReturn;
-            @Return.canceled += instance.OnReturn;
+            @StopInteract.started += instance.OnStopInteract;
+            @StopInteract.performed += instance.OnStopInteract;
+            @StopInteract.canceled += instance.OnStopInteract;
             @StartRotate.started += instance.OnStartRotate;
             @StartRotate.performed += instance.OnStartRotate;
             @StartRotate.canceled += instance.OnStartRotate;
@@ -1649,9 +1649,9 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
             @Rotate.started -= instance.OnRotate;
             @Rotate.performed -= instance.OnRotate;
             @Rotate.canceled -= instance.OnRotate;
-            @Return.started -= instance.OnReturn;
-            @Return.performed -= instance.OnReturn;
-            @Return.canceled -= instance.OnReturn;
+            @StopInteract.started -= instance.OnStopInteract;
+            @StopInteract.performed -= instance.OnStopInteract;
+            @StopInteract.canceled -= instance.OnStopInteract;
             @StartRotate.started -= instance.OnStartRotate;
             @StartRotate.performed -= instance.OnStartRotate;
             @StartRotate.canceled -= instance.OnStartRotate;
@@ -2009,12 +2009,12 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnRotate(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Return" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "StopInteract" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnReturn(InputAction.CallbackContext context);
+        void OnStopInteract(InputAction.CallbackContext context);
         /// <summary>
         /// Method invoked when associated input action "StartRotate" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>

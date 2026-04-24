@@ -18,6 +18,7 @@ public class InputReader : MonoBehaviour
     // EVENTS   ---
     public event System.Action OnSprintPerformed;
     public event System.Action OnInteractPerformed;
+    public event System.Action OnCrouchPerformed;
     public event System.Action OnNextSnapshotPerformed;
     public event System.Action OnPreviousSnapshotPerformed;
 
@@ -44,10 +45,11 @@ public class InputReader : MonoBehaviour
     void OnEnable() {
         _inputs.Default.Sprint.performed += SprintPerformed;
         _inputs.Default.Interact.performed += InteractPerformed;
+        _inputs.Default.Crouch.performed += CrouchPerformed;
         _inputs.Default.NextSnapshot.performed += NextSnapshotPerformed;
         _inputs.Default.PreviousSnapshot.performed += PreviousSnapshotPerformed;
 
-        _inputs.Interact.Return.performed += InteractExitPerformed;
+        _inputs.Interact.StopInteract.performed += InteractExitPerformed;
         _inputs.Interact.StartRotate.performed += RotatePerformed;
         _inputs.Interact.StartRotate.canceled += RotatePerformed;
         _inputs.Interact.Zoom.performed += ZoomPerformed;
@@ -60,10 +62,11 @@ public class InputReader : MonoBehaviour
     void OnDisable() {
         _inputs.Default.Sprint.performed -= SprintPerformed;
         _inputs.Default.Interact.performed -= InteractPerformed;
+        _inputs.Default.Crouch.performed -= CrouchPerformed;
         _inputs.Default.NextSnapshot.performed -= NextSnapshotPerformed;
         _inputs.Default.PreviousSnapshot.performed -= PreviousSnapshotPerformed;
 
-        _inputs.Interact.Return.performed -= InteractExitPerformed;
+        _inputs.Interact.StopInteract.performed -= InteractExitPerformed;
         _inputs.Interact.StartRotate.performed -= RotatePerformed;
         _inputs.Interact.StartRotate.canceled -= RotatePerformed;
         _inputs.Interact.Zoom.performed -= ZoomPerformed;
@@ -109,6 +112,9 @@ public class InputReader : MonoBehaviour
 
     private void InteractPerformed(InputAction.CallbackContext _) => 
         OnInteractPerformed?.Invoke();
+
+    private void CrouchPerformed(InputAction.CallbackContext _) =>
+        OnCrouchPerformed?.Invoke();
 
     private void NextSnapshotPerformed(InputAction.CallbackContext _) =>
         OnNextSnapshotPerformed?.Invoke();

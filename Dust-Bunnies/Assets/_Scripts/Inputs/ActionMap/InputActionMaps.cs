@@ -120,18 +120,18 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Crouch"",
+                    ""name"": ""Sprint"",
                     ""type"": ""Button"",
-                    ""id"": ""27c5f898-bc57-4ee1-8800-db469aca5fe3"",
+                    ""id"": ""641cd816-40e6-41b4-8c3d-04687c349290"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Sprint"",
+                    ""name"": ""Crouch"",
                     ""type"": ""Button"",
-                    ""id"": ""641cd816-40e6-41b4-8c3d-04687c349290"",
+                    ""id"": ""27c5f898-bc57-4ee1-8800-db469aca5fe3"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
@@ -324,30 +324,8 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""4f4649ac-64a8-4a73-af11-b3faef356a4d"",
-                    ""path"": ""<Gamepad>/buttonEast"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Gamepad"",
-                    ""action"": ""Crouch"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""36e52cba-0905-478e-a818-f4bfcb9f3b9a"",
-                    ""path"": ""<Keyboard>/c"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Crouch"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""63eea028-bb08-40d6-a209-a102de13d78a"",
-                    ""path"": ""<Keyboard>/e"",
+                    ""path"": ""<Mouse>/rightButton"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -363,6 +341,17 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""PreviousSnapshot"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""38cbce34-0135-4e8e-a1f6-914bcd14e9a1"",
+                    ""path"": ""<Keyboard>/ctrl"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Crouch"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -907,7 +896,7 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""Return"",
+                    ""name"": ""StopInteract"",
                     ""type"": ""Button"",
                     ""id"": ""ca34a66a-a77a-4cd6-b95f-5fb85af6c051"",
                     ""expectedControlType"": """",
@@ -953,7 +942,7 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Return"",
+                    ""action"": ""StopInteract"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -1089,8 +1078,8 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
         m_Default_Move = m_Default.FindAction("Move", throwIfNotFound: true);
         m_Default_Look = m_Default.FindAction("Look", throwIfNotFound: true);
         m_Default_Interact = m_Default.FindAction("Interact", throwIfNotFound: true);
-        m_Default_Crouch = m_Default.FindAction("Crouch", throwIfNotFound: true);
         m_Default_Sprint = m_Default.FindAction("Sprint", throwIfNotFound: true);
+        m_Default_Crouch = m_Default.FindAction("Crouch", throwIfNotFound: true);
         m_Default_NextSnapshot = m_Default.FindAction("NextSnapshot", throwIfNotFound: true);
         m_Default_PreviousSnapshot = m_Default.FindAction("PreviousSnapshot", throwIfNotFound: true);
         // UI
@@ -1109,7 +1098,7 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
         m_Interact = asset.FindActionMap("Interact", throwIfNotFound: true);
         m_Interact_Zoom = m_Interact.FindAction("Zoom", throwIfNotFound: true);
         m_Interact_Rotate = m_Interact.FindAction("Rotate", throwIfNotFound: true);
-        m_Interact_Return = m_Interact.FindAction("Return", throwIfNotFound: true);
+        m_Interact_StopInteract = m_Interact.FindAction("StopInteract", throwIfNotFound: true);
         m_Interact_StartRotate = m_Interact.FindAction("StartRotate", throwIfNotFound: true);
         m_Interact_ResetZoom = m_Interact.FindAction("ResetZoom", throwIfNotFound: true);
         // DEBUG
@@ -1201,8 +1190,8 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
     private readonly InputAction m_Default_Move;
     private readonly InputAction m_Default_Look;
     private readonly InputAction m_Default_Interact;
-    private readonly InputAction m_Default_Crouch;
     private readonly InputAction m_Default_Sprint;
+    private readonly InputAction m_Default_Crouch;
     private readonly InputAction m_Default_NextSnapshot;
     private readonly InputAction m_Default_PreviousSnapshot;
     /// <summary>
@@ -1229,13 +1218,13 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
         /// </summary>
         public InputAction @Interact => m_Wrapper.m_Default_Interact;
         /// <summary>
-        /// Provides access to the underlying input action "Default/Crouch".
-        /// </summary>
-        public InputAction @Crouch => m_Wrapper.m_Default_Crouch;
-        /// <summary>
         /// Provides access to the underlying input action "Default/Sprint".
         /// </summary>
         public InputAction @Sprint => m_Wrapper.m_Default_Sprint;
+        /// <summary>
+        /// Provides access to the underlying input action "Default/Crouch".
+        /// </summary>
+        public InputAction @Crouch => m_Wrapper.m_Default_Crouch;
         /// <summary>
         /// Provides access to the underlying input action "Default/NextSnapshot".
         /// </summary>
@@ -1279,12 +1268,12 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
             @Interact.started += instance.OnInteract;
             @Interact.performed += instance.OnInteract;
             @Interact.canceled += instance.OnInteract;
-            @Crouch.started += instance.OnCrouch;
-            @Crouch.performed += instance.OnCrouch;
-            @Crouch.canceled += instance.OnCrouch;
             @Sprint.started += instance.OnSprint;
             @Sprint.performed += instance.OnSprint;
             @Sprint.canceled += instance.OnSprint;
+            @Crouch.started += instance.OnCrouch;
+            @Crouch.performed += instance.OnCrouch;
+            @Crouch.canceled += instance.OnCrouch;
             @NextSnapshot.started += instance.OnNextSnapshot;
             @NextSnapshot.performed += instance.OnNextSnapshot;
             @NextSnapshot.canceled += instance.OnNextSnapshot;
@@ -1311,12 +1300,12 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
             @Interact.started -= instance.OnInteract;
             @Interact.performed -= instance.OnInteract;
             @Interact.canceled -= instance.OnInteract;
-            @Crouch.started -= instance.OnCrouch;
-            @Crouch.performed -= instance.OnCrouch;
-            @Crouch.canceled -= instance.OnCrouch;
             @Sprint.started -= instance.OnSprint;
             @Sprint.performed -= instance.OnSprint;
             @Sprint.canceled -= instance.OnSprint;
+            @Crouch.started -= instance.OnCrouch;
+            @Crouch.performed -= instance.OnCrouch;
+            @Crouch.canceled -= instance.OnCrouch;
             @NextSnapshot.started -= instance.OnNextSnapshot;
             @NextSnapshot.performed -= instance.OnNextSnapshot;
             @NextSnapshot.canceled -= instance.OnNextSnapshot;
@@ -1557,7 +1546,7 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
     private List<IInteractActions> m_InteractActionsCallbackInterfaces = new List<IInteractActions>();
     private readonly InputAction m_Interact_Zoom;
     private readonly InputAction m_Interact_Rotate;
-    private readonly InputAction m_Interact_Return;
+    private readonly InputAction m_Interact_StopInteract;
     private readonly InputAction m_Interact_StartRotate;
     private readonly InputAction m_Interact_ResetZoom;
     /// <summary>
@@ -1580,9 +1569,9 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
         /// </summary>
         public InputAction @Rotate => m_Wrapper.m_Interact_Rotate;
         /// <summary>
-        /// Provides access to the underlying input action "Interact/Return".
+        /// Provides access to the underlying input action "Interact/StopInteract".
         /// </summary>
-        public InputAction @Return => m_Wrapper.m_Interact_Return;
+        public InputAction @StopInteract => m_Wrapper.m_Interact_StopInteract;
         /// <summary>
         /// Provides access to the underlying input action "Interact/StartRotate".
         /// </summary>
@@ -1623,9 +1612,9 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
             @Rotate.started += instance.OnRotate;
             @Rotate.performed += instance.OnRotate;
             @Rotate.canceled += instance.OnRotate;
-            @Return.started += instance.OnReturn;
-            @Return.performed += instance.OnReturn;
-            @Return.canceled += instance.OnReturn;
+            @StopInteract.started += instance.OnStopInteract;
+            @StopInteract.performed += instance.OnStopInteract;
+            @StopInteract.canceled += instance.OnStopInteract;
             @StartRotate.started += instance.OnStartRotate;
             @StartRotate.performed += instance.OnStartRotate;
             @StartRotate.canceled += instance.OnStartRotate;
@@ -1649,9 +1638,9 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
             @Rotate.started -= instance.OnRotate;
             @Rotate.performed -= instance.OnRotate;
             @Rotate.canceled -= instance.OnRotate;
-            @Return.started -= instance.OnReturn;
-            @Return.performed -= instance.OnReturn;
-            @Return.canceled -= instance.OnReturn;
+            @StopInteract.started -= instance.OnStopInteract;
+            @StopInteract.performed -= instance.OnStopInteract;
+            @StopInteract.canceled -= instance.OnStopInteract;
             @StartRotate.started -= instance.OnStartRotate;
             @StartRotate.performed -= instance.OnStartRotate;
             @StartRotate.canceled -= instance.OnStartRotate;
@@ -1881,19 +1870,19 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnInteract(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Crouch" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
-        /// </summary>
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
-        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnCrouch(InputAction.CallbackContext context);
-        /// <summary>
         /// Method invoked when associated input action "Sprint" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnSprint(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Crouch" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnCrouch(InputAction.CallbackContext context);
         /// <summary>
         /// Method invoked when associated input action "NextSnapshot" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
@@ -2009,12 +1998,12 @@ public partial class @InputActionMaps: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnRotate(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Return" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "StopInteract" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnReturn(InputAction.CallbackContext context);
+        void OnStopInteract(InputAction.CallbackContext context);
         /// <summary>
         /// Method invoked when associated input action "StartRotate" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>

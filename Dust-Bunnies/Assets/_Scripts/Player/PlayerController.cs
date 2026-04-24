@@ -69,7 +69,7 @@ public class PlayerController : MonoBehaviour
 
     private void SavePlayerData() {
         Vector3 relativePos = room.InverseTransformPoint(_t.position);
-        relativePos.y += 0.2f;      // TODO: jank asf. add a floor check or gravity
+        //relativePos.y += 0.2f;      // TODO: jank asf. add a floor check or gravity
 
         Quaternion relativeRot = Quaternion.Inverse(room.rotation)
                                 * _t.rotation;

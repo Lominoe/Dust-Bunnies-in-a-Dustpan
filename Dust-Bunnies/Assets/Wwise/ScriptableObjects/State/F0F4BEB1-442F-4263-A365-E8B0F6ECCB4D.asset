@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d9684e317a0db94ebd1f0de0d2ad253, type: 3}
-  m_Name: ABEBC7D1-1837-4AB9-A416-C9E9978EABAE
+  m_Name: F0F4BEB1-442F-4263-A365-E8B0F6ECCB4D
   m_EditorClassIdentifier: 
-  objectName: Snapshot0
-  id: 4212171415
-  guid: ABEBC7D1-1837-4AB9-A416-C9E9978EABAE
+  objectName: Snapshot9
+  id: 4212171422
+  guid: F0F4BEB1-442F-4263-A365-E8B0F6ECCB4D
   WwiseStateGroupReference: {fileID: 11400000, guid: 096d001d3261906489c90dcbbbc260aa, type: 2}

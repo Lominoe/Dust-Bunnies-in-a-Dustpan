@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 37216338}
   - component: {fileID: 37216337}
+  - component: {fileID: 37216341}
   - component: {fileID: 37216340}
   - component: {fileID: 37216339}
   m_Layer: 0
@@ -236,6 +237,30 @@ MonoBehaviour:
   scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!114 &37216341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37216336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9178ebdd9598844194cce12d60d9543, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f34ba5de0e4fd3746b46b9aa48371597, type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!1001 &136275124
 PrefabInstance:
   m_ObjectHideFlags: 0

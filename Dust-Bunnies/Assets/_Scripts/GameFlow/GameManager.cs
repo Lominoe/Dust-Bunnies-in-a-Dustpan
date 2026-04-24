@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     public static Quaternion playerRotation;  // ^
     public static bool hasStoredData = false;
 
-    private static int currSnapshotNumber = 1;
+    private static int currSnapshotNumber = 0;
     public static int CurrentSnapshotNumber => currSnapshotNumber;
      
     void Awake() {

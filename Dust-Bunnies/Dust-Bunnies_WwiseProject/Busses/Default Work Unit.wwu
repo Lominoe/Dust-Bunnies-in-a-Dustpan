@@ -86,7 +86,15 @@
 						</Bus>
 						<Bus Name="Music" ID="{775EDE36-C56F-4508-9C5A-ADAD9C4ED199}"/>
 						<Bus Name="Ambience" ID="{81889309-9F76-43EA-A22A-73DFD1D76715}"/>
-						<Bus Name="Dialogue" ID="{3F45D375-691E-42D6-AF47-94578729868A}"/>
+						<Bus Name="Dialogue" ID="{3F45D375-691E-42D6-AF47-94578729868A}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
 						<AuxBus Name="VoiceOverVerb" ID="{FA315553-A35E-43B4-9205-D6A4A125F4C9}">
 							<ObjectLists>
 								<ObjectList Name="Effects">

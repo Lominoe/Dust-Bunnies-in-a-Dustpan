@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0171efd68ea11b04093b186f1453fd46
+guid: 444aac36a7034fe4f99705a790c553d0
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,13 +7,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: grad_cap.001
+    second: {fileID: 2100000, guid: e0894a59c8d1b3345b5a9e655fc39d8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: outline_shader
-    second: {fileID: 2100000, guid: 5ad9ea5c94c803149b43fc7017e5b93d, type: 2}
+    second: {fileID: 2100000, guid: 2e5b98fa29746b74ca8e585bb2892187, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: water_color_shader
-    second: {fileID: 2100000, guid: c48767fd65ea7ac4c8208b1e4f42c5cf, type: 2}
+    second: {fileID: 2100000, guid: 8cdc9792c18d32345913c575e79616dc, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 37216338}
   - component: {fileID: 37216337}
+  - component: {fileID: 37216341}
   - component: {fileID: 37216340}
   - component: {fileID: 37216339}
   m_Layer: 0
@@ -236,6 +237,30 @@ MonoBehaviour:
   scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!114 &37216341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37216336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9178ebdd9598844194cce12d60d9543, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8db5a0dfccf2d774a8e0943364ac0a0b, type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!1 &208323096
 GameObject:
   m_ObjectHideFlags: 0
@@ -649,11 +674,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!4 &965816419 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2082368761434107185, guid: c380d9ea340d6a94da5fc04f55f47632, type: 3}
-  m_PrefabInstance: {fileID: 4428421628590289400}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1128411177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1221,7 +1241,7 @@ PrefabInstance:
     - target: {fileID: 6899204380572781638, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: room
       value: 
-      objectReference: {fileID: 965816419}
+      objectReference: {fileID: 0}
     - target: {fileID: 6899204380572781638, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: sceneLoader
       value: 

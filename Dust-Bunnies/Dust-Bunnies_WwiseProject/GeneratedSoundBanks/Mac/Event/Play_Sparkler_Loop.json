@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E0A0AACC-E063-422A-9D75-320B6BCF21EE}",
     "Language": "SFX",
-    "Hash": "{11D4F9EC-FA35-E005-EBBF-6303132B83BB}",
+    "Hash": "{A71330FF-F030-FED0-7652-43247C9DC337}",
     "ObjectPath": "Play_Sparkler_Loop",
     "ShortName": "Play_Sparkler_Loop",
     "Path": "Event/Play_Sparkler_Loop.bnk",
@@ -87,17 +87,9 @@
        }
       ]
      }
-    ],
-    "GameParameters": [
-     {
-      "Id": "2460978563",
-      "Name": "CandlePan",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\CandlePan",
-      "GUID": "{68674527-2BB2-460D-A004-80EF02439885}"
-     }
     ]
    }
   ],
-  "FileHash": "{3E618879-52A8-3C2E-43DF-985DA7ACE0C5}"
+  "FileHash": "{B5E73850-FC40-E9BE-4D8F-50DDB4F5EF39}"
  }
 }

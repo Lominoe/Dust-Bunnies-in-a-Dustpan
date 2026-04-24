@@ -1,0 +1,171 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3876215541",
+    "Type": "Event",
+    "GUID": "{6714B61F-BB7F-49FD-B967-EDF97BCBB4E0}",
+    "Language": "SFX",
+    "Hash": "{97261AD4-8BDE-FC06-BB2B-51F887FA4AEF}",
+    "ObjectPath": "Play_Firework",
+    "ShortName": "Play_Firework",
+    "Path": "Event/Play_Firework.bnk",
+    "Media": [
+     {
+      "Id": "8699489",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "gp_firework_explosion_05.wav",
+      "Path": "Media/8699489.wem",
+      "CachePath": "DC/{DCEC144B-C787-EAAF-A135-FD7C5103C139}.wem"
+     },
+     {
+      "Id": "229642768",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "gp_firework_explosion_01.wav",
+      "Path": "Media/229642768.wem",
+      "CachePath": "6B/{6B771BB0-071A-9E6A-F0D7-EC2EEAE34489}.wem"
+     },
+     {
+      "Id": "379418074",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "gp_firework_explosion_02.wav",
+      "Path": "Media/379418074.wem",
+      "CachePath": "04/{04D79F0F-004D-9360-75FB-55411FF2F3B5}.wem"
+     },
+     {
+      "Id": "493930104",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "gp_firework_explosion_03.wav",
+      "Path": "Media/493930104.wem",
+      "CachePath": "57/{579263B8-5498-E1D6-A936-46BE93A04DDA}.wem"
+     },
+     {
+      "Id": "597575832",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "gp_firework_explosion_04.wav",
+      "Path": "Media/597575832.wem",
+      "CachePath": "3F/{3FB03C7E-9465-1590-02A6-8F774A61B85C}.wem"
+     },
+     {
+      "Id": "818121309",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "gp_firework_02.wav",
+      "Path": "Media/818121309.wem",
+      "CachePath": "97/{97E8CBF2-40E1-02E5-D03A-1F694249F97C}.wem"
+     },
+     {
+      "Id": "851050395",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "gp_firework_01.wav",
+      "Path": "Media/851050395.wem",
+      "CachePath": "0B/{0B5870AD-4405-1E77-49A0-9211C9E3AF63}.wem"
+     },
+     {
+      "Id": "883051356",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "gp_firework_03.wav",
+      "Path": "Media/883051356.wem",
+      "CachePath": "8D/{8D51C08D-302A-0C41-C5C1-C528F3F28A30}.wem"
+     },
+     {
+      "Id": "892833588",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "gp_firework_04.wav",
+      "Path": "Media/892833588.wem",
+      "CachePath": "A7/{A776C999-221C-28B1-5371-7D6BD0EAEF9C}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "48620415",
+       "Name": "Have_U_Ever_Been_Outside",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
+       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3657550167",
+       "Name": "New_Parametric_EQ",
+       "ObjectPath": "\\Effects\\Default Work Unit\\New_Parametric_EQ",
+       "GUID": "{38818C76-B353-48D3-BCC7-446039FBE6B5}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3876215541",
+      "Name": "Play_Firework",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Firework",
+      "GUID": "{6714B61F-BB7F-49FD-B967-EDF97BCBB4E0}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.586996",
+      "DurationMax": "10.808163",
+      "MediaRefs": [
+       {
+        "Id": "8699489"
+       },
+       {
+        "Id": "229642768"
+       },
+       {
+        "Id": "379418074"
+       },
+       {
+        "Id": "493930104"
+       },
+       {
+        "Id": "597575832"
+       },
+       {
+        "Id": "818121309"
+       },
+       {
+        "Id": "851050395"
+       },
+       {
+        "Id": "883051356"
+       },
+       {
+        "Id": "892833588"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3657550167"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{433A5CFE-30B9-DB45-12D1-12E9B604B9F6}"
+ }
+}

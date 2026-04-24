@@ -1,0 +1,60 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2992710289",
+    "Type": "Event",
+    "GUID": "{27AAB893-3A56-4B0F-9D77-5DAA55C53179}",
+    "Language": "SFX",
+    "Hash": "{441ED4AA-DFF2-7C6F-0697-25D4D900F120}",
+    "ObjectPath": "Play_Firework_01",
+    "ShortName": "Play_Firework_01",
+    "Path": "Event/Play_Firework_01.bnk",
+    "Media": [
+     {
+      "Id": "374627359",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Finale Riser.wav",
+      "Path": "Media/374627359.wem",
+      "CachePath": "D7/{D700FDA2-4EDC-835D-106E-BD2CD1B03BCA}.wem"
+     },
+     {
+      "Id": "824741546",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Finale Explosion.wav",
+      "Path": "Media/824741546.wem",
+      "CachePath": "B6/{B6655769-369D-EDD2-12A3-8B0176EE978B}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2992710289",
+      "Name": "Play_Firework_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Firework_01",
+      "GUID": "{27AAB893-3A56-4B0F-9D77-5DAA55C53179}",
+      "DurationType": "OneShot",
+      "DurationMin": "10.9696665",
+      "DurationMax": "13.2196665",
+      "MediaRefs": [
+       {
+        "Id": "374627359"
+       },
+       {
+        "Id": "824741546"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{911E28BB-403C-0FDB-1B8A-83D3B32FDE0C}"
+ }
+}

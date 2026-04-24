@@ -1,34 +1,9 @@
 fileFormatVersion: 2
-guid: 7d1c2621be4bee14db416bd576ec1eb5
+guid: ae0477a26d5e3b84a8455ade4184a21d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Water
-    second: {fileID: 2100000, guid: 6e803f52c3b41b547843ffad40c59803, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: buildings
-    second: {fileID: 2100000, guid: 04d44110315d5284ba8352926a7671cc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: sand
-    second: {fileID: 2100000, guid: 33df9ae766536dd4f8f637f3fd720432, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: talls
-    second: {fileID: 2100000, guid: feed4be30b3c02441b83b27a3880c5e0, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: water_color_shader
-    second: {fileID: 2100000, guid: 776c690eb421b3249b2a18f17ddf5736, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

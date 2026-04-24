@@ -196,6 +196,12 @@
         "GUID": "{02F067A0-7CB0-4A49-B405-334823B1C81D}"
        },
        {
+        "Id": "2579478339",
+        "Name": "EndCredit",
+        "ObjectPath": "\\States\\Default Work Unit\\Scene\\EndCredit",
+        "GUID": "{34999D94-B471-4356-85D1-8E6DC4C9AFBE}"
+       },
+       {
         "Id": "3509580304",
         "Name": "Snapshot12",
         "ObjectPath": "\\States\\Default Work Unit\\Scene\\Snapshot12",
@@ -500,6 +506,6 @@
     ]
    }
   ],
-  "FileHash": "{09CB633C-0AA8-F207-203C-2B4281B9218C}"
+  "FileHash": "{61F7E3B2-2AD4-817F-A4FC-76FDBE7F4562}"
  }
 }

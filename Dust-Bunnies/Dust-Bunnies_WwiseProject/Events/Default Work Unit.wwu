@@ -58,6 +58,11 @@
 				<Event Name="Play_MX_Childhood" ID="{202C98C0-29C9-4172-BBD4-4878CFA0A5DB}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="InstanceLimit" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
@@ -80,17 +85,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Sparkle" ID="{EF454E15-620B-491B-B858-5AEC866624B6}" WorkUnitID="{43C2252E-DCD3-44B3-A3E7-636268BFE8A3}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_cici_theme" ID="{52A49917-B1F3-4356-A11D-D476553584CC}">
-					<ChildrenList>
-						<Action Name="" ID="{D6A2948D-D949-46E3-92B8-50516E58E5BF}" ShortID="989829623">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="cici_theme" ID="{C1917D3E-F5E0-4CF1-B4DA-B0F4F17DCD1F}" WorkUnitID="{5DDF8A02-71F0-4FB3-9BDC-786385EDC375}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

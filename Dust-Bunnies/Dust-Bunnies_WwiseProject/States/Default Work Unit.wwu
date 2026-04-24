@@ -19,6 +19,7 @@
 						<State Name="Snapshot10" ID="{045F5ED5-A242-4CD2-8917-B3F2688CFF61}"/>
 						<State Name="Snapshot11" ID="{7AB3AD99-9CA9-46C9-9328-1BD8DD5A49D3}"/>
 						<State Name="Snapshot12" ID="{C676EE26-02A7-4A77-94B3-913C85DFE9C9}"/>
+						<State Name="EndCredit" ID="{34999D94-B471-4356-85D1-8E6DC4C9AFBE}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

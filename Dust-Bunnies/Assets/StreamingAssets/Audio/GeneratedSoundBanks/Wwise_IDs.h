@@ -30,6 +30,7 @@ namespace AK
 
             namespace STATE
             {
+                static const AkUniqueID ENDCREDIT = 2579478339U;
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID SNAPSHOT0 = 4212171415U;
                 static const AkUniqueID SNAPSHOT1 = 4212171414U;

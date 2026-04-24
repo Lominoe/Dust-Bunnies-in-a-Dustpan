@@ -290,6 +290,10 @@
 										<CustomState Name="" ID="{2C993DD1-F5C5-4F84-AE0D-02F07EB33569}" ShortID="634494925"/>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="EndCredit" ID="{34999D94-B471-4356-85D1-8E6DC4C9AFBE}"/>
+										<CustomState Name="" ID="{5D02561E-C83D-4B11-9D43-D0B9D59AFE19}" ShortID="259965828"/>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="Snapshot1" ID="{46832612-5A3D-444B-B82C-5BFBA296169F}"/>
 										<CustomState Name="" ID="{991D7073-D9E0-455B-BD2A-83A5E448F99F}" ShortID="301867323">
 											<PropertyList>
@@ -360,6 +364,10 @@
 												<CustomState>
 													<StateRef Name="Snapshot9" ID="{F0F4BEB1-442F-4263-A365-E8B0F6ECCB4D}"/>
 													<CustomState Name="" ID="{ECBEB328-C69A-40B1-BA5D-E3EE61878623}" ShortID="835220082"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="EndCredit" ID="{34999D94-B471-4356-85D1-8E6DC4C9AFBE}"/>
+													<CustomState Name="" ID="{F9C9AAE0-7631-4B95-AD80-6F6A41719747}" ShortID="636944888"/>
 												</CustomState>
 												<CustomState>
 													<StateRef Name="Snapshot1" ID="{46832612-5A3D-444B-B82C-5BFBA296169F}"/>

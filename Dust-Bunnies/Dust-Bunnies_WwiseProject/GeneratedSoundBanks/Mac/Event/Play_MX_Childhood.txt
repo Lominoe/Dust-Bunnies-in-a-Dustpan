@@ -6,6 +6,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	748895195	None	Scene			
+	2579478339	EndCredit	Scene			
 	3509580304	Snapshot12	Scene			
 	3509580306	Snapshot10	Scene			
 	3509580307	Snapshot11	Scene			

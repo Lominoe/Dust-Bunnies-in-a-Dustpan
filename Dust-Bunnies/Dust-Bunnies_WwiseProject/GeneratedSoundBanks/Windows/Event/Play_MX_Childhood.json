@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{202C98C0-29C9-4172-BBD4-4878CFA0A5DB}",
     "Language": "SFX",
-    "Hash": "{CDB994DF-546B-8EC3-C3D1-1F11E74E9BFF}",
+    "Hash": "{47267BC8-859D-5497-4979-C1F3896BBED6}",
     "ObjectPath": "Play_MX_Childhood",
     "ShortName": "Play_MX_Childhood",
     "Path": "Event/Play_MX_Childhood.bnk",
@@ -258,19 +258,6 @@
         "SwitchValue": {
          "GroupType": "State",
          "GroupId": "1926883983",
-         "Id": "3509580304",
-         "GUID": "{C676EE26-02A7-4A77-94B3-913C85DFE9C9}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "1002149595"
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "State",
-         "GroupId": "1926883983",
          "Id": "4212171422",
          "GUID": "{F0F4BEB1-442F-4263-A365-E8B0F6ECCB4D}"
         },
@@ -292,6 +279,19 @@
           "Id": "254838844"
          }
         ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1926883983",
+         "Id": "2579478339",
+         "GUID": "{34999D94-B471-4356-85D1-8E6DC4C9AFBE}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "1002149595"
+         }
+        ]
        }
       ]
      }
@@ -308,6 +308,12 @@
         "Name": "None",
         "ObjectPath": "\\States\\Default Work Unit\\Scene\\None",
         "GUID": "{02F067A0-7CB0-4A49-B405-334823B1C81D}"
+       },
+       {
+        "Id": "2579478339",
+        "Name": "EndCredit",
+        "ObjectPath": "\\States\\Default Work Unit\\Scene\\EndCredit",
+        "GUID": "{34999D94-B471-4356-85D1-8E6DC4C9AFBE}"
        },
        {
         "Id": "3509580304",
@@ -392,6 +398,6 @@
     ]
    }
   ],
-  "FileHash": "{E69D9C60-2BF3-CE2A-BDDA-891CE1A246B1}"
+  "FileHash": "{EB2FCFBF-529D-F3C0-FB2A-D8A76767F329}"
  }
 }

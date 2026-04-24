@@ -16,14 +16,28 @@ namespace AK
         static const AkUniqueID PLAY_AMB_ROOM_INTERIOR_01 = 3152322375U;
         static const AkUniqueID PLAY_AMB_ROOM_STREET_01 = 2134236060U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
+        static const AkUniqueID PLAY_MUSIC_BOX = 3405337073U;
         static const AkUniqueID PLAY_MX_CHILDHOOD = 2272849752U;
         static const AkUniqueID PLAY_PAGE_FLIP = 1924198023U;
         static const AkUniqueID PLAY_SPARKLER_LOOP = 3667990691U;
         static const AkUniqueID PLAY_VOICEOVER = 1769700134U;
+        static const AkUniqueID STOP_MUSIC_BOX = 781951815U;
     } // namespace EVENTS
 
     namespace STATES
     {
+        namespace MUSICBOX
+        {
+            static const AkUniqueID GROUP = 2785641797U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID OFF = 930712164U;
+                static const AkUniqueID ON = 1651971902U;
+            } // namespace STATE
+        } // namespace MUSICBOX
+
         namespace SCENE
         {
             static const AkUniqueID GROUP = 1926883983U;
@@ -109,6 +123,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID CANDLEPAN = 2460978563U;
+        static const AkUniqueID RTPC_MX_AMB_DUCKING = 1905946137U;
     } // namespace GAME_PARAMETERS
 
     namespace BUSSES

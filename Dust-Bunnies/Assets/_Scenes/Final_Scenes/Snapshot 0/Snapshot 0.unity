@@ -1231,6 +1231,14 @@ PrefabInstance:
       propertyPath: dialogueManager
       value: 
       objectReference: {fileID: 349349181}
+    - target: {fileID: 7965611371775751042, guid: bfa7e773d8815e242af8607dca484949, type: 3}
+      propertyPath: lineSwitch.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 59964ec78925393478dca2e3a84ec8ce, type: 2}
+    - target: {fileID: 7965611371775751042, guid: bfa7e773d8815e242af8607dca484949, type: 3}
+      propertyPath: interactEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 0ccfe6eb0b4330b44beb492babc42efe, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

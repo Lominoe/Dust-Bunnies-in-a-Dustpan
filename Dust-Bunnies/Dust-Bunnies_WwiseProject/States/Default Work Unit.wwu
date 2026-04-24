@@ -22,6 +22,16 @@
 						<State Name="EndCredit" ID="{34999D94-B471-4356-85D1-8E6DC4C9AFBE}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="MusicBox" ID="{C9D090F6-E253-4426-A9DC-0B89D297DD3B}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="3"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{490593E5-0F9A-4914-8C3B-B6A49BE119F4}"/>
+						<State Name="On" ID="{EA292BB9-D476-4AA2-813D-42D5977EAD05}"/>
+						<State Name="Off" ID="{F98D5FA3-93A5-4B2E-974F-61975DA001FF}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

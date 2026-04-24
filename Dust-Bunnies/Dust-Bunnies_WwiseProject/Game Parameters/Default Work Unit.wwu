@@ -10,6 +10,13 @@
 						<Property Name="Min" Type="Real64" Value="-1"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="RTPC_MX_AMB_Ducking" ID="{A9841535-26FC-472D-A7EF-9324F3172592}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

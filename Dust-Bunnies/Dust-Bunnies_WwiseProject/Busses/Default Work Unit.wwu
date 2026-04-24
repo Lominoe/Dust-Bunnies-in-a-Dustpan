@@ -86,6 +86,34 @@
 						</Bus>
 						<Bus Name="Music" ID="{775EDE36-C56F-4508-9C5A-ADAD9C4ED199}"/>
 						<Bus Name="Ambience" ID="{81889309-9F76-43EA-A22A-73DFD1D76715}"/>
+						<Bus Name="Dialogue" ID="{3F45D375-691E-42D6-AF47-94578729868A}"/>
+						<AuxBus Name="VoiceOverVerb" ID="{FA315553-A35E-43B4-9205-D6A4A125F4C9}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{05706651-60CB-4B36-AEB2-ADBB4BBF2BAF}" ShortID="135915419">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+									<EffectSlot Name="" ID="{3E603F18-9711-4680-A853-9D4367DF5ECE}" ShortID="908847668">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom CreatedFrom="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}">
+													<Effect Name="Echoes_Linear (Custom)" ID="{BB374B5D-D813-4E08-911A-9A7BF1007DDB}" ShortID="42698580" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+														<PropertyList>
+															<Property Name="DelayTime" Type="Real32" Value="0.13"/>
+															<Property Name="WetDryMix" Type="Real32" Value="11.5"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

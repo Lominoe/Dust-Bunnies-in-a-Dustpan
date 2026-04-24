@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID PLAY_MX_CHILDHOOD = 2272849752U;
         static const AkUniqueID PLAY_PAGE_FLIP = 1924198023U;
         static const AkUniqueID PLAY_SPARKLER_LOOP = 3667990691U;
+        static const AkUniqueID PLAY_VOICEOVER = 1769700134U;
     } // namespace EVENTS
 
     namespace STATES
@@ -51,6 +52,47 @@ namespace AK
 
     namespace SWITCHES
     {
+        namespace LINE
+        {
+            static const AkUniqueID GROUP = 136358831U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID LINE1 = 2054046796U;
+                static const AkUniqueID LINE2 = 2054046799U;
+                static const AkUniqueID LINE3 = 2054046798U;
+                static const AkUniqueID LINE4 = 2054046793U;
+                static const AkUniqueID LINE5 = 2054046792U;
+                static const AkUniqueID LINE6 = 2054046795U;
+                static const AkUniqueID LINE7 = 2054046794U;
+                static const AkUniqueID LINE8 = 2054046789U;
+                static const AkUniqueID LINE9 = 2054046788U;
+                static const AkUniqueID LINE10 = 127239060U;
+                static const AkUniqueID LINE11 = 127239061U;
+                static const AkUniqueID LINE12 = 127239062U;
+                static const AkUniqueID LINE13 = 127239063U;
+                static const AkUniqueID LINE14 = 127239056U;
+                static const AkUniqueID LINE15 = 127239057U;
+                static const AkUniqueID LINE16 = 127239058U;
+                static const AkUniqueID LINE17 = 127239059U;
+                static const AkUniqueID LINE18 = 127239068U;
+                static const AkUniqueID LINE19 = 127239069U;
+                static const AkUniqueID LINE20 = 177571949U;
+                static const AkUniqueID LINE21 = 177571948U;
+                static const AkUniqueID LINE22 = 177571951U;
+                static const AkUniqueID LINE23 = 177571950U;
+                static const AkUniqueID LINE24 = 177571945U;
+                static const AkUniqueID LINE25 = 177571944U;
+                static const AkUniqueID LINE26 = 177571947U;
+                static const AkUniqueID LINE27 = 177571946U;
+                static const AkUniqueID LINE28 = 177571941U;
+                static const AkUniqueID LINE29 = 177571940U;
+                static const AkUniqueID LINE30 = 160794362U;
+                static const AkUniqueID LINE31 = 160794363U;
+                static const AkUniqueID LINE32 = 160794360U;
+            } // namespace SWITCH
+        } // namespace LINE
+
         namespace PAGE_FLIP
         {
             static const AkUniqueID GROUP = 3989786198U;
@@ -72,6 +114,7 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID AMBIENCE = 85412153U;
+        static const AkUniqueID DIALOGUE = 3930136735U;
         static const AkUniqueID FOOTSTEP = 1866025847U;
         static const AkUniqueID FOOTSTEPETHEREAL = 1469239341U;
         static const AkUniqueID MAIN_AUDIO_BUS = 2246998526U;
@@ -82,6 +125,7 @@ namespace AK
     namespace AUX_BUSSES
     {
         static const AkUniqueID REVERB = 348963605U;
+        static const AkUniqueID VOICEOVERVERB = 573417252U;
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES

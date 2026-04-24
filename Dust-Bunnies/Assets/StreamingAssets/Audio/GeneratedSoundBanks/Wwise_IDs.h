@@ -15,7 +15,6 @@ namespace AK
     {
         static const AkUniqueID PLAY_AMB_ROOM_INTERIOR_01 = 3152322375U;
         static const AkUniqueID PLAY_AMB_ROOM_STREET_01 = 2134236060U;
-        static const AkUniqueID PLAY_CICI_THEME = 2223146148U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_MX_CHILDHOOD = 2272849752U;
         static const AkUniqueID PLAY_PAGE_FLIP = 1924198023U;

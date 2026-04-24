@@ -107,6 +107,27 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_VoiceOver" ID="{C1BBAD37-C5B0-47F1-9484-E71664184B52}">
+					<PropertyList>
+						<Property Name="InstanceLimit" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{9717595A-5993-448C-8765-BE0F9A4B1672}" ShortID="179672631">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VoiceOver" ID="{4A002ACA-DC86-404C-86EA-91C41AAEA68E}" WorkUnitID="{3C725967-0A9D-44F9-AF33-1F14F2C16EAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C1BBAD37-C5B0-47F1-9484-E71664184B52}",
     "Language": "English(US)",
-    "Hash": "{246FA2DE-82DD-E5AD-2972-EECA673EE754}",
+    "Hash": "{9D625A44-E937-D5AC-4C82-0A9C662F9A4E}",
     "ObjectPath": "Play_VoiceOver",
     "ShortName": "Play_VoiceOver",
     "Path": "Event/English(US)/Play_VoiceOver.bnk",
@@ -358,9 +358,7 @@
       "Name": "Play_VoiceOver",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_VoiceOver",
       "GUID": "{C1BBAD37-C5B0-47F1-9484-E71664184B52}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.0435417",
-      "DurationMax": "6.915",
+      "DurationType": "Infinite",
       "AuxBusRefs": [
        {
         "Id": "573417252",
@@ -1229,6 +1227,6 @@
     ]
    }
   ],
-  "FileHash": "{460904E5-F1E6-5B67-842F-ADC0F208E57F}"
+  "FileHash": "{BC178AC9-E22C-C5D0-174D-0EF687BDC624}"
  }
 }

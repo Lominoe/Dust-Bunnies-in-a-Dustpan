@@ -32,19 +32,25 @@ public class PauseMenu : MonoBehaviour
         gameObject.GetComponentInChildren<Canvas>().enabled = true;
         Time.timeScale = 0f;
         Object.FindFirstObjectByType<InputReader>().SetEnabled(false);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
     public void Resume()
     {
         gameObject.GetComponentInChildren<Canvas>().enabled = false;
         Time.timeScale = 1f;
         Object.FindFirstObjectByType<InputReader>().SetEnabled(true);
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
     public void Restart()
     {
         //reset game manager and journal (probably need custom function in Journal for hard reset
         //Debug.LogWarning("Instantiation not complete: must hard-reset journal and game manager (when it exists)");
-        GameManager.RestartGame();
         Time.timeScale = 1f;
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+        GameManager.RestartGame();
     }
     public void QuitHome()
     {

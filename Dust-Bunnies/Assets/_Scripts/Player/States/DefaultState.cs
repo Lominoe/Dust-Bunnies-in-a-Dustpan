@@ -15,7 +15,7 @@ public class DefaultState : PlayerState
         input.OnInteractPerformed += OnInteract;
 
         // TODO: jank jank jank
-        if (GameManager.CurrentSnapshotNumber != 0) {
+        if (GameManager.CurrentSnapshotNumber != 0 && GameManager.CurrentSnapshotNumber != 16) {
             input.OnNextSnapshotPerformed += NextSnapshot;
             input.OnPreviousSnapshotPerformed += PreviousSnapshot;
         }
@@ -39,10 +39,6 @@ public class DefaultState : PlayerState
         player.Motor.Move(input.Move);
         player.Camera.CameraMovement(input.Look);
         player.Camera.CamFree(input.Look);
-
-        // TODO: test here
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void OnInteract() {

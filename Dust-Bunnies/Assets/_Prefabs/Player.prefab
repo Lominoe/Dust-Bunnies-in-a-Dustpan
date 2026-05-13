@@ -273,8 +273,9 @@ MonoBehaviour:
   lookAroundSideOffset: 0.2
   lookAroundFOVReduction: 5
   lookAroundTweenDuration: 0.5
+  smoothTime: 0.1
   minFOV: 15
-  zoomSpeed: 10
+  zoomSpeed: 8
 --- !u!114 &3718001994806424166
 MonoBehaviour:
   m_ObjectHideFlags: 0

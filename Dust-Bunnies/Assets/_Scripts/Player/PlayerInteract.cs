@@ -49,12 +49,6 @@ public class PlayerInteract : MonoBehaviour
         return null;
     }
 
-    //public PickupAble TryPickUp() {
-
-    //    oi.ChangeState();
-    //    return null;
-    //}
-
     /// <summary>
     /// First time you interact the player picks up the obj
     /// </summary>
@@ -77,6 +71,6 @@ public class PlayerInteract : MonoBehaviour
     public void Rotate(Vector2 rot) {
         Transform t = _interactedObject.transform;
         t.Rotate(playerCam.up ,-rot.x * rotationSpeed, Space.World);
-        t.Rotate(playerCam.right, - rot.y * rotationSpeed, Space.World);
+        t.Rotate(playerCam.right, rot.y * rotationSpeed, Space.World);
     }
 }

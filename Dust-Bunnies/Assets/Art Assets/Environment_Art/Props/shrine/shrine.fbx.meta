@@ -3,7 +3,57 @@ guid: de9dadb16e8b68d48878fa185d590dc4
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 9641364d9a9a7c64584705d53a73e7be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 6f981965e6048d04e98bdbff2276526d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 934c1f77ce1803b419e5fd0855792b48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: canvas1
+    second: {fileID: 2100000, guid: 88fee80b12f25924dba3a029e8413504, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: canvas2
+    second: {fileID: 2100000, guid: 613ca78f46039e545b897eb54397cbc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: canvas3
+    second: {fileID: 2100000, guid: b9dabca69474a6b4eb7f1a65b99e22c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: canvas4
+    second: {fileID: 2100000, guid: 44d74fffe90a37c46bc2b9b1195d9c62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: canvas5
+    second: {fileID: 2100000, guid: 6c9e23af0ea624e489076bcd0fe4544b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frame
+    second: {fileID: 2100000, guid: 2da7e8498b3a7534681303521c315c50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: 892d499295044d5419f52e0d4fb4c7d3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

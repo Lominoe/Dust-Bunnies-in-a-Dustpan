@@ -41,6 +41,7 @@ public class PickUpState : PlayerState
 
     private void ExitInteract() {
         player.Interact.PutDownObj();
+        player.Camera.ZoomReset();
         player.SwitchState(new DefaultState(player, input));
     }
 

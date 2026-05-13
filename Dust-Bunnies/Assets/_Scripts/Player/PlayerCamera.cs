@@ -30,8 +30,12 @@ public class PlayerCamera : MonoBehaviour
     [SerializeField] private float lookAroundTweenDuration = 0.5f;
 
     [Header("Zoom Settings")]
+    [SerializeField] private float smoothTime = 0.1f;
     [SerializeField] private float minFOV = 15f;
     [SerializeField] private float zoomSpeed = 10f;
+    private float velocity = 0f;
+    private float zoomTarget;
+    private float lastScrollDirection = 0f;
 
     enum CamState {
         Free,
@@ -58,6 +62,13 @@ public class PlayerCamera : MonoBehaviour
         lookAroundLeftCamLocalPos = originalCamLocalPos + new Vector3(-lookAroundSideOffset, 0, 0);
         lookAroundRightCamLocalPos = originalCamLocalPos + new Vector3(lookAroundSideOffset, 0, 0);
         originalFOV = cam.fieldOfView;
+        zoomTarget = originalFOV;
+    }
+
+    void LateUpdate() {
+        if (cam.fieldOfView != zoomTarget) {
+            cam.fieldOfView = Mathf.SmoothDamp(cam.fieldOfView, zoomTarget, ref velocity, smoothTime);
+        }
     }
 
     // Rn this is getting called from the player default state but im not sure if that's correct - Jazz
@@ -83,15 +94,25 @@ public class PlayerCamera : MonoBehaviour
     /// When the player interacts they can zoom in on objects
     /// </summary>
     public void Zoom(float scroll) {
-        float newFOV = cam.fieldOfView - scroll * zoomSpeed;
-        cam.fieldOfView = Mathf.Clamp(newFOV, minFOV, originalFOV);
+        // change velocity if flipping direction
+        if (scroll != 0f) {
+            if (Mathf.Sign(scroll) != Mathf.Sign(lastScrollDirection)) { velocity = 0f; }
+            lastScrollDirection = scroll;
+        }
+
+        zoomTarget = Mathf.Clamp(zoomTarget - scroll * zoomSpeed, minFOV, originalFOV);
+        cam.fieldOfView = Mathf.SmoothDamp(cam.fieldOfView, zoomTarget, ref velocity, smoothTime);
+        //float newFOV = cam.fieldOfView - scroll * zoomSpeed;
+        //cam.fieldOfView = Mathf.Clamp(newFOV, minFOV, originalFOV);
     }
 
     /// <summary>
     /// Reset camera to default FOV
     /// </summary>
     public void ZoomReset() {
-        cam.fieldOfView = originalFOV;
+        //cam.fieldOfView = originalFOV;
+        zoomTarget = originalFOV;
+        velocity = 0f;
     }
 
     void OnTriggerStay(Collider other) {

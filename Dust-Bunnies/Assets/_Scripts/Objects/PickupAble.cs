@@ -47,23 +47,19 @@ public class PickupAble : Interactable
         return new PickUpState(p, i);
     }
 
-    //public virtual void OnPickUp(Vector3 holdPoint, Vector3 playerCam, float moveTime) {
-    //    StartCoroutine(PickUp(holdPoint, playerCam, moveTime));
-    //}
-
     private IEnumerator PickUp(Transform playerCam, float moveTime) {
-        //Debug.Log("Collider size: " + _collider.bounds.size);
 
-        //Vector3 testHoldPoint = holdPoint - new Vector3(0, 0, _collider.bounds.size.y);
+        float longestBound = _collider.bounds.size.x > _collider.bounds.size.y      // use the objects longer edge to calculate hold distance
+            ? _collider.bounds.size.x : _collider.bounds.size.y;
 
-        // TODO: object based on front surface rather than the object center
-        float holdDistance = 1 + _collider.bounds.size.y;   //
+        float holdDistance = 0.5f + longestBound;                                      // the distance from the camera the object should be held. Smaller items are held closer
+        Vector3 holdPoint = playerCam.position + playerCam.forward * holdDistance;  // recalc the hold point
 
-        Vector3 holdPoint = playerCam.position + playerCam.forward * holdDistance;
-        holdPoint += -playerCam.up * _collider.bounds.extents.y;
+        //holdPoint += -playerCam.up * (_collider.bounds.size.y / 2);
 
         // lets do this scuff first
         Tween.Position(t, holdPoint, moveTime, Ease.InSine);    // move to player hold point
+        Debug.DrawLine(playerCam.position, holdPoint, Color.red, 10f);
 
         // calculate rotation to point towards player cam
         Quaternion rot = Quaternion.LookRotation(t.position - playerCam.position, Vector3.up);

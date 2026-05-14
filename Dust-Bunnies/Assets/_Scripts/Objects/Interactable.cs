@@ -13,16 +13,24 @@ public class Interactable : MonoBehaviour
     [SerializeField] private AK.Wwise.Event interactEvent;
 
     // TODO: temp to make the system work again then revisit a better way to pass info
-    public virtual void Interact(Transform playerCam, float moveTime) {
-        lineSwitch?.SetValue(gameObject);
-        interactEvent?.Post(gameObject);
+    public virtual void Interact(Transform playerCam, float moveTime)
+    {
+        PlayInteractVoiceLine();
 
-        try {
+        try
+        {
             DialogueManager.Instance.RunDialogue(Dialogue);
         }
-        catch {
+        catch
+        {
             Debug.LogWarning("Dialogue manager instance does not exist");
         }
+    }
+
+    protected void PlayInteractVoiceLine()
+    {
+        lineSwitch?.SetValue(gameObject);
+        interactEvent?.Post(gameObject);
     }
 
     public virtual void InteractEnd(float moveTime) { }
@@ -30,7 +38,8 @@ public class Interactable : MonoBehaviour
     /// <summary>
     /// The state to switch too if interacting with the object changes state
     /// </summary>
-    public virtual PlayerState GetNextState(PlayerController p, InputReader i) {
+    public virtual PlayerState GetNextState(PlayerController p, InputReader i)
+    {
         return null;
     }
 }

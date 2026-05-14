@@ -10,17 +10,21 @@ public class Mirror : Interactable
     [SerializeField] private Camera mirrorCam;
     [SerializeField] private Image reflection;
 
-    void Start() {
+    void Start()
+    {
         reflection.enabled = false;
         mirrorCam.enabled = false;
     }
 
-    public override void Interact(Transform playerCam, float moveTime) {
-        //base.Interact(playerCam, moveTime);
+    public override void Interact(Transform playerCam, float moveTime)
+    {
+        // base.Interact(playerCam, moveTime);
+        PlayInteractVoiceLine();
         StartCoroutine(CiciAppears());
     }
 
-    public override PlayerState GetNextState(PlayerController p, InputReader i) {
+    public override PlayerState GetNextState(PlayerController p, InputReader i)
+    {
         base.GetNextState(p, i);
         return new LockedState(p, i);
     }
@@ -29,7 +33,8 @@ public class Mirror : Interactable
     /// Sequence for Cici appearing in the mirror, and
     /// the first snapshot being loaded.
     /// </summary>
-    private IEnumerator CiciAppears() {
+    private IEnumerator CiciAppears()
+    {
         // start by fading out
         yield return StartCoroutine(sceneFader.FadeOut());
 
@@ -42,7 +47,8 @@ public class Mirror : Interactable
         StartCoroutine(sceneFader.FadeIn());
 
         yield return new WaitForSeconds(1f);
-        if (Dialogue != null) {
+        if (Dialogue != null)
+        {
             dialogueManager.RunDialogue(Dialogue);
         }
         yield return new WaitForSeconds(4f);

@@ -285,11 +285,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &848624340 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1872906734156704792, guid: 39e068a8f27b94445853c80f24a86f4a, type: 3}
-  m_PrefabInstance: {fileID: 1137523634996447018}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1128411177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -537,6 +532,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39e068a8f27b94445853c80f24a86f4a, type: 3}
+--- !u!4 &1137523634996447019 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6135399597731799174, guid: 39e068a8f27b94445853c80f24a86f4a, type: 3}
+  m_PrefabInstance: {fileID: 1137523634996447018}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3314250618151691825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -620,7 +620,7 @@ PrefabInstance:
     - target: {fileID: 6899204380572781638, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: room
       value: 
-      objectReference: {fileID: 848624340}
+      objectReference: {fileID: 1137523634996447019}
     - target: {fileID: 6899204380572781638, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: sceneLoader
       value: 

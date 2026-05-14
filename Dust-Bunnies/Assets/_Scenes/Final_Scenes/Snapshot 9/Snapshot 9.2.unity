@@ -236,11 +236,6 @@ MonoBehaviour:
   scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
---- !u!4 &116210033 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 345357695432507057, guid: b19f3d7cd2459564292dbf92d027ec65, type: 3}
-  m_PrefabInstance: {fileID: 7768004096796582681}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &177497565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -555,7 +550,7 @@ PrefabInstance:
     - target: {fileID: 6899204380572781638, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: room
       value: 
-      objectReference: {fileID: 116210033}
+      objectReference: {fileID: 7768004096796582682}
     - target: {fileID: 6899204380572781638, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: sceneLoader
       value: 
@@ -723,6 +718,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b19f3d7cd2459564292dbf92d027ec65, type: 3}
+--- !u!4 &7768004096796582682 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5193287346347029039, guid: b19f3d7cd2459564292dbf92d027ec65, type: 3}
+  m_PrefabInstance: {fileID: 7768004096796582681}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

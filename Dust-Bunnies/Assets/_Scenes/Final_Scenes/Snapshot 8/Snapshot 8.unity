@@ -987,11 +987,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2a512ffc91dd8342a2daff665c04ba7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1532415432 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6012951457940289367, guid: 0d6d14514eba75345aafd79e483260e5, type: 3}
-  m_PrefabInstance: {fileID: 2543476034417261407}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1620352986
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,6 +1419,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d6d14514eba75345aafd79e483260e5, type: 3}
+--- !u!4 &2543476034417261408 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2281914145274772425, guid: 0d6d14514eba75345aafd79e483260e5, type: 3}
+  m_PrefabInstance: {fileID: 2543476034417261407}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3314250618151691825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1503,7 +1503,7 @@ PrefabInstance:
     - target: {fileID: 6899204380572781638, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: room
       value: 
-      objectReference: {fileID: 1532415432}
+      objectReference: {fileID: 2543476034417261408}
     - target: {fileID: 6899204380572781638, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: sceneLoader
       value: 

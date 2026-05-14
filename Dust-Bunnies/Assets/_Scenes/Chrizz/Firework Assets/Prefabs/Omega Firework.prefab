@@ -81,6 +81,10 @@ MonoBehaviour:
   cleanupTime: 10
   ignoreFields: 1
   isFinale: 1
+  finaleBurstEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c4fc51e080dc8214fad25c110ec7eb05, type: 2}
 --- !u!1 &410122491721067382
 GameObject:
   m_ObjectHideFlags: 0

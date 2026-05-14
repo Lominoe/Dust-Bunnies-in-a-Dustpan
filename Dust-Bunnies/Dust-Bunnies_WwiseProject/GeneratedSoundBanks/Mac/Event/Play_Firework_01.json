@@ -10,28 +10,19 @@
     "Type": "Event",
     "GUID": "{27AAB893-3A56-4B0F-9D77-5DAA55C53179}",
     "Language": "SFX",
-    "Hash": "{134EE660-A647-C874-4253-B7C415FA4E87}",
+    "Hash": "{DF0A0C5F-E107-0D51-EC49-1B7DBF49E0D4}",
     "ObjectPath": "Play_Firework_01",
     "ShortName": "Play_Firework_01",
     "Path": "Event/Play_Firework_01.bnk",
     "Media": [
      {
-      "Id": "374627359",
+      "Id": "277899251",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "Finale Riser.wav",
-      "Path": "Media/374627359.wem",
-      "CachePath": "D7/{D700FDA2-4EDC-835D-106E-BD2CD1B03BCA}.wem"
-     },
-     {
-      "Id": "824741546",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Finale Explosion.wav",
-      "Path": "Media/824741546.wem",
-      "CachePath": "B6/{B6655769-369D-EDD2-12A3-8B0176EE978B}.wem"
+      "ShortName": "ES_Fireworks, Commercial, Explosion, Big, Single, Sparks, Close 02 - Epidemic Sound.wav",
+      "Path": "Media/277899251.wem",
+      "CachePath": "E4/{E409797A-0676-6FED-3D7B-283F26A2EC88}.wem"
      }
     ],
     "Events": [
@@ -41,20 +32,17 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Firework_01",
       "GUID": "{27AAB893-3A56-4B0F-9D77-5DAA55C53179}",
       "DurationType": "OneShot",
-      "DurationMin": "12.2196665",
-      "DurationMax": "12.2196665",
+      "DurationMin": "6.7481275",
+      "DurationMax": "6.7481275",
       "MediaRefs": [
        {
-        "Id": "374627359"
-       },
-       {
-        "Id": "824741546"
+        "Id": "277899251"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{C96341AA-41C9-A842-A9D0-A393263E36BD}"
+  "FileHash": "{06B7DDEC-5E1A-0089-33CE-428535AFB3FB}"
  }
 }

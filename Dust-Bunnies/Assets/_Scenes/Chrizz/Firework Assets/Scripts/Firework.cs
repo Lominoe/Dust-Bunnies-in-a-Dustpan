@@ -21,7 +21,7 @@ public class Firework : MonoBehaviour
     [Header("Cleanup")]
     [SerializeField]
     private float cleanupTime = 10f;
-
+    
     [Space]
     [Header("Finale Params")]
     [SerializeField] private bool ignoreFields;

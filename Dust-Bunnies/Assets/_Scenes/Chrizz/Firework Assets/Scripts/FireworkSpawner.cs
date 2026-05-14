@@ -36,11 +36,6 @@ public class FireworkSpawner : MonoBehaviour {
         if (_spawnRoutine != null)
             StopCoroutine(_spawnRoutine);
     }
-    //private void Update() {
-    //    if (Input.GetKeyDown(KeyCode.Space) && debug) {
-    //        PlayFinale();
-    //    }
-    //}
 
     public void PlayFinale() {
         _inFinale = true;
@@ -49,12 +44,14 @@ public class FireworkSpawner : MonoBehaviour {
     
     //Calls automatically on loop. Stops during the finale.
     private IEnumerator SpawnLoop() {
-        while (!_inFinale) {
+        //while (!_inFinale) {
+        while (true) {
             SpawnFirework(fireworkPrefab, false);
 
             float delay = 1f / spawnRate;
             yield return new WaitForSeconds(delay);
         }
+        //}
     }
 
     private void SpawnFirework(Firework firework, bool isFinale) {

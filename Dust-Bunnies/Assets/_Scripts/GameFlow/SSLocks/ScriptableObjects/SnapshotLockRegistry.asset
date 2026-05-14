@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: SnapshotLockRegistry
   m_EditorClassIdentifier: 
   requirements:
-  - snapshotNumber: 6
-    condition: 2
-    conditionID: college_acceptance_letter
+  - {fileID: 11400000, guid: 47f79a876174386438ee59b672165c2f, type: 2}
+  - {fileID: 11400000, guid: 5b66289c0d761094c848b3140bbba00c, type: 2}

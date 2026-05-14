@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ede3749238a9ee04994579bdd8dad123, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  travelRange: {x: 80, y: 200}
+  travelRange: {x: 80, y: 180}
   lifetimeRange: {x: 3, y: 6}
   movementCurve:
     serializedVersion: 2

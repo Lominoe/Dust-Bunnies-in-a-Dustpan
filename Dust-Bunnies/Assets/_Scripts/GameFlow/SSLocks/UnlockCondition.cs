@@ -1,6 +1,8 @@
 using UnityEngine;
 
-public class UnlockCondition
-{
-    
+public enum UnlockCondition {
+    StartedMinigame,
+    CompletedMinigame,
+    PickedUpObject,
+    EnteredCollider
 }

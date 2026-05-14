@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{6714B61F-BB7F-49FD-B967-EDF97BCBB4E0}",
     "Language": "SFX",
-    "Hash": "{97261AD4-8BDE-FC06-BB2B-51F887FA4AEF}",
+    "Hash": "{B48DC6C6-6825-B311-1018-FCD28D2937E3}",
     "ObjectPath": "Play_Firework",
     "ShortName": "Play_Firework",
     "Path": "Event/Play_Firework.bnk",
@@ -166,6 +166,6 @@
     ]
    }
   ],
-  "FileHash": "{433A5CFE-30B9-DB45-12D1-12E9B604B9F6}"
+  "FileHash": "{E0A07F75-5AD6-C6F9-D5FA-E324566E62AA}"
  }
 }

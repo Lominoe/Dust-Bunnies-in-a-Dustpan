@@ -34,19 +34,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 96189c6e57b2bc4418102269f8d3a17c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9158181
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 96189c6e57b2bc4418102269f8d3a17c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.000000034571176
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 96189c6e57b2bc4418102269f8d3a17c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.40159348
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 96189c6e57b2bc4418102269f8d3a17c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000015159735
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 96189c6e57b2bc4418102269f8d3a17c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -54,16 +54,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 96189c6e57b2bc4418102269f8d3a17c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 47.356
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 96189c6e57b2bc4418102269f8d3a17c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 96189c6e57b2bc4418102269f8d3a17c, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 96189c6e57b2bc4418102269f8d3a17c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e6a0faaf991aa7c4bbe9fa128c1f1186, type: 2}
     - target: {fileID: 919132149155446097, guid: 96189c6e57b2bc4418102269f8d3a17c, type: 3}
       propertyPath: m_Name
       value: paper3_vertical
@@ -117,3 +121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e7ec0bf29d46cb4cb0987c135d36daa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Dialogue: 
+  requirement:
+    snapshotNumber: 0
+    condition: 0
+    conditionID: 

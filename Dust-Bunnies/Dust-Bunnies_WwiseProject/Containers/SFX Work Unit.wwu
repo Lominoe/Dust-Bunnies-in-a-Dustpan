@@ -934,9 +934,20 @@
 								<MediaID ID="824741546"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="ES_Fireworks, Commercial, Explosion, Big, Single, Sparks, Close 02 - Epidemic Sound" ID="{A5EA4DCF-3440-4AAD-ADCE-083DBF9786FB}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="6.74812766706549"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>ES_Fireworks, Commercial, Explosion, Big, Single, Sparks, Close 02 - Epidemic Sound.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="277899251"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="Finale Explosion" ID="{F7C087A7-A3DC-479A-B87A-D2B9413B94BB}" Platform="Linked"/>
+						<ActiveSource Name="ES_Fireworks, Commercial, Explosion, Big, Single, Sparks, Close 02 - Epidemic Sound" ID="{A5EA4DCF-3440-4AAD-ADCE-083DBF9786FB}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Finale Whistle" ID="{C4AC6361-F19D-453F-BE11-8F6108EFB612}" ShortID="1020678460">

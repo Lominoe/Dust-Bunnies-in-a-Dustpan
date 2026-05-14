@@ -569,6 +569,11 @@
 						</Sound>
 						<Sound Name="dlg_cici_25_v01" ID="{56C6B8A4-94AE-4954-827A-FCD24713915F}" ShortID="90948931">
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 								<Property Name="IsVoice" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>

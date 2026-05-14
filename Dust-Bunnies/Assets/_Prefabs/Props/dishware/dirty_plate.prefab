@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dirty_plate
       objectReference: {fileID: 0}
+    - target: {fileID: 6398902889415626652, guid: ba404c75429b7ac4a9cf388f88d6efad, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -78,9 +82,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ba404c75429b7ac4a9cf388f88d6efad, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5568953875362327949}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ba404c75429b7ac4a9cf388f88d6efad, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: -486044742998724014}
   m_SourcePrefab: {fileID: 100100000, guid: ba404c75429b7ac4a9cf388f88d6efad, type: 3}
 --- !u!1 &9057979969863009504 stripped
 GameObject:
@@ -121,16 +122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialogue: 
---- !u!114 &-486044742998724014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9057979969863009504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e7ec0bf29d46cb4cb0987c135d36daa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Dialogue: 
+  requirement:
+    snapshotNumber: 0
+    condition: 0
+    conditionID: 

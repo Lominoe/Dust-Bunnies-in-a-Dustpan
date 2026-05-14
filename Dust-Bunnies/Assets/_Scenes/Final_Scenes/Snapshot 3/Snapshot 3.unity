@@ -369,11 +369,55 @@ Material:
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!4 &965816419 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8339896427337308223, guid: c2b2a3d1836c69242bb903904e5241d3, type: 3}
-  m_PrefabInstance: {fileID: 3095118845040909905}
+--- !u!21 &949001829
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_Name: Height Fog Global
+  m_Shader: {fileID: 4800000, guid: 3a7ef1b66bafb7a448a880ef76d2e6e6, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddPrecomputedVelocity: 1
+    - _Banner: 1
+    - _FogCameraMode: 0
+    - _HeightFogGlobal: 1
+    - _IsHeightFogShader: 1
+    - _QueueControl: -1
+    - _QueueOffset: 0
+    - _XRMotionVectorsPass: 1
+    m_Colors: []
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1001 &1128411177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -934,6 +978,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2b2a3d1836c69242bb903904e5241d3, type: 3}
+--- !u!4 &3095118845040909906 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3019886477201191136, guid: c2b2a3d1836c69242bb903904e5241d3, type: 3}
+  m_PrefabInstance: {fileID: 3095118845040909905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3314250618151691825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -989,7 +1038,7 @@ PrefabInstance:
     - target: {fileID: 6899204380572781638, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: room
       value: 
-      objectReference: {fileID: 965816419}
+      objectReference: {fileID: 3095118845040909906}
     - target: {fileID: 6899204380572781638, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: sceneLoader
       value: 

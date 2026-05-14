@@ -225,11 +225,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!4 &289442230 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8586397446610012521, guid: 8a7752c901020044fabf68c0284b7b4c, type: 3}
-  m_PrefabInstance: {fileID: 4119367233968289278}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &349349180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -463,6 +458,55 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de9dadb16e8b68d48878fa185d590dc4, type: 3}
+--- !u!21 &625838956
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Height Fog Global
+  m_Shader: {fileID: 4800000, guid: 3a7ef1b66bafb7a448a880ef76d2e6e6, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddPrecomputedVelocity: 1
+    - _Banner: 1
+    - _FogCameraMode: 0
+    - _HeightFogGlobal: 1
+    - _IsHeightFogShader: 1
+    - _QueueControl: -1
+    - _QueueOffset: 0
+    - _XRMotionVectorsPass: 1
+    m_Colors: []
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &764084598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,7 +1743,7 @@ PrefabInstance:
     - target: {fileID: 6899204380572781638, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: room
       value: 
-      objectReference: {fileID: 289442230}
+      objectReference: {fileID: 4119367233968289280}
     - target: {fileID: 6899204380572781638, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: interact
       value: 
@@ -1827,6 +1871,11 @@ PrefabInstance:
 --- !u!4 &4119367233968289279 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 144353191737602573, guid: 8a7752c901020044fabf68c0284b7b4c, type: 3}
+  m_PrefabInstance: {fileID: 4119367233968289278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4119367233968289280 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5145480954473009005, guid: 8a7752c901020044fabf68c0284b7b4c, type: 3}
   m_PrefabInstance: {fileID: 4119367233968289278}
   m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807

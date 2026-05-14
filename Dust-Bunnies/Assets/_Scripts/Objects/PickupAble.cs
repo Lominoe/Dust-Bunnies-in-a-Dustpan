@@ -9,10 +9,10 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class PickupAble : Interactable
 {
-    [SerializeField] private AK.Wwise.Event pickupEvent;
-    [SerializeField] private AK.Wwise.Event putDownEvent;
-    [SerializeField] private AK.Wwise.State pickupState;
-    [SerializeField] private AK.Wwise.State putDownState;
+    private AK.Wwise.Event pickupEvent;
+    private AK.Wwise.Event putDownEvent;
+    private AK.Wwise.State pickupState;
+    private AK.Wwise.State putDownState;
 
     private Vector3 _startPos;  // store initial start pos to return back to
     private Quaternion _startRot;
@@ -73,8 +73,11 @@ public class PickupAble : Interactable
         putDownEvent?.Post(gameObject);
 
         Tween.Position(t, StartPos, moveTime, Ease.OutSine);
-
-        //Quaternion rot = Quaternion.LookRotation()
         Tween.Rotation(t, StartRot, moveTime, Ease.OutSine);
+
+        // if there is a requirement for picking up this item, notify the game manager
+        if (requirement.snapshotNumber > 0) {
+            GameManager.ReportUnlock(requirement.condition, requirement.conditionID);
+        }
     }
 }

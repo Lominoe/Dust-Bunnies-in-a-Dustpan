@@ -4,6 +4,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
+    [SerializeField] private SnapshotLockRegistry lockRegistery;
+
     public static event System.Action OnLoadNextSnapshot;
     public static event System.Action OnLoadPreviousSnapshot;
     public static event System.Action OnRestartGame;
@@ -46,30 +48,6 @@ public class GameManager : MonoBehaviour
         hasStoredData = true;
     }
 
-    //public static void NextSnapshot() {
-    //    // will get a request from the player to go to the next snapshot
-    //    // first the snapshot requirements will be checked / a way to check if the player has
-    //    // completed what they need to to advance
-    //    if (!CheckSnapshotRequirements(currSnapshotNumber + 1)) {
-    //        return;
-    //    }
-
-    //    // if it goes through send an event to the ui to advance
-    //    // also send an event to scene loader to load the next scene
-    //    OnLoadNextSnapshot?.Invoke();
-
-    //    // also increment the snapshot number
-    //    currSnapshotNumber++;
-    //}
-
-    //public static void PreviousSnapshot() {
-    //    if (!CheckSnapshotRequirements(currSnapshotNumber - 1)) {
-    //        return;
-    //    }
-    //    OnLoadPreviousSnapshot?.Invoke();
-    //    currSnapshotNumber--;
-    //}
-
     public static void ChangeSnapshot(int direction) {
         int target = currSnapshotNumber + direction;
 
@@ -87,23 +65,23 @@ public class GameManager : MonoBehaviour
     /// returns true if you can switch and false if requirements are missing
     /// </summary>
     public static bool CheckSnapshotRequirements(int snapshotNumber) {
-        // TODO: jank b*tch
-        // will write a switch statement here
-        switch (snapshotNumber) {
-            case 0:
-                return false;   // also no going back to main menu
-            case 1:
-                return true;   // you can only ever switch to snapshot 1 through the mirror
-            default:
-                return true;
-        }
-        //return false;
+        if (snapshotNumber <= 0) return false;      // no going back to main menu
+        if (snapshotNumber == 1) return true;       // only the mirror can switch to snapshot 1
+        return Instance.lockRegistery.IsUnlocked(snapshotNumber);
+    }
+
+    /// <summary>
+    /// Called when a level lock requirement is completed
+    /// </summary>
+    public static void ReportUnlock(UnlockCondition condition, string id) {
+        Instance.lockRegistery.ReportConditionMet(condition, id);
+        Debug.Log("Unlock Condition: " + condition + " | Id: " +  id);
     }
 
     public static void RestartGame() {
-        Debug.Log("Restart Button Pressed");
         currSnapshotNumber = 0;
         hasStoredData = false;
+        Instance.lockRegistery.Reset();
         OnRestartGame?.Invoke();
     }
 }

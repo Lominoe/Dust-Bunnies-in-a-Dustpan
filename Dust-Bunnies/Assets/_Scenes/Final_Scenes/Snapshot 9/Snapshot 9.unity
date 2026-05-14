@@ -378,11 +378,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &913240925 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2298627422782987143, guid: cd1b1d062871322448a362682edf5bfd, type: 3}
-  m_PrefabInstance: {fileID: 3822874504938134721}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1128411177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -580,7 +575,7 @@ PrefabInstance:
     - target: {fileID: 6899204380572781638, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: room
       value: 
-      objectReference: {fileID: 913240925}
+      objectReference: {fileID: 3822874504938134722}
     - target: {fileID: 6899204380572781638, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
       propertyPath: sceneLoader
       value: 
@@ -647,6 +642,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd1b1d062871322448a362682edf5bfd, type: 3}
+--- !u!4 &3822874504938134722 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5998489981613217561, guid: cd1b1d062871322448a362682edf5bfd, type: 3}
+  m_PrefabInstance: {fileID: 3822874504938134721}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

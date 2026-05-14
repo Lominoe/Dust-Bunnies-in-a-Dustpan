@@ -9,11 +9,6 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: bunny_goes_to_school
     second: {fileID: 2100000, guid: b65ed2433dcc8f14a90ada255cd7dde4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: outline_shader
-    second: {fileID: 2100000, guid: 17e3afce38c46664098b56f63634af27, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

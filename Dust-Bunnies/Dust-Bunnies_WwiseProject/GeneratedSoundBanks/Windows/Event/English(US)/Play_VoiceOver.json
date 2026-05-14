@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C1BBAD37-C5B0-47F1-9484-E71664184B52}",
     "Language": "English(US)",
-    "Hash": "{97064168-3F5F-4C89-90DC-28F593D93F33}",
+    "Hash": "{C4E5822C-B7D1-DDF3-0483-D2BCB76AD9C6}",
     "ObjectPath": "Play_VoiceOver",
     "ShortName": "Play_VoiceOver",
     "Path": "Event/English(US)/Play_VoiceOver.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_13_v01.wav",
       "Path": "Media/English(US)/6395678.wem",
-      "CachePath": "E2/{E2682AEE-692B-B3BE-71DC-C849B291A3F0}.wem"
+      "CachePath": "10/{103AA2A3-E978-86DF-94C5-60586F4E3091}.wem"
      },
      {
       "Id": "12799731",
@@ -31,7 +31,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v18.wav",
       "Path": "Media/12799731.wem",
-      "CachePath": "82/{8227BEF4-0257-D42A-6CEE-3BFAF369B550}.wem"
+      "CachePath": "D8/{D8B9E8F5-8AD4-40F3-4ABF-FE370C72CB62}.wem"
      },
      {
       "Id": "22661235",
@@ -40,7 +40,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v06.wav",
       "Path": "Media/22661235.wem",
-      "CachePath": "9B/{9BA221FF-360E-20F9-9A78-5985BA356DF9}.wem"
+      "CachePath": "B2/{B28807F7-1292-13DC-3C4E-B41E7F2FF259}.wem"
      },
      {
       "Id": "43326813",
@@ -49,7 +49,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_11_v01.wav",
       "Path": "Media/English(US)/43326813.wem",
-      "CachePath": "73/{738BB15F-3699-B7CC-E17E-03E5E7034263}.wem"
+      "CachePath": "BF/{BF71BD18-FD7E-3914-B079-2B2BBD2E7710}.wem"
      },
      {
       "Id": "44487178",
@@ -58,7 +58,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_04_v02.wav",
       "Path": "Media/English(US)/44487178.wem",
-      "CachePath": "EA/{EA8A01DA-5BF0-2104-84A2-852A660F3823}.wem"
+      "CachePath": "28/{286C38A4-48F2-9782-430B-C5EBAF86EE4A}.wem"
      },
      {
       "Id": "74870242",
@@ -67,7 +67,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_32_v01.wav",
       "Path": "Media/English(US)/74870242.wem",
-      "CachePath": "69/{694BD609-69E1-5197-2F78-A692B3CEFC8E}.wem"
+      "CachePath": "36/{369E4A3A-C336-D3DD-EC50-CD2651817C1E}.wem"
      },
      {
       "Id": "144773714",
@@ -76,7 +76,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v15.wav",
       "Path": "Media/144773714.wem",
-      "CachePath": "30/{309ACF80-7667-E763-73A7-517B86017C51}.wem"
+      "CachePath": "25/{250A7320-4049-D81C-36B8-FB9D036E6861}.wem"
      },
      {
       "Id": "163945368",
@@ -85,7 +85,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_14_v01.wav",
       "Path": "Media/English(US)/163945368.wem",
-      "CachePath": "FB/{FB907BD4-BC58-8628-12A2-3B71EB272E6C}.wem"
+      "CachePath": "5F/{5F9D6494-D92F-880D-D29E-F40BCBB1B7C0}.wem"
      },
      {
       "Id": "175862122",
@@ -94,7 +94,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_16_v01.wav",
       "Path": "Media/English(US)/175862122.wem",
-      "CachePath": "34/{342E8E89-62CC-4624-53ED-623DE76B7BD7}.wem"
+      "CachePath": "FE/{FE12C896-06D6-22EF-E26F-B179B6547BD4}.wem"
      },
      {
       "Id": "180982002",
@@ -103,7 +103,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_07_v01.wav",
       "Path": "Media/English(US)/180982002.wem",
-      "CachePath": "0B/{0B1CC1FE-C6CC-1BF0-569A-4FBACEF4D0CE}.wem"
+      "CachePath": "B4/{B416EFDB-18AE-AE08-0008-B4389D9F32B7}.wem"
      },
      {
       "Id": "184501439",
@@ -112,7 +112,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_10_v02.wav",
       "Path": "Media/English(US)/184501439.wem",
-      "CachePath": "88/{88579E4D-BF59-329A-5848-DDB4DDAE5B28}.wem"
+      "CachePath": "D9/{D98F7150-8B58-C8B1-B211-5A9F296B96F8}.wem"
      },
      {
       "Id": "207965947",
@@ -121,7 +121,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_30_v01.wav",
       "Path": "Media/English(US)/207965947.wem",
-      "CachePath": "54/{543E1BA5-4173-A7CB-9E79-246F26386BD9}.wem"
+      "CachePath": "66/{6618E499-5FCD-30A7-BFCF-0E684163BFC0}.wem"
      },
      {
       "Id": "208206733",
@@ -130,7 +130,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_09_v01.wav",
       "Path": "Media/English(US)/208206733.wem",
-      "CachePath": "8C/{8CCB713C-847F-BCB1-5B47-376504DB9FDD}.wem"
+      "CachePath": "4F/{4FA34598-7AF5-F24A-7C22-CA6E75300D38}.wem"
      },
      {
       "Id": "210569642",
@@ -139,7 +139,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v09.wav",
       "Path": "Media/210569642.wem",
-      "CachePath": "F4/{F4D80BCC-2F98-50E9-7370-9EE82C41DD9A}.wem"
+      "CachePath": "D6/{D6549A7B-29F4-FD87-86F6-E5AA271E50BB}.wem"
      },
      {
       "Id": "213093308",
@@ -148,7 +148,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v01.wav",
       "Path": "Media/English(US)/213093308.wem",
-      "CachePath": "F6/{F64B5794-8725-BF3A-E495-B04188663289}.wem"
+      "CachePath": "91/{91AFF2E0-654E-9B59-42E8-6E2DA9BDFC6C}.wem"
      },
      {
       "Id": "267889786",
@@ -157,7 +157,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v10.wav",
       "Path": "Media/267889786.wem",
-      "CachePath": "65/{658BBADE-4A25-4552-98B4-E52546473FFD}.wem"
+      "CachePath": "FB/{FB7845DC-2BB0-5187-0179-96FC048DA724}.wem"
      },
      {
       "Id": "268253264",
@@ -166,7 +166,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v17.wav",
       "Path": "Media/268253264.wem",
-      "CachePath": "E0/{E0951E16-9541-D129-1459-01C389FB2A5E}.wem"
+      "CachePath": "08/{080B9857-0A53-178F-4B18-E3B84AD4E594}.wem"
      },
      {
       "Id": "296026667",
@@ -175,7 +175,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v08.wav",
       "Path": "Media/296026667.wem",
-      "CachePath": "11/{11C8DE81-D28F-B92D-76FA-22437F2FD24F}.wem"
+      "CachePath": "3A/{3AB91431-F778-1185-1F7C-8035109C18FA}.wem"
      },
      {
       "Id": "298372658",
@@ -184,7 +184,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v12.wav",
       "Path": "Media/298372658.wem",
-      "CachePath": "A2/{A24AFB68-1932-225E-9882-E569F13F1E2D}.wem"
+      "CachePath": "9A/{9AF02E76-1845-66E6-99DE-8E41208BFA3E}.wem"
      },
      {
       "Id": "316113706",
@@ -193,7 +193,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_25_v01.wav",
       "Path": "Media/English(US)/316113706.wem",
-      "CachePath": "95/{95655F99-508E-6015-0808-641AC93F02E8}.wem"
+      "CachePath": "08/{08FED99B-0D58-C7BA-9E46-71429E397D6D}.wem"
      },
      {
       "Id": "327600421",
@@ -202,7 +202,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_21_v01.wav",
       "Path": "Media/English(US)/327600421.wem",
-      "CachePath": "C5/{C5F77E9F-0586-6C11-666B-68D1FE2CC876}.wem"
+      "CachePath": "85/{85B8740F-6646-5EB2-7900-5BCBFD3823DA}.wem"
      },
      {
       "Id": "332804542",
@@ -211,7 +211,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v13.wav",
       "Path": "Media/332804542.wem",
-      "CachePath": "B5/{B5353CA4-3D2F-5113-520E-140B9094C9CF}.wem"
+      "CachePath": "D7/{D74F3CD2-4925-789A-AC84-A01B29B844DD}.wem"
      },
      {
       "Id": "333338760",
@@ -220,7 +220,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v16.wav",
       "Path": "Media/333338760.wem",
-      "CachePath": "C2/{C294D641-B78E-625E-8266-D0D01A737DBD}.wem"
+      "CachePath": "B2/{B2052377-360D-9FB4-15F5-A019D5455629}.wem"
      },
      {
       "Id": "363548345",
@@ -229,7 +229,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_15_v01.wav",
       "Path": "Media/English(US)/363548345.wem",
-      "CachePath": "C9/{C994D05D-5FDD-24E2-3EA2-4CD49BCD450A}.wem"
+      "CachePath": "F4/{F49C696A-E421-19E0-F80B-02F1A6CE4AB4}.wem"
      },
      {
       "Id": "414074992",
@@ -238,7 +238,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_02_v01.wav",
       "Path": "Media/English(US)/414074992.wem",
-      "CachePath": "4D/{4DB971E2-3C9C-4EAA-52A3-FEEFFCC81A23}.wem"
+      "CachePath": "46/{46BA413C-E33C-D914-4B22-5AD617778A14}.wem"
      },
      {
       "Id": "444649846",
@@ -247,7 +247,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_23_v01.wav",
       "Path": "Media/English(US)/444649846.wem",
-      "CachePath": "A9/{A9DC6E9E-00D5-43CF-FF2C-E30616471039}.wem"
+      "CachePath": "E5/{E5AA5DD4-A476-DA34-286B-5A9A3107E89D}.wem"
      },
      {
       "Id": "457116347",
@@ -256,7 +256,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v02.wav",
       "Path": "Media/English(US)/457116347.wem",
-      "CachePath": "72/{72C46AD0-63BE-9CAF-CB6A-D57742B6BE9F}.wem"
+      "CachePath": "AC/{ACB6D048-CC64-5BF7-4AE8-FE0BE79F70E0}.wem"
      },
      {
       "Id": "547090593",
@@ -265,7 +265,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v05.wav",
       "Path": "Media/547090593.wem",
-      "CachePath": "59/{59972BBF-89B0-CE2C-7558-C12D5E384571}.wem"
+      "CachePath": "41/{41835EC2-443A-8EAD-3E0D-EBB46EA497D3}.wem"
      },
      {
       "Id": "549332841",
@@ -274,7 +274,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_06_v01.wav",
       "Path": "Media/English(US)/549332841.wem",
-      "CachePath": "00/{00A291E9-9638-6261-F8AF-257F86D4CE56}.wem"
+      "CachePath": "18/{18EE8936-2AC0-4EB5-1552-BDA8B7B081F4}.wem"
      },
      {
       "Id": "551772660",
@@ -283,7 +283,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_19_v01.wav",
       "Path": "Media/English(US)/551772660.wem",
-      "CachePath": "A0/{A0FDC24B-F8B7-1350-7BE1-DD899C84BC4D}.wem"
+      "CachePath": "E5/{E5137CE8-973A-4F6B-42A2-838AE8F11F25}.wem"
      },
      {
       "Id": "578528480",
@@ -292,7 +292,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v19.wav",
       "Path": "Media/578528480.wem",
-      "CachePath": "DA/{DA086D68-3D27-8F68-19E8-79A285C80BD8}.wem"
+      "CachePath": "1E/{1EBC0D29-B369-D778-99ED-ABC8597AD8EA}.wem"
      },
      {
       "Id": "594283601",
@@ -301,7 +301,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_27_v01.wav",
       "Path": "Media/English(US)/594283601.wem",
-      "CachePath": "21/{21768557-D67F-B1C4-31C2-D28E26BEB0AA}.wem"
+      "CachePath": "05/{0531CF50-C13B-DBE4-C6DC-1FD076DDB8F4}.wem"
      },
      {
       "Id": "626202810",
@@ -310,7 +310,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_05_v01.wav",
       "Path": "Media/English(US)/626202810.wem",
-      "CachePath": "B8/{B8C01FD2-BF0D-5716-0187-65FFB848A0AE}.wem"
+      "CachePath": "8A/{8A9D2949-377E-9D15-09F0-41FED51DB620}.wem"
      },
      {
       "Id": "640364612",
@@ -319,7 +319,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v14.wav",
       "Path": "Media/640364612.wem",
-      "CachePath": "30/{30E49926-28E9-81AC-7B7F-DEF644CABD9D}.wem"
+      "CachePath": "27/{27DBC609-D7DC-7272-F088-CDE302613845}.wem"
      },
      {
       "Id": "672933900",
@@ -328,7 +328,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_03_v01.wav",
       "Path": "Media/English(US)/672933900.wem",
-      "CachePath": "02/{02947379-292D-6851-4038-0E3C782341FB}.wem"
+      "CachePath": "C2/{C242B7F5-D69E-36DD-E4DA-627881B9CE02}.wem"
      },
      {
       "Id": "673419931",
@@ -337,7 +337,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_17_v01.wav",
       "Path": "Media/English(US)/673419931.wem",
-      "CachePath": "02/{02579BDF-15C8-3A0A-A035-F4829C369692}.wem"
+      "CachePath": "1B/{1B875946-8573-AF0B-E9CB-D53BB675662E}.wem"
      },
      {
       "Id": "699803301",
@@ -346,7 +346,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_26_v01.wav",
       "Path": "Media/English(US)/699803301.wem",
-      "CachePath": "B5/{B537D3E9-97EF-8880-72C4-676DC1B63896}.wem"
+      "CachePath": "34/{34F825B0-9570-20B7-3677-827C9F66EEAF}.wem"
      },
      {
       "Id": "713818229",
@@ -355,7 +355,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_29_v01.wav",
       "Path": "Media/English(US)/713818229.wem",
-      "CachePath": "AD/{ADDD0CF5-8388-AE16-4770-4679B66EEDEF}.wem"
+      "CachePath": "4E/{4EC52283-EC6E-01A4-47A0-E02AC6276D8E}.wem"
      },
      {
       "Id": "728463885",
@@ -364,7 +364,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_04_v01.wav",
       "Path": "Media/English(US)/728463885.wem",
-      "CachePath": "7D/{7DC8FFF3-F7B7-C80C-95BD-C3EE5C114868}.wem"
+      "CachePath": "45/{4528B8CE-C6E3-04E9-91E9-10E1E8E13488}.wem"
      },
      {
       "Id": "743757242",
@@ -373,7 +373,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v11.wav",
       "Path": "Media/743757242.wem",
-      "CachePath": "97/{9715BD03-C0EC-29AE-96AA-58355FD7D5ED}.wem"
+      "CachePath": "EE/{EE87833E-BF2E-8CBC-5667-EA871818B21E}.wem"
      },
      {
       "Id": "749115596",
@@ -382,7 +382,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_22_v01.wav",
       "Path": "Media/English(US)/749115596.wem",
-      "CachePath": "E7/{E72C0B10-F175-8D50-0DF2-B42C8257416A}.wem"
+      "CachePath": "04/{04B24CF2-36E6-4004-632F-C79781B03306}.wem"
      },
      {
       "Id": "805067783",
@@ -391,7 +391,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v07.wav",
       "Path": "Media/805067783.wem",
-      "CachePath": "FC/{FC8EEBB9-0FE0-98FE-5595-B1C6E85C6F8F}.wem"
+      "CachePath": "C1/{C18BCCCD-086D-E487-70A8-457A58FA9DF4}.wem"
      },
      {
       "Id": "809304906",
@@ -400,7 +400,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_01_v01.wav",
       "Path": "Media/English(US)/809304906.wem",
-      "CachePath": "F1/{F1D636E3-7449-B380-1445-F8C834978E70}.wem"
+      "CachePath": "20/{20BC8D8F-5879-E729-9FBC-569E44AD1919}.wem"
      },
      {
       "Id": "820328979",
@@ -409,7 +409,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_18_v01.wav",
       "Path": "Media/English(US)/820328979.wem",
-      "CachePath": "39/{39C2E3F2-7A7C-C850-B46A-E454F92F3826}.wem"
+      "CachePath": "0D/{0D8107AB-B7BC-A7DD-D5CC-E2ADD9BEFCDF}.wem"
      },
      {
       "Id": "844335457",
@@ -418,7 +418,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_10_v01.wav",
       "Path": "Media/English(US)/844335457.wem",
-      "CachePath": "FE/{FE14A64B-78E7-1F2A-618C-1DC492A34702}.wem"
+      "CachePath": "6F/{6F7E8550-D31C-B69E-1934-53EC7FC1D581}.wem"
      },
      {
       "Id": "859434792",
@@ -427,7 +427,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_31_v01.wav",
       "Path": "Media/English(US)/859434792.wem",
-      "CachePath": "76/{7661274A-B2DC-9FE1-80C0-255CEEB07D1C}.wem"
+      "CachePath": "90/{90EF645B-BE00-D612-815E-64E99344F020}.wem"
      },
      {
       "Id": "881617149",
@@ -436,7 +436,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_24_v01.wav",
       "Path": "Media/English(US)/881617149.wem",
-      "CachePath": "D5/{D50806FB-D4AD-C2BD-F669-129632A49F2F}.wem"
+      "CachePath": "16/{16CE32EC-60BA-AA34-D164-22CF29F0265D}.wem"
      },
      {
       "Id": "883957678",
@@ -445,7 +445,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v04.wav",
       "Path": "Media/883957678.wem",
-      "CachePath": "19/{194A4443-8A7C-37A8-FE00-D9E5ABD3548D}.wem"
+      "CachePath": "63/{6353D35D-F99E-B857-726E-A857A9D39637}.wem"
      },
      {
       "Id": "902434494",
@@ -454,7 +454,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_08_v01.wav",
       "Path": "Media/English(US)/902434494.wem",
-      "CachePath": "96/{960E2348-2F9F-338B-45DB-68530E171254}.wem"
+      "CachePath": "75/{75C6C673-8937-DD76-EFB7-5001BDBCEF8D}.wem"
      },
      {
       "Id": "924186025",
@@ -463,7 +463,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_20_v03.wav",
       "Path": "Media/924186025.wem",
-      "CachePath": "F3/{F31DCFAE-B3C4-DAB9-8991-6DBFCCBEED9F}.wem"
+      "CachePath": "72/{72A0EDDD-FCA0-F984-9D45-CFB26DA746C4}.wem"
      },
      {
       "Id": "931780316",
@@ -472,7 +472,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_12_v01.wav",
       "Path": "Media/English(US)/931780316.wem",
-      "CachePath": "4A/{4A23DCE1-CF0E-74BF-57ED-8D5D9AE3DBA3}.wem"
+      "CachePath": "85/{8567EDF3-8204-9759-65E2-0BE34C08E6AA}.wem"
      },
      {
       "Id": "974675745",
@@ -481,7 +481,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_28_v01.wav",
       "Path": "Media/English(US)/974675745.wem",
-      "CachePath": "90/{90EA2093-E00F-460D-E71A-80BE9B5257A8}.wem"
+      "CachePath": "BC/{BCFE96CE-9769-5500-65D5-7435C2641641}.wem"
      },
      {
       "Id": "1068017370",
@@ -490,7 +490,7 @@
       "Location": "Loose",
       "ShortName": "dlg_cici_03_v02.wav",
       "Path": "Media/English(US)/1068017370.wem",
-      "CachePath": "2A/{2A40526D-AFC7-6A4A-998E-9917965F00F7}.wem"
+      "CachePath": "22/{22B7FD7A-5246-CD3A-9D24-D196EE1F4573}.wem"
      }
     ],
     "Events": [
@@ -1195,6 +1195,6 @@
     ]
    }
   ],
-  "FileHash": "{C0F73E00-451D-CA67-0119-A35A5D4616CD}"
+  "FileHash": "{3B1B2E7E-F7E6-AE20-E1FA-05610E5FC87B}"
  }
 }

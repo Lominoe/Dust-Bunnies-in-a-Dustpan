@@ -49,12 +49,12 @@ public class FireworkSpawner : MonoBehaviour {
     
     //Calls automatically on loop. Stops during the finale.
     private IEnumerator SpawnLoop() {
-        //while (!_inFinale) {
+        while (!_inFinale) {
             SpawnFirework(fireworkPrefab, false);
 
             float delay = 1f / spawnRate;
             yield return new WaitForSeconds(delay);
-        //}
+        }
     }
 
     private void SpawnFirework(Firework firework, bool isFinale) {

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{202C98C0-29C9-4172-BBD4-4878CFA0A5DB}",
     "Language": "SFX",
-    "Hash": "{6A1C3EE9-9FAE-4C6C-BB59-1B9307C8D476}",
+    "Hash": "{E28B9C64-2A03-B4DE-6675-33148369DA5E}",
     "ObjectPath": "Play_MX_Childhood",
     "ShortName": "Play_MX_Childhood",
     "Path": "Event/Play_MX_Childhood.bnk",
@@ -398,6 +398,6 @@
     ]
    }
   ],
-  "FileHash": "{7A05A995-F150-0FF5-CE3F-6D93F2425121}"
+  "FileHash": "{75BDE1D5-7CE6-C607-DDEA-1E7FF9E4A789}"
  }
 }

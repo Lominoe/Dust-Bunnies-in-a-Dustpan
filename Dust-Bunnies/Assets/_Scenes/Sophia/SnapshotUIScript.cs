@@ -25,6 +25,18 @@ public class SnapshotUIScript : MonoBehaviour
     private Boolean expanded = true;
     private Vector2 initialposbg;
     private int direction = 1;
+
+    // JAZZ MAN - edits
+    [Header("Level Locked Effect")]
+    [SerializeField] private TextMeshProUGUI nextNumberText;
+    [SerializeField] private float shakeDuration = 0.5f;
+    [SerializeField] private float shakeMagnitude = 8f;
+    [SerializeField] private float shakeFrequency = 30f;
+    [SerializeField] private Color targetColor = Color.red;
+    private Vector3 _originalPos;
+    private Color _originalColor;
+    private bool isShaking = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -43,6 +55,10 @@ public class SnapshotUIScript : MonoBehaviour
         GameManager.OnLoadPreviousSnapshot += DecrementSnapshot;
         snapshot = GameManager.CurrentSnapshotNumber;
         UpdateSnapshotUI();
+
+        GameManager.OnLevelIsLocked += LevelIsLocked;
+        _originalPos = nextNumberText.gameObject.transform.localPosition;
+        _originalColor = nextNumberText.color;
     }
 
     // Update is called once per frame
@@ -235,5 +251,47 @@ public class SnapshotUIScript : MonoBehaviour
     private void CleanUp() {
         GameManager.OnLoadNextSnapshot -= AdvanceSnapshot;
         GameManager.OnLoadPreviousSnapshot -= DecrementSnapshot;
+        GameManager.OnLevelIsLocked -= LevelIsLocked;
+    }
+
+    private void LevelIsLocked() {
+        if (isShaking) { return; }
+
+        isShaking = true;
+        StartCoroutine(LevelLockedAnim());
+    }
+
+    private IEnumerator LevelLockedAnim() {
+        float elapsed = 0f;
+        Transform pos = nextNumberText.transform;
+
+        while (elapsed < shakeDuration) {
+            elapsed += Time.deltaTime;
+            float t = elapsed / shakeDuration;
+
+            // Shake envelope: peaks at t=0.5, fades at end
+            float envelope = Mathf.Sin(t * Mathf.PI);   // smoothe bell curve
+
+            // random offset at shake frequency
+            float angle = elapsed * shakeFrequency * 2f * Mathf.PI;         // TODO: lowk have no idea what's happening here
+            float ox = Mathf.Sin(angle * 1.3f) * shakeMagnitude * envelope; 
+            float oy = Mathf.Cos(angle * 0.9f) * shakeMagnitude * envelope;
+
+            pos.localPosition = _originalPos + new Vector3(ox, oy, 0);
+
+            // blend to target color then back
+            // First half: lerp toward targetColor; second half: lerp back
+            Color blendedColor = t < 0.5f
+                ? Color.Lerp(_originalColor, targetColor, t * 2f)          // 0 -> 1
+                : Color.Lerp(targetColor, _originalColor, (t - 0.5f) * 2f); // 1 -> 0
+
+            nextNumberText.color = blendedColor;
+
+            yield return null;
+        }
+
+        pos.localPosition = _originalPos;
+        nextNumberText.color = _originalColor;
+        isShaking = false;
     }
 }

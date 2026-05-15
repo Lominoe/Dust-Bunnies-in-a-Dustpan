@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public static event System.Action OnLoadNextSnapshot;
     public static event System.Action OnLoadPreviousSnapshot;
     public static event System.Action OnRestartGame;
+    public static event System.Action OnLevelIsLocked;
 
     public static Vector3 playerCoords;       // used for when the player teleports to a new scene and coords need to be preserved
     public static Quaternion playerRotation;  // ^
@@ -51,7 +52,10 @@ public class GameManager : MonoBehaviour
     public static void ChangeSnapshot(int direction) {
         int target = currSnapshotNumber + direction;
 
-        if (!CheckSnapshotRequirements(target)) return;
+        if (!CheckSnapshotRequirements(target)) {
+            return;
+        }
+
         currSnapshotNumber = target;
 
         if (direction > 0)

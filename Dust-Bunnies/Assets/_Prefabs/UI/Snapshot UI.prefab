@@ -731,6 +731,11 @@ MonoBehaviour:
   - {fileID: 2546592950064961115}
   - {fileID: 7284277280045899150}
   - {fileID: 1893407025264262457}
+  nextNumberText: {fileID: 7284277280045899150}
+  shakeDuration: 0.5
+  shakeMagnitude: 8
+  shakeFrequency: 30
+  targetColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &4159681585734131042
 GameObject:
   m_ObjectHideFlags: 0

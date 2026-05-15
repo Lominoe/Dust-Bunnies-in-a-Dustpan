@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: SnapshotLockRegistry
   m_EditorClassIdentifier: 
   requirements:
-  - {fileID: 11400000, guid: 47f79a876174386438ee59b672165c2f, type: 2}
-  - {fileID: 11400000, guid: 5b66289c0d761094c848b3140bbba00c, type: 2}
+  - {fileID: 11400000, guid: 7100584c734d40c468ceda688867f44f, type: 2}
+  - {fileID: 11400000, guid: 6e320f53b47c66f4a818e2347389720c, type: 2}
+  - {fileID: 11400000, guid: f608341851617b84eb6a60140f4d9820, type: 2}
+  - {fileID: 11400000, guid: 8f1cca186ad2a9a4f9e5deb88ed104f9, type: 2}

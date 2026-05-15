@@ -7018,7 +7018,7 @@ MonoBehaviour:
   renderMode: 10
   categoryScene: 1
   mainCamera: {fileID: 0}
-  mainDirectional: {fileID: 0}
+  mainDirectional: {fileID: 6517468827740978271}
   overrideTriggerMode: 20
   overrideTriggerPoint: {fileID: 0}
   autoAssingSceneObjects: 1
@@ -7031,7 +7031,7 @@ MonoBehaviour:
   presetNight: {fileID: 0}
   timeOfDay: 0
   categoryFog: 1
-  fogIntensity: 0.221
+  fogIntensity: 0.254
   fogAxisMode: 1
   fogLayersMode: 10
   fogCameraMode: 0
@@ -7047,14 +7047,14 @@ MonoBehaviour:
   farDistanceHeight: 0
   farDistanceOffset: 0
   categorySkybox: 1
-  skyboxFogIntensity: 0
+  skyboxFogIntensity: 0.401
   skyboxFogHeight: 1
   skyboxFogFalloff: 1
   skyboxFogOffset: 0
   skyboxFogBottom: 0
   skyboxFogFill: 0
   categoryDirectional: 1
-  directionalIntensity: 0.568
+  directionalIntensity: 0.751
   directionalFalloff: 1
   directionalColor: {r: 1, g: 0.81834245, b: 0.5019608, a: 1}
   categoryNoise: 1
@@ -8488,10 +8488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialogue: 
-  requirement:
-    snapshotNumber: 0
-    condition: 0
-    conditionID: 
+  requirement: {fileID: 0}
 --- !u!1001 &406688973562861365
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11040,6 +11037,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1909406305103850693}
     m_Modifications:
+    - target: {fileID: -7086917714096379413, guid: 80f967ee4603de245b50a1a070c3a9af, type: 3}
+      propertyPath: m_Size.x
+      value: 0.89983654
+      objectReference: {fileID: 0}
+    - target: {fileID: -7086917714096379413, guid: 80f967ee4603de245b50a1a070c3a9af, type: 3}
+      propertyPath: m_Size.y
+      value: 1.9486318
+      objectReference: {fileID: 0}
+    - target: {fileID: -7086917714096379413, guid: 80f967ee4603de245b50a1a070c3a9af, type: 3}
+      propertyPath: m_Size.z
+      value: 0.72419566
+      objectReference: {fileID: 0}
+    - target: {fileID: -7086917714096379413, guid: 80f967ee4603de245b50a1a070c3a9af, type: 3}
+      propertyPath: m_Center.x
+      value: 0.11000112
+      objectReference: {fileID: 0}
+    - target: {fileID: -7086917714096379413, guid: 80f967ee4603de245b50a1a070c3a9af, type: 3}
+      propertyPath: m_Center.y
+      value: 0.97602504
+      objectReference: {fileID: 0}
+    - target: {fileID: -7086917714096379413, guid: 80f967ee4603de245b50a1a070c3a9af, type: 3}
+      propertyPath: m_Center.z
+      value: -0.011796435
+      objectReference: {fileID: 0}
     - target: {fileID: 78658562036842276, guid: 80f967ee4603de245b50a1a070c3a9af, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 

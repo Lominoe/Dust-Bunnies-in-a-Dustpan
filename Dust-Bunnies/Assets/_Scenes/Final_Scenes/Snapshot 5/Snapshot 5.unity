@@ -537,7 +537,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d9a9000ecfb40a4292f0f152adb7623, type: 3}
---- !u!21 &1295404392
+--- !u!21 &1163425637
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -1223,7 +1223,7 @@ PrefabInstance:
     - target: {fileID: 8982761059050655572, guid: c380d9ea340d6a94da5fc04f55f47632, type: 3}
       propertyPath: requirement
       value: 
-      objectReference: {fileID: 11400000, guid: 47f79a876174386438ee59b672165c2f, type: 2}
+      objectReference: {fileID: 11400000, guid: f608341851617b84eb6a60140f4d9820, type: 2}
     - target: {fileID: 8982761059050655572, guid: c380d9ea340d6a94da5fc04f55f47632, type: 3}
       propertyPath: requirement.condition
       value: 2

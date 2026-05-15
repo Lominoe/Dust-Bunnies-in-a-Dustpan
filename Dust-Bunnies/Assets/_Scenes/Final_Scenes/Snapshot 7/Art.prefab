@@ -1687,7 +1687,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2932132335425787194
 Transform:
   m_ObjectHideFlags: 0
@@ -1710,7 +1710,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5481751878971766990}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -8383,7 +8383,7 @@ PrefabInstance:
     - target: {fileID: 912340801033887025, guid: 8ca6faf2354fd05489aed926312b3050, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
-      objectReference: {fileID: 2100000, guid: 5ac240ea1e6898d42a57916d16db8880, type: 2}
+      objectReference: {fileID: 2100000, guid: 785f028929f10b74bb13ac056d1015e7, type: 2}
     - target: {fileID: 3228427333115557736, guid: 8ca6faf2354fd05489aed926312b3050, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -9004,10 +9004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialogue: 
-  requirement:
-    snapshotNumber: 0
-    condition: 0
-    conditionID: 
+  requirement: {fileID: 0}
 --- !u!4 &4088110863209902059 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d95daf270ee88b146ae0d83b34898073, type: 3}

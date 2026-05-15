@@ -919,11 +919,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Left click to pick up
-
-    Right Click to drop
-
-    Scroll to zoom'
+  m_text: "SCROLL to zoom \nin on objects"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1013,7 +1009,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8229941468812729047, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
   m_PrefabInstance: {fileID: 3314250618151691825}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1563738411
+--- !u!21 &1590447845
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -1614,9 +1610,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1719160463206757150, guid: 2f7ee217c80446f449ff54183353b6ec, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1719160463206757150, guid: 2f7ee217c80446f449ff54183353b6ec, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 1563738411}
+      objectReference: {fileID: 1590447845}
     - target: {fileID: 2138354274138941450, guid: 2f7ee217c80446f449ff54183353b6ec, type: 3}
       propertyPath: mainCamera
       value: 
@@ -1629,6 +1629,10 @@ PrefabInstance:
       propertyPath: fireworkEvent.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: bdafa3bcf33c6334d91805b330b894c5, type: 2}
+    - target: {fileID: 4473742892746970774, guid: 2f7ee217c80446f449ff54183353b6ec, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4823844379776282971, guid: 2f7ee217c80446f449ff54183353b6ec, type: 3}
       propertyPath: requirement
       value: 

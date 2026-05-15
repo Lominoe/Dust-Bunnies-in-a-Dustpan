@@ -76,8 +76,10 @@ public class PickupAble : Interactable
         Tween.Rotation(t, StartRot, moveTime, Ease.OutSine);
 
         // if there is a requirement for picking up this item, notify the game manager
-        if (requirement.snapshotNumber > 0) {
-            GameManager.ReportUnlock(requirement.condition, requirement.conditionID);
+        if (requirement != null) {
+            if (requirement.snapshotNumber > 0) {
+                GameManager.ReportUnlock(requirement.condition, requirement.conditionID);
+            }
         }
     }
 }

@@ -355,6 +355,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "unity-missing-scripts-finder": {
+      "version": "https://github.com/RimuruDev/Unity-MissingScriptsFinder.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "b8b0b773b7e189d8e955f276fd0ade36cd4a879d"
+    },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
       "depth": 0,

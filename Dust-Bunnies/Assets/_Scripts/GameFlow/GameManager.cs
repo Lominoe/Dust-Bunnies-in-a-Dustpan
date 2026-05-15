@@ -1,10 +1,9 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-
-    [SerializeField] private SnapshotLockRegistry lockRegistery;
 
     public static event System.Action OnLoadNextSnapshot;
     public static event System.Action OnLoadPreviousSnapshot;
@@ -25,6 +24,7 @@ public class GameManager : MonoBehaviour
         }
 
         Instance = this;
+        transform.SetParent(null);
         DontDestroyOnLoad(gameObject);
     }
 
@@ -72,21 +72,46 @@ public class GameManager : MonoBehaviour
     public static bool CheckSnapshotRequirements(int snapshotNumber) {
         if (snapshotNumber <= 0) return false;      // no going back to main menu
         if (snapshotNumber == 1) return true;       // only the mirror can switch to snapshot 1
-        return Instance.lockRegistery.IsUnlocked(snapshotNumber);
+        return Instance.IsUnlocked(snapshotNumber);
     }
 
     /// <summary>
     /// Called when a level lock requirement is completed
     /// </summary>
     public static void ReportUnlock(UnlockCondition condition, string id) {
-        Instance.lockRegistery.ReportConditionMet(condition, id);
-        Debug.Log("Unlock Condition: " + condition + " | Id: " +  id);
+        Instance.ReportConditionMet(condition, id);
     }
 
     public static void RestartGame() {
         currSnapshotNumber = 0;
         hasStoredData = false;
-        Instance.lockRegistery.Reset();
+        Instance.Reset();
         OnRestartGame?.Invoke();
     }
+
+
+
+    // adding the script here
+    [SerializeField] private List<SnapshotRequirement> requirements = new();
+
+    // runtime state: which conditionIDs have been satisfied
+    private HashSet<string> metConditions = new();
+
+    public void ReportConditionMet(UnlockCondition condition, string id) {
+        metConditions.Add(MakeKey(condition, id));
+    }
+
+    public bool IsUnlocked(int snapshotNumber) {
+        foreach (var req in requirements) {         // TODO: this can be more efficient I think?
+            if (req.snapshotNumber == snapshotNumber) {
+                if (!metConditions.Contains(MakeKey(req.condition, req.conditionID)))
+                    return false;
+            }
+        }
+        return true;
+    }
+
+    private string MakeKey(UnlockCondition c, string id) => $"{c}:{id}";
+
+    public void Reset() => metConditions.Clear();
 }

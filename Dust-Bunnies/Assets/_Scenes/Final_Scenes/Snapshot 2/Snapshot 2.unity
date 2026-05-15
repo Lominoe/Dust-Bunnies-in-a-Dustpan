@@ -1344,10 +1344,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Art
       objectReference: {fileID: 0}
+    - target: {fileID: 4950774757955152834, guid: 854a4ec2615fcad41ba39c359a10655a, type: 3}
+      propertyPath: requirement
+      value: 
+      objectReference: {fileID: 11400000, guid: 7f38b1cde37337d4bbc58803dde28fe6, type: 2}
     - target: {fileID: 5454573631447351503, guid: 854a4ec2615fcad41ba39c359a10655a, type: 3}
       propertyPath: requirement
       value: 
-      objectReference: {fileID: 11400000, guid: 7100584c734d40c468ceda688867f44f, type: 2}
+      objectReference: {fileID: 11400000, guid: 0ea1ef89890b4ca45b5013ed29738bc1, type: 2}
     - target: {fileID: 6686580814701267597, guid: 854a4ec2615fcad41ba39c359a10655a, type: 3}
       propertyPath: requirement
       value: 
@@ -1551,3 +1555,4 @@ SceneRoots:
   - {fileID: 1257846201}
   - {fileID: 2592839461661662807}
   - {fileID: 1109231487}
+  - {fileID: 487030817}

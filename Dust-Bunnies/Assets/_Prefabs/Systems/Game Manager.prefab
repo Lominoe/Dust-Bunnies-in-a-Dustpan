@@ -45,4 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   requirements:
-  - {fileID: 11400000, guid: e9b539e1949cec14e8ede413ec9134c4, type: 2}
+  - {fileID: 11400000, guid: 0ea1ef89890b4ca45b5013ed29738bc1, type: 2}
+  - {fileID: 11400000, guid: 7f38b1cde37337d4bbc58803dde28fe6, type: 2}
+  - {fileID: 11400000, guid: 9ec86e2b950eb7740a37f33e1e0815ba, type: 2}
+  - {fileID: 11400000, guid: 14d10064f90318b4cb0a741a87b3f69f, type: 2}
+  - {fileID: 11400000, guid: 1d0cbcc3bc31abd46a884f5653bc0ee2, type: 2}

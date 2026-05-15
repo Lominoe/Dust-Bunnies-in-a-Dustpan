@@ -4,37 +4,30 @@ using System.Collections;
 
 public class SparkMeter : MonoBehaviour
 {
-    [SerializeField]
-    private float sparkProgress = 0.05f;
-    [SerializeField]
-    private Slider sparkMeter;
-    [SerializeField]
-    private float drainRate = 0.1f;
-    [SerializeField]
-    private Image sliderImage;
-    [SerializeField]
-    private float threshold = 0.9f;
-    [SerializeField]
-    private Image backgroundImage;
+    public event System.Action OnPhaseTwoStart;
+
+    [SerializeField] private float sparkProgress = 0.05f;
+    [SerializeField] private Slider sparkMeter;
+    [SerializeField] private float drainRate = 0.1f;
+    [SerializeField] private Image sliderImage;
+    [SerializeField] private float threshold = 0.9f;
+    [SerializeField] private Image backgroundImage;
 
     private Color _originalColor;
     private float _meterProgress = 0;
 
-    void Start()
-    {
+    void Start() {
         _originalColor = sliderImage.color;
+
     }
-    private void SetProgress(float progressValue)
-    {
+    private void SetProgress(float progressValue) {
         sparkMeter.value = Mathf.Clamp(progressValue, sparkMeter.minValue, sparkMeter.maxValue);
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            if(_meterProgress > threshold)
-            {
-                Debug.Log("Winner Winner Chicken Dinner");
+        if (Input.GetMouseButtonDown(0)) {
+            if(_meterProgress > threshold) {
+                OnPhaseTwoStart?.Invoke();
             }
         }
         if (Input.GetKeyDown(KeyCode.Space))

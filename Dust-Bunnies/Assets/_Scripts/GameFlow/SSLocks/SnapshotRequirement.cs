@@ -6,4 +6,3 @@ public class SnapshotRequirement : ScriptableObject {
     public UnlockCondition condition;
     public string conditionID;
 }
-

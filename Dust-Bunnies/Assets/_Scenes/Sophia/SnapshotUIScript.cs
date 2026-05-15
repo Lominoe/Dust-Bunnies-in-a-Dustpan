@@ -164,7 +164,7 @@ public class SnapshotUIScript : MonoBehaviour
             {
                 if (i != 2)
                 {
-                    numbers[i].enabled = false;
+                    //numbers[i].enabled = false;               // Jazz man edit
                 }
                 numbers[i].rectTransform.anchoredPosition = numberpos[i];
             }

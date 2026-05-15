@@ -31,7 +31,8 @@ public class PauseMenu : MonoBehaviour
     {
         gameObject.GetComponentInChildren<Canvas>().enabled = true;
         Time.timeScale = 0f;
-        Object.FindFirstObjectByType<InputReader>().SetEnabled(false);
+        if (Object.FindFirstObjectByType<InputReader>() != null) 
+            Object.FindFirstObjectByType<InputReader>().SetEnabled(false);
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
     }
@@ -39,7 +40,8 @@ public class PauseMenu : MonoBehaviour
     {
         gameObject.GetComponentInChildren<Canvas>().enabled = false;
         Time.timeScale = 1f;
-        Object.FindFirstObjectByType<InputReader>().SetEnabled(true);
+        if (Object.FindFirstObjectByType<InputReader>() != null)
+            Object.FindFirstObjectByType<InputReader>().SetEnabled(true);
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }

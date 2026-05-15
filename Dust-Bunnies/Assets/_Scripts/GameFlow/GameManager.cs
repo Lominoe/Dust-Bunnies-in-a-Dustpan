@@ -53,6 +53,7 @@ public class GameManager : MonoBehaviour
         int target = currSnapshotNumber + direction;
 
         if (!CheckSnapshotRequirements(target)) {
+            OnLevelIsLocked?.Invoke();
             return;
         }
 

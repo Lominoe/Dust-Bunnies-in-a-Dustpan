@@ -23,6 +23,7 @@ public class PauseMenu : MonoBehaviour
         else
         {
             instance = this;
+            transform.SetParent(null);
             DontDestroyOnLoad(this.gameObject);
         }
         gameObject.GetComponentInChildren<Canvas>().enabled = false;

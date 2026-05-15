@@ -44,4 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3763c92362e343b449a826a9002bdd3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lockRegistery: {fileID: 11400000, guid: e31cf7d1c6007064bb1baf9a2d37001c, type: 2}
+  requirements:
+  - {fileID: 11400000, guid: e9b539e1949cec14e8ede413ec9134c4, type: 2}

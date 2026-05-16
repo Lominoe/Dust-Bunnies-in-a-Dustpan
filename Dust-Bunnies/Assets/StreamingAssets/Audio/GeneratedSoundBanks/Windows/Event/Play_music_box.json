@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3405337073",
+    "Type": "Event",
+    "GUID": "{1F7F56A5-DF69-449D-9642-624062226223}",
+    "Language": "SFX",
+    "Hash": "{85EC20FA-07A6-9FCE-77E0-6954B0291A44}",
+    "ObjectPath": "Play_music_box",
+    "ShortName": "Play_music_box",
+    "Path": "Event/Play_music_box.bnk",
+    "Media": [
+     {
+      "Id": "544866800",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MusicBox.wav",
+      "Path": "Media/544866800.wem",
+      "CachePath": "C1/{C13C7714-B645-CAF7-55B5-494712B6D630}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3405337073",
+      "Name": "Play_music_box",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_music_box",
+      "GUID": "{1F7F56A5-DF69-449D-9642-624062226223}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "544866800"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{71C8E7A1-F52C-4806-2462-BC418FDF6C0A}"
+ }
+}

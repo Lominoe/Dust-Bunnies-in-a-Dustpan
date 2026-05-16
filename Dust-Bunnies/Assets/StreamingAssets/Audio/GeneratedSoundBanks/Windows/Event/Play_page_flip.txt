@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1924198023	Play_page_flip			\Default Work Unit\Play_page_flip	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3989786198	Page_Flip			\Default Work Unit\Page_Flip	
+
+Switch	ID	Name	Switch Group			Notes
+	1164125444	Forward	Page_Flip			
+	2669077622	Backward	Page_Flip			
+

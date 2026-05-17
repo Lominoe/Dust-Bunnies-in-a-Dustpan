@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID PLAY_MX_CHILDHOOD = 2272849752U;
         static const AkUniqueID PLAY_PAGE_FLIP = 1924198023U;
         static const AkUniqueID PLAY_SPARKLER_LOOP = 3667990691U;
+        static const AkUniqueID PLAY_UI_UNLOCK = 3826685727U;
         static const AkUniqueID PLAY_VOICEOVER = 1769700134U;
         static const AkUniqueID STOP_AMB_ROOM_INTERIOR = 3550940357U;
         static const AkUniqueID STOP_AMB_ROOM_STREET = 60720504U;

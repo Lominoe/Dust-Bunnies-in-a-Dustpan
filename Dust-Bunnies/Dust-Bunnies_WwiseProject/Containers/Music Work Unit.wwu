@@ -36,7 +36,6 @@
 												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
 											</PropertyList>
-											<ReferenceList/>
 											<TransitionInfo>
 												<SourceFadeOut>
 													<MusicFade Name="Source Fade-out" ID="{602B50A7-4107-474B-823E-BD678DADE80D}">
@@ -64,7 +63,6 @@
 												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
 											</PropertyList>
-											<ReferenceList/>
 											<TransitionInfo>
 												<SourceFadeOut>
 													<MusicFade Name="Source Fade-out" ID="{D90792F1-2969-4DE2-A5B8-CDD3C6865E1C}">
@@ -92,7 +90,6 @@
 												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
 											</PropertyList>
-											<ReferenceList/>
 											<TransitionInfo>
 												<SourceFadeOut>
 													<MusicFade Name="Source Fade-out" ID="{73AD623E-6CB9-4A91-A696-F4F88D441F5A}">
@@ -1341,7 +1338,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-14</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1393,6 +1390,11 @@
 								<MusicSegment Name="ES_Communications, Static, Analog, Radio, Buzz, Noise, SW - Epidemic Sound" ID="{6BF0062D-C83F-4905-A232-F006D15EA06E}" ShortID="936694527">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="36058.3421533978"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2155,7 +2157,6 @@
 								</ObjectLists>
 							</MultiSwitchEntry>
 							<MultiSwitchEntry Name="" ID="{72B985CD-DBE4-4EF0-9631-D4FD77683A6B}">
-								<ReferenceList/>
 								<ObjectLists>
 									<ObjectList Name="EntryPath">
 										<PluginInnerObject Name="" ID="{85B00282-48FB-421D-AFD4-5662BC21EEF1}" PluginName="EntryPathSlot" CompanyID="0" PluginID="88">

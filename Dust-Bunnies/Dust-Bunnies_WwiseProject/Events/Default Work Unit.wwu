@@ -21,6 +21,11 @@
 				<Event Name="Play_amb_room_interior_01" ID="{096D0650-03C3-4F63-AADF-D58D8406FAEB}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="InstanceLimit" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
@@ -218,6 +223,86 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Finale Explosion" ID="{2BD2BA01-3210-44F3-AE0D-94C9A541ACAF}" WorkUnitID="{43C2252E-DCD3-44B3-A3E7-636268BFE8A3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_error" ID="{648EE70B-DAA8-46F9-95E6-55477D0716D9}">
+					<PropertyList>
+						<Property Name="InstanceLimit" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{4E2DD8F5-3699-4C17-ABF5-8D65CFFC5534}" ShortID="31743576">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ui_error" ID="{5775A464-18E0-47AA-83D9-BBA13287BBC5}" WorkUnitID="{42626F72-6A80-43AE-9607-52F32EA10280}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_error_vo" ID="{B6EBDC23-6AB0-4DA9-93B0-B06D6D7177FC}">
+					<PropertyList>
+						<Property Name="CooldownTime" Type="Real32">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="InstanceLimit" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{52547255-491A-4BCF-8C46-18D7522A9D9B}" ShortID="381503897">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ui_error" ID="{5775A464-18E0-47AA-83D9-BBA13287BBC5}" WorkUnitID="{42626F72-6A80-43AE-9607-52F32EA10280}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AEA1C65D-D577-498A-9EFF-F0794B29448B}" ShortID="1046115066">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dlg_cici_08_v01" ID="{6FEEADF0-8B78-483E-A3AB-A7D695B6D6FD}" WorkUnitID="{3C725967-0A9D-44F9-AF33-1F14F2C16EAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_amb_room_street" ID="{BA58E465-C630-4102-8F7A-20A90DAA6FB5}">
+					<ChildrenList>
+						<Action Name="" ID="{C108D118-2914-4945-87C3-B9E6FEB587BF}" ShortID="1000410492">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_room_street_01" ID="{7BB7B29C-4051-4412-82C4-3ABB4F2C2018}" WorkUnitID="{76E8B1F7-8963-4328-B66E-087A10F64EE6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_amb_room_interior" ID="{ECB9C42D-1355-4836-9C8A-388C583C3DB2}">
+					<ChildrenList>
+						<Action Name="" ID="{A047AFD1-1B87-49C0-A8F8-F59B96BFE0CD}" ShortID="184682806">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_room_interior_01" ID="{F785935B-7CC8-4CB8-B491-AE7531FB893F}" WorkUnitID="{76E8B1F7-8963-4328-B66E-087A10F64EE6}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

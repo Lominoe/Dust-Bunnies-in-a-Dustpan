@@ -10,19 +10,19 @@
     "Type": "Event",
     "GUID": "{648EE70B-DAA8-46F9-95E6-55477D0716D9}",
     "Language": "SFX",
-    "Hash": "{210218D3-EC52-4F27-6F1C-6DD9EED3E999}",
+    "Hash": "{E89AD370-9D22-9B17-604C-9509CA237F4F}",
     "ObjectPath": "Play_error",
     "ShortName": "Play_error",
     "Path": "Event/Play_error.bnk",
     "Media": [
      {
-      "Id": "740113355",
+      "Id": "867252684",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "ui_error.wav",
-      "Path": "Media/740113355.wem",
-      "CachePath": "DE/{DE399872-FC21-85FB-0531-A023D2B17447}.wem"
+      "ShortName": "ui_error_02.wav",
+      "Path": "Media/867252684.wem",
+      "CachePath": "85/{85944451-916A-30B2-0CE9-A34A967B0D75}.wem"
      }
     ],
     "Events": [
@@ -32,17 +32,17 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_error",
       "GUID": "{648EE70B-DAA8-46F9-95E6-55477D0716D9}",
       "DurationType": "OneShot",
-      "DurationMin": "0.31013",
-      "DurationMax": "0.31013",
+      "DurationMin": "0.4661",
+      "DurationMax": "0.4661",
       "MediaRefs": [
        {
-        "Id": "740113355"
+        "Id": "867252684"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{8F743D30-54CF-62CD-0C56-CC725C5E5C2A}"
+  "FileHash": "{24444AB6-2216-7FA8-E9FB-6CD389F5EC3F}"
  }
 }

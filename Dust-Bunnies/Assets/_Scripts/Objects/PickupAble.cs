@@ -12,6 +12,8 @@ public class PickupAble : Interactable {
     [SerializeField] private AK.Wwise.Event putDownEvent;
     [SerializeField] private AK.Wwise.Switch pickupSwitch;
     [SerializeField] private AK.Wwise.Switch putDownSwitch;
+    [SerializeField] private AK.Wwise.State pickupState;
+    [SerializeField] private AK.Wwise.State putDownState;
 
     private Vector3 _startPos;  // store initial start pos to return back to
     private Quaternion _startRot;
@@ -33,6 +35,7 @@ public class PickupAble : Interactable {
         base.Interact(playerCam, moveTime);
         pickupSwitch?.SetValue(gameObject);
         pickupEvent?.Post(gameObject);
+        pickupState?.SetValue();
         StartCoroutine(PickUp(playerCam, moveTime));
     }
 
@@ -69,6 +72,7 @@ public class PickupAble : Interactable {
 
     public virtual void PutDown(float moveTime) {
         putDownSwitch?.SetValue(gameObject);
+        putDownState?.SetValue();
         putDownEvent?.Post(gameObject);
 
         Tween.Position(t, StartPos, moveTime, Ease.OutSine);

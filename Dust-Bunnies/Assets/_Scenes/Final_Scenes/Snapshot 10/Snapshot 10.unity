@@ -310,7 +310,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &960021208
+--- !u!21 &585758533
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -713,7 +713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireworkSpawner: {fileID: 2978663899987157774}
-  delayTime: 5
+  delayTime: 1
 --- !u!1001 &1980411125
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 11035148}
   - component: {fileID: 11035147}
   - component: {fileID: 11035146}
+  - component: {fileID: 11035150}
   m_Layer: 0
   m_Name: 'Voice Line Triggers (13) '
   m_TagString: Untagged
@@ -271,6 +272,19 @@ MonoBehaviour:
   groupIdInternal: 0
   valueGuidInternal: 
   groupGuidInternal: 
+--- !u!114 &11035150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11035143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1860070a63baba649af75c93ad783521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialogue: It's bright-
 --- !u!1 &105766915
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,6 +555,7 @@ GameObject:
   - component: {fileID: 670324239}
   - component: {fileID: 670324238}
   - component: {fileID: 670324237}
+  - component: {fileID: 670324241}
   m_Layer: 0
   m_Name: 'Voice Line Triggers (13) '
   m_TagString: Untagged
@@ -679,6 +694,19 @@ MonoBehaviour:
   groupIdInternal: 0
   valueGuidInternal: 
   groupGuidInternal: 
+--- !u!114 &670324241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670324234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1860070a63baba649af75c93ad783521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialogue: It's bright-
 --- !u!1 &886848652
 GameObject:
   m_ObjectHideFlags: 0
@@ -814,6 +842,7 @@ GameObject:
   - component: {fileID: 1088477519}
   - component: {fileID: 1088477518}
   - component: {fileID: 1088477517}
+  - component: {fileID: 1088477521}
   m_Layer: 0
   m_Name: 'Voice Line Triggers (14) '
   m_TagString: Untagged
@@ -951,6 +980,19 @@ MonoBehaviour:
   groupIdInternal: 0
   valueGuidInternal: 
   groupGuidInternal: 
+--- !u!114 &1088477521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088477514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1860070a63baba649af75c93ad783521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialogue: I feel... tall
 --- !u!1001 &1109231487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1360,10 +1402,18 @@ PrefabInstance:
       propertyPath: overrideTriggerPoint
       value: 
       objectReference: {fileID: 1380321766}
+    - target: {fileID: 7459726620718898710, guid: 854a4ec2615fcad41ba39c359a10655a, type: 3}
+      propertyPath: Dialogue
+      value: Oh!
+      objectReference: {fileID: 0}
     - target: {fileID: 7697220597531779130, guid: 854a4ec2615fcad41ba39c359a10655a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 298428828}
+    - target: {fileID: 7716459410451685218, guid: 854a4ec2615fcad41ba39c359a10655a, type: 3}
+      propertyPath: Dialogue
+      value: It's soft.
+      objectReference: {fileID: 0}
     - target: {fileID: 8174101961086517747, guid: 854a4ec2615fcad41ba39c359a10655a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27.411045

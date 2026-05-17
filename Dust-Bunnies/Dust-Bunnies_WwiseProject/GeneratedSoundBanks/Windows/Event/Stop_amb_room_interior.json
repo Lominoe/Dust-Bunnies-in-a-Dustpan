@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3550940357",
+    "Type": "Event",
+    "GUID": "{ECB9C42D-1355-4836-9C8A-388C583C3DB2}",
+    "Language": "SFX",
+    "Hash": "{F39DFAE0-4FC4-2188-83DC-9B49F518D61B}",
+    "ObjectPath": "Stop_amb_room_interior",
+    "ShortName": "Stop_amb_room_interior",
+    "Path": "Event/Stop_amb_room_interior.bnk",
+    "Events": [
+     {
+      "Id": "3550940357",
+      "Name": "Stop_amb_room_interior",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_amb_room_interior",
+      "GUID": "{ECB9C42D-1355-4836-9C8A-388C583C3DB2}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7F955720-DD0D-F55C-C3C4-ED9ECE5F667B}"
+ }
+}

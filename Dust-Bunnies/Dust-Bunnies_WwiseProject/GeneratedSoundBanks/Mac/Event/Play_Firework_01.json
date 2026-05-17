@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{27AAB893-3A56-4B0F-9D77-5DAA55C53179}",
     "Language": "SFX",
-    "Hash": "{DF0A0C5F-E107-0D51-EC49-1B7DBF49E0D4}",
+    "Hash": "{91E77B6B-1411-6FBB-C451-2DC47228F2C3}",
     "ObjectPath": "Play_Firework_01",
     "ShortName": "Play_Firework_01",
     "Path": "Event/Play_Firework_01.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "ES_Fireworks, Commercial, Explosion, Big, Single, Sparks, Close 02 - Epidemic Sound.wav",
       "Path": "Media/277899251.wem",
-      "CachePath": "E4/{E409797A-0676-6FED-3D7B-283F26A2EC88}.wem"
+      "CachePath": "4A/{4A0706AC-EDDA-3F76-9D34-02065E653E80}.wem"
      }
     ],
     "Events": [
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{06B7DDEC-5E1A-0089-33CE-428535AFB3FB}"
+  "FileHash": "{6FF33994-D237-3973-75CA-D45814183FD1}"
  }
 }

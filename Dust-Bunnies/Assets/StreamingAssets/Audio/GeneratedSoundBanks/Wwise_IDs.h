@@ -15,6 +15,8 @@ namespace AK
     {
         static const AkUniqueID PLAY_AMB_ROOM_INTERIOR_01 = 3152322375U;
         static const AkUniqueID PLAY_AMB_ROOM_STREET_01 = 2134236060U;
+        static const AkUniqueID PLAY_ERROR = 2713813216U;
+        static const AkUniqueID PLAY_ERROR_VO = 2197310958U;
         static const AkUniqueID PLAY_FIREWORK = 3876215541U;
         static const AkUniqueID PLAY_FIREWORK_01 = 2992710289U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
@@ -23,6 +25,8 @@ namespace AK
         static const AkUniqueID PLAY_PAGE_FLIP = 1924198023U;
         static const AkUniqueID PLAY_SPARKLER_LOOP = 3667990691U;
         static const AkUniqueID PLAY_VOICEOVER = 1769700134U;
+        static const AkUniqueID STOP_AMB_ROOM_INTERIOR = 3550940357U;
+        static const AkUniqueID STOP_AMB_ROOM_STREET = 60720504U;
         static const AkUniqueID STOP_MUSIC_BOX = 781951815U;
     } // namespace EVENTS
 

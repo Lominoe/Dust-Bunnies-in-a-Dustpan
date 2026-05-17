@@ -3,7 +3,7 @@
   "Project": {
    "Name": "Dust-Bunnies_WwiseProject",
    "GUID": "{FE05C2A1-5FEC-45C6-9ADA-EB3477AC3EA5}",
-   "Generator": "2025.1.5.9095"
+   "Generator": "2025.1.7.9143"
   },
   "CacheRoot": "../../../../Dust-Bunnies_WwiseProject/.cache",
   "Platforms": [
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{EA9563DA-A054-E34F-6D3B-51E16F1CCDC8}"
+  "FileHash": "{5C735CF6-911B-EF4F-2F92-1DBE38D0CDD5}"
  }
 }

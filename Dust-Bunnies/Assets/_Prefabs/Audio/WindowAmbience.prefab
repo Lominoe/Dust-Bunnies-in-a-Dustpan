@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4966085697986439934}
   - component: {fileID: 4796141141602664173}
   - component: {fileID: 1229110973557740526}
+  - component: {fileID: 3645867745812165240}
   m_Layer: 0
   m_Name: WindowAmbience
   m_TagString: Untagged
@@ -91,3 +92,19 @@ MonoBehaviour:
   attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
   LargeModePositions: []
   multiPositionArray: []
+--- !u!114 &3645867745812165240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42870615866811123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39f01ef42b02a3744a75038e82fe990f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stopAmbienceEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4efafc815561d144d9b780706964cebb, type: 2}

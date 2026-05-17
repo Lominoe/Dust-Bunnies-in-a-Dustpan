@@ -9,15 +9,12 @@ using UnityEngine;
 public class Interactable : MonoBehaviour
 {
     public string Dialogue = null;
-    private AK.Wwise.Switch lineSwitch;
-    private AK.Wwise.Event interactEvent;
 
     [SerializeField] protected SnapshotRequirement requirement;
 
     // TODO: temp to make the system work again then revisit a better way to pass info
     public virtual void Interact(Transform playerCam, float moveTime)
     {
-        PlayInteractVoiceLine();
 
         try
         {
@@ -27,12 +24,6 @@ public class Interactable : MonoBehaviour
         {
             Debug.LogWarning("Dialogue manager instance does not exist");
         }
-    }
-
-    protected void PlayInteractVoiceLine()
-    {
-        lineSwitch?.SetValue(gameObject);
-        interactEvent?.Post(gameObject);
     }
 
     public virtual void InteractEnd(float moveTime) { }

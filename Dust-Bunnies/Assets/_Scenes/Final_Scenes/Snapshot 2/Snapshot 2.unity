@@ -1344,18 +1344,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Art
       objectReference: {fileID: 0}
-    - target: {fileID: 4950774757955152834, guid: 854a4ec2615fcad41ba39c359a10655a, type: 3}
-      propertyPath: requirement
+    - target: {fileID: 4861944410248462234, guid: 854a4ec2615fcad41ba39c359a10655a, type: 3}
+      propertyPath: pickupEvent.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: 7f38b1cde37337d4bbc58803dde28fe6, type: 2}
-    - target: {fileID: 5454573631447351503, guid: 854a4ec2615fcad41ba39c359a10655a, type: 3}
-      propertyPath: requirement
+      objectReference: {fileID: 11400000, guid: 0ccfe6eb0b4330b44beb492babc42efe, type: 2}
+    - target: {fileID: 4861944410248462234, guid: 854a4ec2615fcad41ba39c359a10655a, type: 3}
+      propertyPath: pickupSwitch.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: 0ea1ef89890b4ca45b5013ed29738bc1, type: 2}
-    - target: {fileID: 6686580814701267597, guid: 854a4ec2615fcad41ba39c359a10655a, type: 3}
-      propertyPath: requirement
-      value: 
-      objectReference: {fileID: 11400000, guid: e9b539e1949cec14e8ede413ec9134c4, type: 2}
+      objectReference: {fileID: 11400000, guid: 20b01d8f2b77fab45a7c82d4d83a4d80, type: 2}
     - target: {fileID: 7319531837253680532, guid: 854a4ec2615fcad41ba39c359a10655a, type: 3}
       propertyPath: mainCamera
       value: 

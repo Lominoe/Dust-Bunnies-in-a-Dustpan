@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "60720504",
+    "Type": "Event",
+    "GUID": "{BA58E465-C630-4102-8F7A-20A90DAA6FB5}",
+    "Language": "SFX",
+    "Hash": "{FF25A0C4-1724-9B55-ABF7-4B1AD84149D0}",
+    "ObjectPath": "Stop_amb_room_street",
+    "ShortName": "Stop_amb_room_street",
+    "Path": "Event/Stop_amb_room_street.bnk",
+    "Events": [
+     {
+      "Id": "60720504",
+      "Name": "Stop_amb_room_street",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_amb_room_street",
+      "GUID": "{BA58E465-C630-4102-8F7A-20A90DAA6FB5}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CE4A9B6E-E5AA-3D90-0C75-72C3F2B5364D}"
+ }
+}

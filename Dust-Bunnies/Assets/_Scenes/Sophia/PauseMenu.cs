@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
-    private PauseMenu instance;
+    private static PauseMenu instance;
 
     //temporary, doesn't go thru input control
     // TODO: will def fix this but it works for the final demo tbh lmao
@@ -44,7 +44,14 @@ public class PauseMenu : MonoBehaviour
         if (Object.FindFirstObjectByType<InputReader>() != null)
             Object.FindFirstObjectByType<InputReader>().SetEnabled(true);
         Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        
+        if (GameManager.CurrentSnapshotNumber == 0) {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        } else {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
     }
     public void Restart()
     {

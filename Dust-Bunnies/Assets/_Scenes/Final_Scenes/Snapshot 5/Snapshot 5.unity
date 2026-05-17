@@ -310,7 +310,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &755030880
+--- !u!21 &591986001
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -1012,6 +1012,10 @@ PrefabInstance:
       propertyPath: requirement
       value: 
       objectReference: {fileID: 11400000, guid: 9ec86e2b950eb7740a37f33e1e0815ba, type: 2}
+    - target: {fileID: 8982761059050655572, guid: c380d9ea340d6a94da5fc04f55f47632, type: 3}
+      propertyPath: pickupEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: aa0ebe10ed01b6541bbf52f43d93cbbf, type: 2}
     - target: {fileID: 9178338050494607434, guid: c380d9ea340d6a94da5fc04f55f47632, type: 3}
       propertyPath: m_Enabled
       value: 1

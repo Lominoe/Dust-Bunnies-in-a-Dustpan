@@ -119,6 +119,55 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!21 &83731429
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Height Fog Global
+  m_Shader: {fileID: 4800000, guid: 3a7ef1b66bafb7a448a880ef76d2e6e6, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddPrecomputedVelocity: 1
+    - _Banner: 1
+    - _FogCameraMode: 0
+    - _HeightFogGlobal: 1
+    - _IsHeightFogShader: 1
+    - _QueueControl: -1
+    - _QueueOffset: 0
+    - _XRMotionVectorsPass: 1
+    m_Colors: []
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &110499406
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,78 +311,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2046545002508601229, guid: bfa7e773d8815e242af8607dca484949, type: 3}
   m_PrefabInstance: {fileID: 1946443431042886544}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &349349180
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2606837250091656473, guid: c29d82147a63f58418e572358d087334, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -5.4105225
-      objectReference: {fileID: 0}
-    - target: {fileID: 8034323022864504986, guid: c29d82147a63f58418e572358d087334, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.4190662
-      objectReference: {fileID: 0}
-    - target: {fileID: 8034323022864504986, guid: c29d82147a63f58418e572358d087334, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.3243916
-      objectReference: {fileID: 0}
-    - target: {fileID: 8034323022864504986, guid: c29d82147a63f58418e572358d087334, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.5181054
-      objectReference: {fileID: 0}
-    - target: {fileID: 8034323022864504986, guid: c29d82147a63f58418e572358d087334, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8034323022864504986, guid: c29d82147a63f58418e572358d087334, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8034323022864504986, guid: c29d82147a63f58418e572358d087334, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8034323022864504986, guid: c29d82147a63f58418e572358d087334, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8034323022864504986, guid: c29d82147a63f58418e572358d087334, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8034323022864504986, guid: c29d82147a63f58418e572358d087334, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8034323022864504986, guid: c29d82147a63f58418e572358d087334, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8108216560997359064, guid: c29d82147a63f58418e572358d087334, type: 3}
-      propertyPath: m_Name
-      value: DialogueSystem
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c29d82147a63f58418e572358d087334, type: 3}
---- !u!114 &349349181 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9057588931167835735, guid: c29d82147a63f58418e572358d087334, type: 3}
-  m_PrefabInstance: {fileID: 349349180}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 029c017a8c48fc54e87d2ef86845611a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &353082014 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1330590336201796326, guid: 76cfc95a5b067e3459f769663415a19a, type: 3}
@@ -680,6 +657,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb62491666dc22d4face64e62516e599, type: 3}
+--- !u!114 &786053047 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6381124606794544705, guid: 76cfc95a5b067e3459f769663415a19a, type: 3}
+  m_PrefabInstance: {fileID: 3234099409759555358}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 029c017a8c48fc54e87d2ef86845611a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &786637931
 GameObject:
   m_ObjectHideFlags: 0
@@ -909,55 +897,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 609cf1ecca6c6d54aaead77d455b79a2, type: 2}
---- !u!21 &984114121
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Height Fog Global
-  m_Shader: {fileID: 4800000, guid: 3a7ef1b66bafb7a448a880ef76d2e6e6, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _SURFACE_TYPE_TRANSPARENT
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3001
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 1
-    - _Banner: 1
-    - _FogCameraMode: 0
-    - _HeightFogGlobal: 1
-    - _IsHeightFogShader: 1
-    - _QueueControl: -1
-    - _QueueOffset: 0
-    - _XRMotionVectorsPass: 1
-    m_Colors: []
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1026572930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1062,6 +1001,7 @@ GameObject:
   - component: {fileID: 1133179752}
   - component: {fileID: 1133179750}
   - component: {fileID: 1133179751}
+  - component: {fileID: 1133179754}
   - component: {fileID: 1133179753}
   m_Layer: 0
   m_Name: voiceline trigger (6)
@@ -1200,6 +1140,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97d04c3b2a4705843ba4dc45483c6370, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1133179754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133179747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1860070a63baba649af75c93ad783521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialogue: Whoa, giant room
+--- !u!21 &1221236328
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Height Fog Global
+  m_Shader: {fileID: 4800000, guid: 3a7ef1b66bafb7a448a880ef76d2e6e6, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddPrecomputedVelocity: 1
+    - _Banner: 1
+    - _FogCameraMode: 0
+    - _HeightFogGlobal: 1
+    - _IsHeightFogShader: 1
+    - _QueueControl: -1
+    - _QueueOffset: 0
+    - _XRMotionVectorsPass: 1
+    m_Colors: []
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!20 &1262771246 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 3209397138489094211, guid: 1e9cc19460a655d47b93292d9a410758, type: 3}
@@ -1648,16 +1650,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1119910767792355800, guid: bfa7e773d8815e242af8607dca484949, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2716681747722994160, guid: bfa7e773d8815e242af8607dca484949, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2716681747722994160, guid: bfa7e773d8815e242af8607dca484949, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 984114121}
+      objectReference: {fileID: 83731429}
     - target: {fileID: 3416389530151611186, guid: bfa7e773d8815e242af8607dca484949, type: 3}
       propertyPath: m_Name
       value: Art
@@ -1792,7 +1794,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7965611371775751042, guid: bfa7e773d8815e242af8607dca484949, type: 3}
       propertyPath: Dialogue
-      value: '"Alright, let''s get to work."'
+      value: Alright, let's get to work.
       objectReference: {fileID: 0}
     - target: {fileID: 7965611371775751042, guid: bfa7e773d8815e242af8607dca484949, type: 3}
       propertyPath: playerCam
@@ -1809,7 +1811,7 @@ PrefabInstance:
     - target: {fileID: 7965611371775751042, guid: bfa7e773d8815e242af8607dca484949, type: 3}
       propertyPath: dialogueManager
       value: 
-      objectReference: {fileID: 349349181}
+      objectReference: {fileID: 786053047}
     - target: {fileID: 7965611371775751042, guid: bfa7e773d8815e242af8607dca484949, type: 3}
       propertyPath: lineSwitch.WwiseObjectReference
       value: 
@@ -2058,7 +2060,6 @@ SceneRoots:
   - {fileID: 1380558074}
   - {fileID: 1115692797}
   - {fileID: 1866113099}
-  - {fileID: 349349180}
   - {fileID: 1133179749}
   - {fileID: 1946443431042886544}
   - {fileID: 1026572931}

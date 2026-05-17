@@ -4,7 +4,11 @@ public class ColliiderDialogueTrigger : MonoBehaviour
 {
     public string Dialogue = null;
 
+    private bool hasTriggered = false;
+
     private void OnTriggerEnter(Collider other) {
-        DialogueManager.Instance.RunDialogue(Dialogue);
+        if (!hasTriggered) {
+            DialogueManager.Instance.RunDialogue(Dialogue);
+        }
     }
 }

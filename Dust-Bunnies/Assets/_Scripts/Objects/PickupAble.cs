@@ -7,12 +7,11 @@ using UnityEngine;
 /// Base Object for everything that can be interacted with.
 /// </summary>
 [RequireComponent(typeof(Collider))]
-public class PickupAble : Interactable
-{
-    private AK.Wwise.Event pickupEvent;
-    private AK.Wwise.Event putDownEvent;
-    private AK.Wwise.State pickupState;
-    private AK.Wwise.State putDownState;
+public class PickupAble : Interactable {
+    [SerializeField] private AK.Wwise.Event pickupEvent;
+    [SerializeField] private AK.Wwise.Event putDownEvent;
+    [SerializeField] private AK.Wwise.Switch pickupSwitch;
+    [SerializeField] private AK.Wwise.Switch putDownSwitch;
 
     private Vector3 _startPos;  // store initial start pos to return back to
     private Quaternion _startRot;
@@ -32,7 +31,7 @@ public class PickupAble : Interactable
 
     public override void Interact(Transform playerCam, float moveTime) {
         base.Interact(playerCam, moveTime);
-        pickupState?.SetValue();
+        pickupSwitch?.SetValue(gameObject);
         pickupEvent?.Post(gameObject);
         StartCoroutine(PickUp(playerCam, moveTime));
     }
@@ -69,7 +68,7 @@ public class PickupAble : Interactable
     }
 
     public virtual void PutDown(float moveTime) {
-        putDownState?.SetValue();
+        putDownSwitch?.SetValue(gameObject);
         putDownEvent?.Post(gameObject);
 
         Tween.Position(t, StartPos, moveTime, Ease.OutSine);

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2768950acc045be4da453ad530cfca42, type: 3}
+  m_Name: B6EBDC23-6AB0-4DA9-93B0-B06D6D7177FC
+  m_EditorClassIdentifier: 
+  objectName: Play_error_vo
+  id: 2197310958
+  guid: B6EBDC23-6AB0-4DA9-93B0-B06D6D7177FC
+  IsInUserDefinedSoundBank: 0

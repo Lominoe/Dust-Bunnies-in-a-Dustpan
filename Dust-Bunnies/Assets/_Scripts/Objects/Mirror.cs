@@ -9,6 +9,8 @@ public class Mirror : Interactable
     [SerializeField] private Camera playerCam;
     [SerializeField] private Camera mirrorCam;
     [SerializeField] private Image reflection;
+    [SerializeField] private AK.Wwise.Switch lineSwitch;
+    [SerializeField] private AK.Wwise.Event interactEvent;
 
     void Start()
     {
@@ -54,5 +56,10 @@ public class Mirror : Interactable
         yield return new WaitForSeconds(4f);
 
         GameManager.ChangeSnapshot(1);
+    }
+
+    private void PlayInteractVoiceLine() {
+        lineSwitch?.SetValue(gameObject);
+        interactEvent?.Post(gameObject);
     }
 }

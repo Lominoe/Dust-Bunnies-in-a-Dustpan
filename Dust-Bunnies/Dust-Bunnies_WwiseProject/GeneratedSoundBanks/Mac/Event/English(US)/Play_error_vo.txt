@@ -1,0 +1,40 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2197310958	Play_error_vo			\Default Work Unit\Play_error_vo	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	136358831	Line			\Default Work Unit\Line	
+
+Switch	ID	Name	Switch Group			Notes
+	127239056	Line14	Line			
+	127239057	Line15	Line			
+	127239058	Line16	Line			
+	127239059	Line17	Line			
+	127239060	Line10	Line			
+	127239061	Line11	Line			
+	127239062	Line12	Line			
+	127239063	Line13	Line			
+	127239068	Line18	Line			
+	127239069	Line19	Line			
+	160794360	Line32	Line			
+	160794362	Line30	Line			
+	160794363	Line31	Line			
+	177571940	Line29	Line			
+	177571941	Line28	Line			
+	177571944	Line25	Line			
+	177571945	Line24	Line			
+	177571946	Line27	Line			
+	177571947	Line26	Line			
+	177571948	Line21	Line			
+	177571949	Line20	Line			
+	177571950	Line23	Line			
+	177571951	Line22	Line			
+	2054046788	Line9	Line			
+	2054046789	Line8	Line			
+	2054046792	Line5	Line			
+	2054046793	Line4	Line			
+	2054046794	Line7	Line			
+	2054046795	Line6	Line			
+	2054046796	Line1	Line			
+	2054046798	Line3	Line			
+	2054046799	Line2	Line			
+

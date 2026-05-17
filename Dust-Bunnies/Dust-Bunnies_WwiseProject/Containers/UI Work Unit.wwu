@@ -322,6 +322,33 @@
 						</SwitchContainer>
 					</ChildrenList>
 				</Folder>
+				<Sound Name="ui_error" ID="{5775A464-18E0-47AA-83D9-BBA13287BBC5}" ShortID="121876882">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ui_error" ID="{F06A2761-78D6-4859-A6F8-89CD92B34442}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.04444"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.31013"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>ui_error.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="740113355"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ui_error" ID="{F06A2761-78D6-4859-A6F8-89CD92B34442}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</Containers>

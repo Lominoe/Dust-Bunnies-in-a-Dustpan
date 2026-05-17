@@ -10,19 +10,19 @@
     "Type": "Event",
     "GUID": "{B6EBDC23-6AB0-4DA9-93B0-B06D6D7177FC}",
     "Language": "English(US)",
-    "Hash": "{C74474D0-4974-4E31-5F19-6F9D2571D940}",
+    "Hash": "{1F3F8ADC-C980-F64E-5515-AD6DD413CC1D}",
     "ObjectPath": "Play_error_vo",
     "ShortName": "Play_error_vo",
     "Path": "Event/English(US)/Play_error_vo.bnk",
     "Media": [
      {
-      "Id": "740113355",
+      "Id": "867252684",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "ui_error.wav",
-      "Path": "Media/740113355.wem",
-      "CachePath": "DE/{DE399872-FC21-85FB-0531-A023D2B17447}.wem"
+      "ShortName": "ui_error_02.wav",
+      "Path": "Media/867252684.wem",
+      "CachePath": "85/{85944451-916A-30B2-0CE9-A34A967B0D75}.wem"
      },
      {
       "Id": "902434494",
@@ -45,7 +45,7 @@
       "DurationMax": "2.3981252",
       "MediaRefs": [
        {
-        "Id": "740113355"
+        "Id": "867252684"
        },
        {
         "Id": "902434494"
@@ -265,6 +265,6 @@
     ]
    }
   ],
-  "FileHash": "{4DDA7C46-962B-4315-59E6-CE8CFA9339A9}"
+  "FileHash": "{73D0EB66-944F-CC88-594E-1447CC136797}"
  }
 }

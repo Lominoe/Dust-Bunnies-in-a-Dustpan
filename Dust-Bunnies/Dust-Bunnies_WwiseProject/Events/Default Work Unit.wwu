@@ -308,6 +308,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_ui_unlock" ID="{36E9C9A7-B44F-4244-9354-DE0CDEC2F802}">
+					<ChildrenList>
+						<Action Name="" ID="{7DC298C7-4107-4CB6-AE25-02D7051356A9}" ShortID="694542843">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ui_unlock" ID="{66CFE670-76E9-43D5-B436-E70CDB862461}" WorkUnitID="{42626F72-6A80-43AE-9607-52F32EA10280}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

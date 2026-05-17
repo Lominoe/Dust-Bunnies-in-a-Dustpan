@@ -1394,6 +1394,10 @@ PrefabInstance:
       propertyPath: pickupSwitch.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: 20b01d8f2b77fab45a7c82d4d83a4d80, type: 2}
+    - target: {fileID: 4950774757955152834, guid: 854a4ec2615fcad41ba39c359a10655a, type: 3}
+      propertyPath: pickupEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: aa0ebe10ed01b6541bbf52f43d93cbbf, type: 2}
     - target: {fileID: 7319531837253680532, guid: 854a4ec2615fcad41ba39c359a10655a, type: 3}
       propertyPath: mainCamera
       value: 

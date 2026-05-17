@@ -328,7 +328,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+							<ObjectRef Name="SFX" ID="{8D954BD1-37BF-4C6A-B849-5E1E2690394C}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -344,9 +344,43 @@
 								<MediaID ID="740113355"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="ui_error_02" ID="{1A38A1FE-959F-40EF-AA9F-8D6DD7E6215F}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.14597"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.4661"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>ui_error_02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="867252684"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="ui_error" ID="{F06A2761-78D6-4859-A6F8-89CD92B34442}" Platform="Linked"/>
+						<ActiveSource Name="ui_error_02" ID="{1A38A1FE-959F-40EF-AA9F-8D6DD7E6215F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ui_unlock" ID="{66CFE670-76E9-43D5-B436-E70CDB862461}" ShortID="573313530">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3B81D318-81E8-4EF5-A889-A2898F690ADA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{8D954BD1-37BF-4C6A-B849-5E1E2690394C}" WorkUnitID="{398ACA09-BA55-4FBF-B4AE-720DF1701F87}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ui_unlock" ID="{4D8C4CE4-87FC-40FF-9A13-F1DBBC21B166}">
+							<Language>SFX</Language>
+							<AudioFile>ui_unlock.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="486652220"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ui_unlock" ID="{4D8C4CE4-87FC-40FF-9A13-F1DBBC21B166}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

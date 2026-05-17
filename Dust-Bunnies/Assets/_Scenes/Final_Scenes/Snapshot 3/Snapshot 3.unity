@@ -434,55 +434,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d9a9000ecfb40a4292f0f152adb7623, type: 3}
---- !u!21 &1326230736
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Height Fog Global
-  m_Shader: {fileID: 4800000, guid: 3a7ef1b66bafb7a448a880ef76d2e6e6, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _SURFACE_TYPE_TRANSPARENT
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3001
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _AddPrecomputedVelocity: 1
-    - _Banner: 1
-    - _FogCameraMode: 0
-    - _HeightFogGlobal: 1
-    - _IsHeightFogShader: 1
-    - _QueueControl: -1
-    - _QueueOffset: 0
-    - _XRMotionVectorsPass: 1
-    m_Colors: []
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1001 &1340959264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -615,7 +566,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1419651627}
   m_CullTransparentMesh: 1
---- !u!21 &1594058036
+--- !u!21 &1550893518
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -2123,6 +2074,10 @@ PrefabInstance:
       propertyPath: requirement
       value: 
       objectReference: {fileID: 11400000, guid: 405b4b3eab926ce48ad1920d332df46e, type: 2}
+    - target: {fileID: 3253391164163135308, guid: c2b2a3d1836c69242bb903904e5241d3, type: 3}
+      propertyPath: pickupEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: aa0ebe10ed01b6541bbf52f43d93cbbf, type: 2}
     - target: {fileID: 3257946661469910691, guid: c2b2a3d1836c69242bb903904e5241d3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -3075,6 +3030,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 5799504662333694087, guid: c2b2a3d1836c69242bb903904e5241d3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5808023772604645746, guid: c2b2a3d1836c69242bb903904e5241d3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -3984,9 +3943,13 @@ PrefabInstance:
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8282192045959138313, guid: c2b2a3d1836c69242bb903904e5241d3, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282192045959138313, guid: c2b2a3d1836c69242bb903904e5241d3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 1594058036}
+      objectReference: {fileID: 1550893518}
     - target: {fileID: 8284494324959665250, guid: c2b2a3d1836c69242bb903904e5241d3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647

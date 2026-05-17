@@ -12797,6 +12797,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -2.061
       objectReference: {fileID: 0}
+    - target: {fileID: 8020220741016762812, guid: 722b2c67b433aca4ea84601834318296, type: 3}
+      propertyPath: Dialogue
+      value: It's soft.
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -860051218938900499, guid: 722b2c67b433aca4ea84601834318296, type: 3}
     m_RemovedGameObjects: []
@@ -18391,6 +18395,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialogue: 
   requirement: {fileID: 0}
+  pickupEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  putDownEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  pickupSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  putDownSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  pickupState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  putDownState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1001 &2498793306771022080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20526,6 +20562,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialogue: 
   requirement: {fileID: 0}
+  pickupEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  putDownEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  pickupSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  putDownSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  pickupState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  putDownState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1001 &5652969241599183357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21447,6 +21515,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4211804283285554382, guid: a15b61261eb708241aa07985e15e8018, type: 3}
+      propertyPath: Dialogue
+      value: Oh!
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -280893277941695525, guid: a15b61261eb708241aa07985e15e8018, type: 3}
     m_RemovedGameObjects: []
@@ -22117,6 +22189,10 @@ PrefabInstance:
       propertyPath: requirement
       value: 
       objectReference: {fileID: 11400000, guid: 7f38b1cde37337d4bbc58803dde28fe6, type: 2}
+    - target: {fileID: 3445533945386177004, guid: ce9c79614627c1b449068ce4f5ca8d68, type: 3}
+      propertyPath: pickupEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: aa0ebe10ed01b6541bbf52f43d93cbbf, type: 2}
     - target: {fileID: 4767447528467453841, guid: ce9c79614627c1b449068ce4f5ca8d68, type: 3}
       propertyPath: m_Name
       value: sparkler_box
@@ -22347,6 +22423,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Dialogue: 
   requirement: {fileID: 0}
+  pickupEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  putDownEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  pickupSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  putDownSwitch:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  pickupState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  putDownState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1001 &7986937881723855015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22551,8 +22659,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.756579, y: 1.1376618, z: 0.7063262}
-  m_Center: {x: -0.00035571377, y: 0.06882492, z: -0.0110635385}
+  m_Size: {x: 0.6492757, y: 1.1376618, z: 0.6498447}
+  m_Center: {x: -0.054007545, y: 0.068824925, z: 0.017177396}
 --- !u!1001 &8249752860273073824
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22675,6 +22783,14 @@ PrefabInstance:
       propertyPath: Dialogue
       value: "Heh\u2026 Cute"
       objectReference: {fileID: 0}
+    - target: {fileID: 3525218959230748951, guid: bd8fa12887994a349a2243a13e640ce1, type: 3}
+      propertyPath: pickupEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 0ccfe6eb0b4330b44beb492babc42efe, type: 2}
+    - target: {fileID: 3525218959230748951, guid: bd8fa12887994a349a2243a13e640ce1, type: 3}
+      propertyPath: pickupSwitch.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 20b01d8f2b77fab45a7c82d4d83a4d80, type: 2}
     - target: {fileID: 3877987285374695479, guid: bd8fa12887994a349a2243a13e640ce1, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -22867,7 +22983,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3012488612974480183, guid: b17d488b87df8dd439011d2755fda785, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.091436
+      value: -23.17
       objectReference: {fileID: 0}
     - target: {fileID: 3012488612974480183, guid: b17d488b87df8dd439011d2755fda785, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22875,7 +22991,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3012488612974480183, guid: b17d488b87df8dd439011d2755fda785, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.563466
+      value: -3.03
       objectReference: {fileID: 0}
     - target: {fileID: 3012488612974480183, guid: b17d488b87df8dd439011d2755fda785, type: 3}
       propertyPath: m_LocalRotation.w
@@ -22949,7 +23065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8708103328538106263, guid: e9d8b98b15ac08244bed330be5fea815, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: -0.0026179885
       objectReference: {fileID: 0}
     - target: {fileID: 8708103328538106263, guid: e9d8b98b15ac08244bed330be5fea815, type: 3}
       propertyPath: m_LocalRotation.x
@@ -22957,7 +23073,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8708103328538106263, guid: e9d8b98b15ac08244bed330be5fea815, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0.9999966
       objectReference: {fileID: 0}
     - target: {fileID: 8708103328538106263, guid: e9d8b98b15ac08244bed330be5fea815, type: 3}
       propertyPath: m_LocalRotation.z
@@ -22969,7 +23085,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8708103328538106263, guid: e9d8b98b15ac08244bed330be5fea815, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 180.3
       objectReference: {fileID: 0}
     - target: {fileID: 8708103328538106263, guid: e9d8b98b15ac08244bed330be5fea815, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
